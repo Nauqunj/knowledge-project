@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-019",
+  "title": "hermes-jev-skills",
+  "source": "github-trending",
+  "source_id": "kerpopule/hermes-jev-skills",
+  "summary": "把 Jev 决策模型接入 Hermes/Claude Code/Codex 的 9 个技能。",
+  "tags": [
+    "agent-framework",
+    "jev",
+    "model-routing",
+    "context-compaction",
+    "python"
+  ],
+  "collected_at": "2026-09-23T07:09:33Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://github.com/kerpopule/hermes-jev-skills",
+  "score": 8
+}

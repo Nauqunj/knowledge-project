@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-028",
+  "title": "MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning",
+  "source": "arxiv",
+  "source_id": "2609.26667",
+  "summary": "MAGIC 按功能角色局部选择协作粒度，用序列决策与奖励塑形增量构建多 Agent 图。",
+  "tags": [
+    "multi-agent",
+    "collaboration-topology",
+    "reinforcement-learning",
+    "agent-graph",
+    "dense-reward"
+  ],
+  "collected_at": "2026-09-23T07:12:08Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://arxiv.org/abs/2609.26667",
+  "score": 7
+}

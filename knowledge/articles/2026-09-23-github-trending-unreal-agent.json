@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-007",
+  "title": "unreal-agent",
+  "source": "github-trending",
+  "source_id": "unreallabsai/unreal-agent",
+  "summary": "Go 编写的异步优先 Agent 运行框架，Session 可 fork、工具调用异步执行。",
+  "tags": [
+    "agent-framework",
+    "golang",
+    "async",
+    "agent-harness",
+    "concurrency"
+  ],
+  "collected_at": "2026-09-23T07:09:33Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://github.com/unreallabsai/unreal-agent",
+  "score": 8
+}

@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-039",
+  "title": "jev-mcp",
+  "source": "github-trending",
+  "source_id": "jkudish/jev-mcp",
+  "summary": "把 Jev 模型封装成 MCP 工具，让支持 MCP 的 Agent 直接调用带类型的判断。",
+  "tags": [
+    "mcp",
+    "jev",
+    "tool-calling",
+    "javascript",
+    "agent-integration"
+  ],
+  "collected_at": "2026-09-23T07:09:33Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://github.com/jkudish/jev-mcp",
+  "score": 7
+}

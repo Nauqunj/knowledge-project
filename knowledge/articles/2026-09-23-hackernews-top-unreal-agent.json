@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-025",
+  "title": "Unreal Agent",
+  "source": "hackernews-top",
+  "source_id": "49805748",
+  "summary": "Unreal Agent 官方博文，阐述异步优先 harness 在并发与工具调用上的取舍。",
+  "tags": [
+    "agent-framework",
+    "async",
+    "golang",
+    "agent-harness",
+    "blog"
+  ],
+  "collected_at": "2026-09-23T07:09:33Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://unreallabs.ai/blog/unreal-agent/",
+  "score": 7
+}

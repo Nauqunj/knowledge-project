@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-052",
+  "title": "awesome-jev",
+  "source": "github-trending",
+  "source_id": "yibie/awesome-jev",
+  "summary": "Jev（TypeSafe 类型化决策模型）生态项目与集成合集，聚焦模型路由与结构化输出。",
+  "tags": [
+    "awesome-list",
+    "jev",
+    "llm",
+    "model-routing",
+    "structured-output"
+  ],
+  "collected_at": "2026-09-23T07:09:33Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://github.com/yibie/awesome-jev",
+  "score": 6
+}

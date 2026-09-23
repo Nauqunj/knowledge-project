@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-015",
+  "title": "REFLEX with Jev for Efficient Selective Control in LLM Agents",
+  "source": "arxiv",
+  "source_id": "2609.26532",
+  "summary": "REFLEX 用 Jev 作快速决策层，仅在低置信或需生成时调用强 LLM，省 72.7% 调用。",
+  "tags": [
+    "jev",
+    "selective-control",
+    "llm-agent",
+    "cost-efficiency",
+    "routing"
+  ],
+  "collected_at": "2026-09-23T07:12:08Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://arxiv.org/abs/2609.26532",
+  "score": 8
+}

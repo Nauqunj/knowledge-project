@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-010",
+  "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+  "source": "arxiv",
+  "source_id": "2609.26761",
+  "summary": "MCP 黑盒攻击 A2M：优化工具元数据吸引调用，再用执行轨迹精修返回值劫持 Agent。",
+  "tags": [
+    "mcp",
+    "ai-security",
+    "agent-hijacking",
+    "prompt-injection",
+    "supply-chain"
+  ],
+  "collected_at": "2026-09-23T07:12:08Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://arxiv.org/abs/2609.26761",
+  "score": 8
+}

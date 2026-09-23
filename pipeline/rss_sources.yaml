@@ -1,0 +1,56 @@
+# 知识库 RSS 数据源配置
+#
+# 字段说明：
+#   name     - 数据源名称
+#   url      - RSS / Atom 订阅地址
+#   category - 分类：综合技术 / AI 研究 / 公司博客 / 中文社区
+#   enabled  - 是否采集（true 采集，false 跳过）
+#
+# 约定：
+#   * 量太大的源默认 enabled: false，避免单次采集条目过多。
+#   * 中文社区源需先确认 RSS 可用性，默认关闭。
+
+sources:
+  # --- 综合技术 ---
+  - name: Hacker News Best
+    url: https://hnrss.org/best
+    category: 综合技术
+    enabled: true
+
+  - name: Lobsters AI/ML
+    url: https://lobste.rs/t/ai.rss
+    category: 综合技术
+    enabled: true
+
+  # --- AI 研究 ---
+  - name: arXiv cs.AI
+    url: https://rss.arxiv.org/rss/cs.AI
+    category: AI 研究
+    enabled: false # 每日论文量大
+
+  # --- 公司博客 ---
+  - name: OpenAI Blog
+    url: https://openai.com/news/rss.xml
+    category: 公司博客
+    enabled: false # 历史条目上千，量太大
+
+  - name: Anthropic Research
+    url: https://www.anthropic.com/news/rss.xml
+    category: 公司博客
+    enabled: false # 官方未提供可用 RSS（多个路径均 404），需替换来源
+
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    category: 公司博客
+    enabled: true # URL 为官方地址，本机网络超时未验证
+
+  # --- 中文社区 ---
+  - name: 机器之心
+    url: https://www.jiqizhixin.com/rss
+    category: 中文社区
+    enabled: false # 返回 200 但非 RSS 内容，需确认可用地址
+
+  - name: 量子位
+    url: https://www.qbitai.com/feed
+    category: 中文社区
+    enabled: false # 已验证可用（RSS），因中文社区默认关闭

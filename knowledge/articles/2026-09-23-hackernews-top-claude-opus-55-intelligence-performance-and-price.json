@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-012",
+  "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+  "source": "hackernews-top",
+  "source_id": "49804316",
+  "summary": "第三方对 Claude Opus 5.5 的独立评测，给出基准与性价比曲线。",
+  "tags": [
+    "benchmark",
+    "claude",
+    "model-evaluation",
+    "pricing",
+    "llm"
+  ],
+  "collected_at": "2026-09-23T07:09:33Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+  "score": 8
+}

@@ -1,0 +1,397 @@
+{
+  "source": "hackernews-top",
+  "collected_at": "2026-09-23T07:09:33Z",
+  "query": "topstories[0:50], titles matching AI/LLM/Agent/GPT/Claude/model",
+  "count": 15,
+  "items": [
+    {
+      "id": 49805509,
+      "title": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "score": 1428,
+      "comments": 692,
+      "author": "OfficialTurkey",
+      "time": 1790100034,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.93,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.9,
+        "timeliness": 1.0,
+        "community_heat": 1.0,
+        "domain_match": 0.95
+      },
+      "tags": [
+        "openai",
+        "gpt-6",
+        "foundation-model",
+        "llm",
+        "model-release"
+      ],
+      "summary": "OpenAI 发布 GPT-6 的两个新版本 Sol 与 Luna（官方博文）。HN 上近 1500 分、近 700 条讨论，是本周关注度最高的事件之一：Sol 被定位为面向高难度推理与 Agent 场景的旗舰，Luna 则偏性价比。对开发者意味着需要重新评估模型选型、成本结构与评测基准，尤其是长程 Agent 与编码任务。"
+    },
+    {
+      "id": 49803892,
+      "title": "Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "score": 1445,
+      "comments": 907,
+      "author": "km144",
+      "time": 1790094545,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.93,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.9,
+        "timeliness": 1.0,
+        "community_heat": 1.0,
+        "domain_match": 0.95
+      },
+      "tags": [
+        "anthropic",
+        "claude",
+        "foundation-model",
+        "llm",
+        "model-release"
+      ],
+      "summary": "Anthropic 发布 Claude Opus 5.5（官方页面），HN 上 1445 分、907 条评论，讨论热度甚至超过 GPT-6 消息。作为旗舰模型例行升级，关注点集中在推理、编码与长上下文能力，以及与企业级 Agent 工作流的结合。对正在做模型选型的团队，需要与 GPT-6 Sol/Luna 做同基准横评后再决定迁移。"
+    },
+    {
+      "id": 49801324,
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "score": 636,
+      "comments": 381,
+      "author": "sohkamyung",
+      "time": 1790085135,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.71,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.85,
+        "domain_match": 0.8
+      },
+      "tags": [
+        "openai",
+        "gpt-6",
+        "reasoning",
+        "cryptanalysis",
+        "case-study"
+      ],
+      "summary": "报道称 OpenAI 的 GPT-6 Astra 破解了一条自 2005 年起无人解开的 Enigma 加密信息。消息在 HN 获得 600+ 分。其意义不在密码学突破本身（多半依赖已知明文/结构搜索），而在于展示大模型在考古式模式搜索与长期未解问题上的辅助价值，也引发对「AI 能力被夸大」的讨论，值得关注其方法论细节。"
+    },
+    {
+      "id": 49804316,
+      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+      "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "score": 271,
+      "comments": 82,
+      "author": "theanonymousone",
+      "time": 1790095891,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.77,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.8,
+        "timeliness": 0.95,
+        "community_heat": 0.7,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "benchmark",
+        "claude",
+        "model-evaluation",
+        "pricing",
+        "llm"
+      ],
+      "summary": "Artificial Analysis 对 Claude Opus 5.5 的独立评测，覆盖智能水平、性能与价格，Max 档位尤为关注。相比官方发布稿，这类第三方横评提供了可比较的基准数据与性价比曲线，适合做模型选型与成本预算的工程师参考，但需注意评测集与自身业务分布的差异。"
+    },
+    {
+      "id": 49806430,
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "score": 582,
+      "comments": 291,
+      "author": "devonnull",
+      "time": 1790103818,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.63,
+      "score_breakdown": {
+        "tech_depth": 0.4,
+        "practical_value": 0.5,
+        "timeliness": 0.95,
+        "community_heat": 0.85,
+        "domain_match": 0.6
+      },
+      "tags": [
+        "ai-safety",
+        "governance",
+        "automation-bias",
+        "accountability",
+        "news"
+      ],
+      "summary": "彭博报道称美国国防部承认，对 AI 的过度依赖是导致伊朗学校遭导弹袭击的因素之一。这是 AI 在高风险决策场景失效的严重现实案例，直接关系到自动化决策的问责、人机协同边界与「AI 建议不可质疑」的组织风险。对做 Agent 与决策系统的团队，是审视人类复核机制与失败模式的重要警示。"
+    },
+    {
+      "id": 49805748,
+      "title": "Unreal Agent",
+      "url": "https://unreallabs.ai/blog/unreal-agent/",
+      "score": 168,
+      "comments": 98,
+      "author": "trollied",
+      "time": 1790100953,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.73,
+      "score_breakdown": {
+        "tech_depth": 0.65,
+        "practical_value": 0.7,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "agent-framework",
+        "async",
+        "golang",
+        "agent-harness",
+        "blog"
+      ],
+      "summary": "Unreal Labs 关于 Unreal Agent 的官方博客，介绍其「异步优先」Agent harness 的设计动机与用法。相比 GitHub 仓库，博文更系统地阐述并发、任务编排与工具调用上的取舍，适合想理解 Go 生态 Agent 框架如何服务生产吞吐的作者视角，可与仓库对照阅读。"
+    },
+    {
+      "id": 49794844,
+      "title": "Delta: Highly available, strongly consistent storage using chain replication (2022)",
+      "url": "https://engineering.fb.com/2022/05/04/data-infrastructure/delta/",
+      "score": 22,
+      "comments": 1,
+      "author": "grep_it",
+      "time": 1790033382,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.35,
+      "score_breakdown": {
+        "tech_depth": 0.65,
+        "practical_value": 0.35,
+        "timeliness": 0.2,
+        "community_heat": 0.15,
+        "domain_match": 0.15
+      },
+      "tags": [
+        "distributed-systems",
+        "storage",
+        "chain-replication",
+        "meta",
+        "infrastructure"
+      ],
+      "summary": "Meta 工程博客旧文（2022），介绍 Delta——基于链式复制（chain replication）实现高可用、强一致的对象存储，用于其内部存储基础设施。与 AI 无直接关系，但链式复制与一致性协议对构建大规模模型训练数据/特征存储仍有借鉴意义。因热度极低（22 分、1 评论），本条属于主题匹配产生的噪声条目。"
+    },
+    {
+      "id": 49808816,
+      "title": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "score": 77,
+      "comments": 25,
+      "author": "gmays",
+      "time": 1790114626,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.67,
+      "score_breakdown": {
+        "tech_depth": 0.55,
+        "practical_value": 0.65,
+        "timeliness": 0.9,
+        "community_heat": 0.45,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "open-models",
+        "ecosystem",
+        "llm",
+        "trend-analysis",
+        "open-weights"
+      ],
+      "summary": "Nathan Lambert 在 Interconnects 上分析当前开源模型的力量格局，梳理各实验室在开放权重上的位置、能力差距与商业化压力。对判断「该押注哪个开源模型、闭源与开源差距是否收敛」的团队是一份结构化的趋势判断，适合与具体评测数据结合阅读。"
+    },
+    {
+      "id": 49802161,
+      "title": "OpenAI is well positioned to fast-follow Jev",
+      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+      "score": 285,
+      "comments": 204,
+      "author": "JohnBerryman",
+      "time": 1790088179,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.7,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.55,
+        "timeliness": 0.95,
+        "community_heat": 0.7,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "jev",
+        "typed-decisions",
+        "openai",
+        "competition",
+        "analysis"
+      ],
+      "summary": "Arcturus Labs 的博文，论证 OpenAI 有充分条件快速跟进 Jev 这类类型化决策模型。文章把 Jev 的「不生成 token、直接输出结构化决策」视为可能威胁现有推理 API 商业模式的路线，并分析 OpenAI 的数据、分发与工程优势。对关注决策层新范式与厂商竞争格局的读者有较高信息量。"
+    },
+    {
+      "id": 49800574,
+      "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+      "url": "https://benchmarkheaven.com/jev-models",
+      "score": 96,
+      "comments": 24,
+      "author": "florianstandhar",
+      "time": 1790082063,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.71,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.7,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "benchmark",
+        "jev",
+        "typed-decisions",
+        "reproducibility",
+        "evaluation"
+      ],
+      "summary": "Show HN 项目 JevBench，为类型化决策模型提供可复现的基准测试。随着 Jev 类模型增多，缺乏统一评测标准成为生态瓶颈；该基准尝试用可复现流程衡量决策准确性与可靠性。对要比较不同决策模型、或自建决策层选型的团队有直接参考价值，需关注其任务覆盖与评测严谨性。"
+    },
+    {
+      "id": 49800566,
+      "title": "Show HN: Training a model to identify AI web content from structure alone",
+      "url": "https://arxiv.org/abs/2609.15369",
+      "score": 57,
+      "comments": 14,
+      "author": "jochenmadler",
+      "time": 1790082049,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.64,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.6,
+        "timeliness": 0.85,
+        "community_heat": 0.45,
+        "domain_match": 0.7
+      },
+      "tags": [
+        "ai-detection",
+        "web-content",
+        "model-training",
+        "arxiv",
+        "classification"
+      ],
+      "summary": "Show HN 展示的一项工作：仅基于网页结构（而非文本内容）训练模型识别 AI 生成内容。相比困惑度/水印等文本侧方法，结构特征更难被改写规避，为 AI 内容检测提供了新信号。对内容平台做反垃圾、反 AI 灌水有实用价值，也提示模型输出分布检测的技术边界。附带 arXiv 论文。"
+    },
+    {
+      "id": 49804931,
+      "title": "Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent",
+      "url": "https://www.coveragecat.com/",
+      "score": 47,
+      "comments": 28,
+      "author": "botacode",
+      "time": 1790097996,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.53,
+      "score_breakdown": {
+        "tech_depth": 0.35,
+        "practical_value": 0.5,
+        "timeliness": 0.85,
+        "community_heat": 0.4,
+        "domain_match": 0.6
+      },
+      "tags": [
+        "ai-agent",
+        "insurance",
+        "vertical-agent",
+        "startup",
+        "launch"
+      ],
+      "summary": "YC S22 公司 Coverage Cat 的 Launch HN：用「个人 Agent」帮助用户选购伞式责任险（umbrella insurance）。展示了 Agent 在保险比价、表单填写等高频但低信任任务上的落地方式，也触及 Agent 代表用户签约的法律与合规问题。对关注垂直行业 Agent 商业化路径的读者有参考价值，技术深度有限。"
+    },
+    {
+      "id": 49795260,
+      "title": "Did OpenAI solve the wrong Navier-Stokes problem?",
+      "url": "https://www.scientificamerican.com/article/did-openai-solve-the-wrong-navier-stokes-problem/",
+      "score": 103,
+      "comments": 56,
+      "author": "tomjakubowski",
+      "time": 1790036640,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.35,
+        "timeliness": 0.85,
+        "community_heat": 0.5,
+        "domain_match": 0.5
+      },
+      "tags": [
+        "openai",
+        "mathematics",
+        "scientific-claim",
+        "critique",
+        "research"
+      ],
+      "summary": "《科学美国人》质疑 OpenAI 宣称解决的 Navier-Stokes 问题：文章分析其攻克的或许是一个在假设与边界条件上被简化、并非数学界真正关心的版本。这是「AI 解决重大科学难题」类新闻的典型祛魅，对评估大模型在基础科学中的真实贡献、避免被 PR 误导很有价值。"
+    },
+    {
+      "id": 49803085,
+      "title": "Writing Rust code that's fast by asking agents to make the code faster",
+      "url": "https://minimaxir.com/2026/09/agentic-iteration/",
+      "score": 98,
+      "comments": 49,
+      "author": "mooreds",
+      "time": 1790091504,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.72,
+      "score_breakdown": {
+        "tech_depth": 0.65,
+        "practical_value": 0.75,
+        "timeliness": 0.9,
+        "community_heat": 0.5,
+        "domain_match": 0.8
+      },
+      "tags": [
+        "coding-agent",
+        "rust",
+        "performance-optimization",
+        "agentic-iteration",
+        "benchmark"
+      ],
+      "summary": "博主 Max Woolf 的实践文章：让编码 Agent 帮忙把 Rust 代码优化得更快，记录用 Agent 迭代性能优化的流程与效果。相比「Agent 写新代码」，性能调优对反馈信号（benchmark）要求更严，文章展示了如何用基准驱动 Agent 迭代，对做代码生成与性能工程的开发者有直接借鉴意义。"
+    },
+    {
+      "id": 49794193,
+      "title": "Solitaire Alone Together",
+      "url": "https://solitairealonetogether.com/",
+      "score": 138,
+      "comments": 29,
+      "author": "eieio",
+      "time": 1790028994,
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.28,
+      "score_breakdown": {
+        "tech_depth": 0.15,
+        "practical_value": 0.15,
+        "timeliness": 0.6,
+        "community_heat": 0.45,
+        "domain_match": 0.05
+      },
+      "tags": [
+        "web-app",
+        "game",
+        "non-technical",
+        "trending"
+      ],
+      "summary": "一个叫 Solitaire Alone Together 的网页项目/作品，HN 上获得 138 分。从标题与站点看与 AI、LLM、Agent 无直接关联，应是主题关键词匹配或榜单噪声带入的非技术条目。列出仅为覆盖完整性，分析与本情报主题相关性低。"
+    }
+  ]
+}

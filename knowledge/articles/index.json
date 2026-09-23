@@ -1,0 +1,1030 @@
+{
+  "last_updated": "2026-09-23T09:04:56Z",
+  "total_count": 64,
+  "entries": [
+    {
+      "id": "kb-2026-09-23-064",
+      "title": "openjev-sglang",
+      "file": "2026-09-23-github-trending-openjev-sglang.json",
+      "tags": [
+        "jev",
+        "sglang",
+        "prefill-only",
+        "structured-generation",
+        "llm-inference"
+      ],
+      "score": 7,
+      "status": "published",
+      "source_url": "https://github.com/ekzhang/openjev-sglang",
+      "organized_at": "2026-09-23T08:57:08Z"
+    },
+    {
+      "id": "kb-2026-09-23-002",
+      "title": "GPT-6 Sol and Luna",
+      "file": "2026-09-23-hackernews-top-gpt-6-sol-and-luna.json",
+      "tags": [
+        "openai",
+        "gpt-6",
+        "foundation-model",
+        "llm",
+        "model-release"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 9,
+      "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-001",
+      "title": "Claude Opus 5.5",
+      "file": "2026-09-23-hackernews-top-claude-opus-55.json",
+      "tags": [
+        "anthropic",
+        "claude",
+        "foundation-model",
+        "llm",
+        "model-release"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 9,
+      "source_url": "https://www.anthropic.com/claude-opus-5-5",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-003",
+      "title": "ZCode",
+      "file": "2026-09-23-github-trending-zcode.json",
+      "tags": [
+        "coding-agent",
+        "agent-harness",
+        "typescript",
+        "code-generation",
+        "zai"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 9,
+      "source_url": "https://github.com/zai-org/ZCode",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-004",
+      "title": "jev-chat-jarvis",
+      "file": "2026-09-23-github-trending-jev-chat-jarvis.json",
+      "tags": [
+        "android",
+        "chat-assistant",
+        "llm",
+        "accessibility-service",
+        "kotlin"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://github.com/jev-chat/jev-chat-jarvis",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-005",
+      "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
+      "file": "2026-09-23-arxiv-cliffcompaction-cost-efficient-compaction-for-long.json",
+      "tags": [
+        "context-compaction",
+        "coding-agent",
+        "test-time-scaling",
+        "long-horizon",
+        "llm-agent"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://arxiv.org/abs/2609.26779",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-007",
+      "title": "unreal-agent",
+      "file": "2026-09-23-github-trending-unreal-agent.json",
+      "tags": [
+        "agent-framework",
+        "golang",
+        "async",
+        "agent-harness",
+        "concurrency"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://github.com/unreallabsai/unreal-agent",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-006",
+      "title": "FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents",
+      "file": "2026-09-23-arxiv-fire-failure-informed-runtime-engineering-for-reli.json",
+      "tags": [
+        "agent-reliability",
+        "runtime-policy",
+        "terminal-bench",
+        "llm-agent",
+        "reliability"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://arxiv.org/abs/2609.26048",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-009",
+      "title": "Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning",
+      "file": "2026-09-23-arxiv-train-where-the-quantized-model-goes-on-policy-dis.json",
+      "tags": [
+        "quantization",
+        "distillation",
+        "reasoning",
+        "on-policy",
+        "llm"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://arxiv.org/abs/2609.26708",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-008",
+      "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
+      "file": "2026-09-23-arxiv-grow-the-harness-not-the-context-from-strategy-fre.json",
+      "tags": [
+        "agent-harness",
+        "code-generation",
+        "self-improvement",
+        "tool-use",
+        "llm-agent"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://arxiv.org/abs/2609.26760",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-016",
+      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+      "file": "2026-09-23-arxiv-speakermem-r1-speaker-centered-dual-track-memory-f.json",
+      "tags": [
+        "long-term-memory",
+        "multi-party-dialogue",
+        "reinforcement-learning",
+        "llm",
+        "conversation"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://arxiv.org/abs/2609.26780",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-015",
+      "title": "REFLEX with Jev for Efficient Selective Control in LLM Agents",
+      "file": "2026-09-23-arxiv-reflex-with-jev-for-efficient-selective-control-in.json",
+      "tags": [
+        "jev",
+        "selective-control",
+        "llm-agent",
+        "cost-efficiency",
+        "routing"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://arxiv.org/abs/2609.26532",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-014",
+      "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+      "file": "2026-09-23-arxiv-jev-as-a-judge-accept-when-confident-escalate-when.json",
+      "tags": [
+        "llm-as-a-judge",
+        "jev",
+        "evaluation",
+        "cost-efficiency",
+        "cascade"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://arxiv.org/abs/2609.26550",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-013",
+      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+      "file": "2026-09-23-arxiv-flash-dllm-io-aware-kv-caching-and-parallel-decodi.json",
+      "tags": [
+        "diffusion-llm",
+        "kv-cache",
+        "inference-acceleration",
+        "parallel-decoding",
+        "efficiency"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://arxiv.org/abs/2609.26796",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-012",
+      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+      "file": "2026-09-23-hackernews-top-claude-opus-55-intelligence-performance-and-price.json",
+      "tags": [
+        "benchmark",
+        "claude",
+        "model-evaluation",
+        "pricing",
+        "llm"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-011",
+      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+      "file": "2026-09-23-arxiv-agensh-scaling-organizational-intelligence-to-1024.json",
+      "tags": [
+        "multi-agent",
+        "self-organization",
+        "scaling",
+        "agent-harness",
+        "orchestration"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://arxiv.org/abs/2609.26781",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-010",
+      "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+      "file": "2026-09-23-arxiv-a2m-trace-optimized-agent-hijacking-in-the-mcp-eco.json",
+      "tags": [
+        "mcp",
+        "ai-security",
+        "agent-hijacking",
+        "prompt-injection",
+        "supply-chain"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://arxiv.org/abs/2609.26761",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-019",
+      "title": "hermes-jev-skills",
+      "file": "2026-09-23-github-trending-hermes-jev-skills.json",
+      "tags": [
+        "agent-framework",
+        "jev",
+        "model-routing",
+        "context-compaction",
+        "python"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://github.com/kerpopule/hermes-jev-skills",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-018",
+      "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
+      "file": "2026-09-23-arxiv-swe-serve-benchmarking-agentic-engineering-for-pro.json",
+      "tags": [
+        "benchmark",
+        "agentic-engineering",
+        "inference-serving",
+        "sglang",
+        "swe"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://arxiv.org/abs/2609.26777",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-017",
+      "title": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning",
+      "file": "2026-09-23-arxiv-beyond-repeated-sampling-learning-search-policies.json",
+      "tags": [
+        "reasoning",
+        "test-time-compute",
+        "reinforcement-learning",
+        "search",
+        "llm"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://arxiv.org/abs/2609.26704",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-021",
+      "title": "open-glean",
+      "file": "2026-09-23-github-trending-open-glean.json",
+      "tags": [
+        "enterprise-search",
+        "rag",
+        "knowledge-work",
+        "typescript",
+        "ai-platform"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://github.com/hydra-db/open-glean",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-020",
+      "title": "HySparse2: Hybrid Sparse Attention with Two-Level KV Sharing",
+      "file": "2026-09-23-arxiv-hysparse2-hybrid-sparse-attention-with-two-level-k.json",
+      "tags": [
+        "sparse-attention",
+        "kv-cache",
+        "long-context",
+        "inference-efficiency",
+        "moe"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 8,
+      "source_url": "https://arxiv.org/abs/2609.26368",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-022",
+      "title": "Diffusion Drafts, AR Verifies: Accelerating Document OCR with Self-Speculative Decoding",
+      "file": "2026-09-23-arxiv-diffusion-drafts-ar-verifies-accelerating-document.json",
+      "tags": [
+        "ocr",
+        "speculative-decoding",
+        "diffusion",
+        "document-ai",
+        "efficiency"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26638",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-025",
+      "title": "Unreal Agent",
+      "file": "2026-09-23-hackernews-top-unreal-agent.json",
+      "tags": [
+        "agent-framework",
+        "async",
+        "golang",
+        "agent-harness",
+        "blog"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://unreallabs.ai/blog/unreal-agent/",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-024",
+      "title": "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It",
+      "file": "2026-09-23-arxiv-type-safe-is-not-error-free-a-constrained-decision.json",
+      "tags": [
+        "typed-decisions",
+        "jev",
+        "robustness",
+        "evaluation",
+        "llm"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26758",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-023",
+      "title": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation",
+      "file": "2026-09-23-arxiv-measuring-the-serving-stack-instead-of-the-model-h.json",
+      "tags": [
+        "tool-use",
+        "evaluation",
+        "inference-serving",
+        "ollama",
+        "llm"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26693",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-030",
+      "title": "Writing Rust code that's fast by asking agents to make the code faster",
+      "file": "2026-09-23-hackernews-top-writing-rust-code-thats-fast-by-asking-agents-to-m.json",
+      "tags": [
+        "coding-agent",
+        "rust",
+        "performance-optimization",
+        "agentic-iteration",
+        "benchmark"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://minimaxir.com/2026/09/agentic-iteration/",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-029",
+      "title": "OrcaBonsai-27B-Uncensored",
+      "file": "2026-09-23-github-trending-orcabonsai-27b-uncensored.json",
+      "tags": [
+        "quantization",
+        "llm",
+        "behavior-control",
+        "inference",
+        "python"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-028",
+      "title": "MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning",
+      "file": "2026-09-23-arxiv-magic-mixed-granularity-agent-graphs-via-increment.json",
+      "tags": [
+        "multi-agent",
+        "collaboration-topology",
+        "reinforcement-learning",
+        "agent-graph",
+        "dense-reward"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26667",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-027",
+      "title": "FleXray: Universal Clinical X-ray Segmentation",
+      "file": "2026-09-23-arxiv-flexray-universal-clinical-x-ray-segmentation.json",
+      "tags": [
+        "medical-imaging",
+        "segmentation",
+        "generative-data",
+        "x-ray",
+        "foundation-model"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26756",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-026",
+      "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
+      "file": "2026-09-23-arxiv-capable-yet-parsimonious-extracting-and-characteri.json",
+      "tags": [
+        "chain-of-thought",
+        "reasoning",
+        "interpretability",
+        "frontier-models",
+        "gpt-6"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26637",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-036",
+      "title": "rizzo-flow",
+      "file": "2026-09-23-github-trending-rizzo-flow.json",
+      "tags": [
+        "jev",
+        "typed-decisions",
+        "local-first",
+        "llm-routing",
+        "python"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-035",
+      "title": "The Sirens' Song: When Proximal Background Context Overshadows Distant Evidence",
+      "file": "2026-09-23-arxiv-the-sirens-song-when-proximal-background-context-o.json",
+      "tags": [
+        "long-context",
+        "attention",
+        "rag",
+        "llm",
+        "benchmark"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26718",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-034",
+      "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+      "file": "2026-09-23-hackernews-top-show-hn-jevbench-a-reproducible-benchmark-for-type.json",
+      "tags": [
+        "benchmark",
+        "jev",
+        "typed-decisions",
+        "reproducibility",
+        "evaluation"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://benchmarkheaven.com/jev-models",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-033",
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "file": "2026-09-23-hackernews-top-openai-gpt6-astra-breaks-enigma-message-that-has-r.json",
+      "tags": [
+        "openai",
+        "gpt-6",
+        "reasoning",
+        "cryptanalysis",
+        "case-study"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-032",
+      "title": "Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference",
+      "file": "2026-09-23-arxiv-greedy-decoding-is-not-precision-invariant-cross-p.json",
+      "tags": [
+        "inference",
+        "numerical-precision",
+        "greedy-decoding",
+        "llm",
+        "reproducibility"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26621",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-031",
+      "title": "A Spectral Theory of Grokking: Weight Decay induces Feature Learning",
+      "file": "2026-09-23-arxiv-a-spectral-theory-of-grokking-weight-decay-induces.json",
+      "tags": [
+        "grokking",
+        "learning-theory",
+        "weight-decay",
+        "neural-tangent-kernel",
+        "theory"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26679",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-039",
+      "title": "jev-mcp",
+      "file": "2026-09-23-github-trending-jev-mcp.json",
+      "tags": [
+        "mcp",
+        "jev",
+        "tool-calling",
+        "javascript",
+        "agent-integration"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://github.com/jkudish/jev-mcp",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-038",
+      "title": "Spoken Language Models that Think Aloud",
+      "file": "2026-09-23-arxiv-spoken-language-models-that-think-aloud.json",
+      "tags": [
+        "spoken-language-model",
+        "chain-of-thought",
+        "real-time",
+        "thinker-talker",
+        "speech"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26488",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-037",
+      "title": "OpenAI is well positioned to fast-follow Jev",
+      "file": "2026-09-23-hackernews-top-openai-is-well-positioned-to-fast-follow-jev.json",
+      "tags": [
+        "jev",
+        "typed-decisions",
+        "openai",
+        "competition",
+        "analysis"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-041",
+      "title": "WeChatBridge",
+      "file": "2026-09-23-github-trending-wechatbridge.json",
+      "tags": [
+        "macos",
+        "wechat",
+        "obsidian",
+        "ai-agent",
+        "swift"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://github.com/freestylefly/WeChatBridge",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-040",
+      "title": "Metrics Failure in LLM-Based Code Vulnerability Repair: An Empirical Study and a Change-Aware Screen",
+      "file": "2026-09-23-arxiv-metrics-failure-in-llm-based-code-vulnerability-re.json",
+      "tags": [
+        "code-repair",
+        "vulnerability",
+        "evaluation-metrics",
+        "llm",
+        "software-engineering"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26749",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-044",
+      "title": "minecraft-agent",
+      "file": "2026-09-23-github-trending-minecraft-agent.json",
+      "tags": [
+        "agent-framework",
+        "embodied-agent",
+        "planning",
+        "minecraft",
+        "javascript"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://github.com/rmalde/minecraft-agent",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-043",
+      "title": "jev-chat-windows",
+      "file": "2026-09-23-github-trending-jev-chat-windows.json",
+      "tags": [
+        "wechat",
+        "ocr",
+        "local-first",
+        "pyqt",
+        "llm"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://github.com/jev-chat/jev-chat-windows",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-042",
+      "title": "Knowledge Pull Requests for Continual Document Authoring",
+      "file": "2026-09-23-arxiv-knowledge-pull-requests-for-continual-document-aut.json",
+      "tags": [
+        "document-authoring",
+        "rag",
+        "continual-learning",
+        "knowledge-integration",
+        "llm"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26634",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-048",
+      "title": "geo-sleuth",
+      "file": "2026-09-23-github-trending-geo-sleuth.json",
+      "tags": [
+        "agent-skills",
+        "geolocation",
+        "osint",
+        "computer-vision",
+        "openstreetmap"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://github.com/Oldcircle/geo-sleuth",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-047",
+      "title": "Transcribe, Translate, and Optimize: Joint Reward Learning for Speech Translation",
+      "file": "2026-09-23-arxiv-transcribe-translate-and-optimize-joint-reward-lea.json",
+      "tags": [
+        "speech-translation",
+        "grpo",
+        "reinforcement-learning",
+        "chain-of-thought",
+        "asr"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26536",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-046",
+      "title": "The current balance of power in open models",
+      "file": "2026-09-23-hackernews-top-the-current-balance-of-power-in-open-models.json",
+      "tags": [
+        "open-models",
+        "ecosystem",
+        "llm",
+        "trend-analysis",
+        "open-weights"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-045",
+      "title": "Calibration as a First-Class Criterion in LLM Evaluation",
+      "file": "2026-09-23-arxiv-calibration-as-a-first-class-criterion-in-llm-eval.json",
+      "tags": [
+        "calibration",
+        "evaluation",
+        "llm",
+        "trustworthiness",
+        "llm-as-a-judge"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26489",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-051",
+      "title": "TraceVIC: Causal Reasoning over Code Evolution for Identifying Vulnerability-Inducing Commits",
+      "file": "2026-09-23-arxiv-tracevic-causal-reasoning-over-code-evolution-for.json",
+      "tags": [
+        "software-security",
+        "vulnerability",
+        "temporal-graph",
+        "code-evolution",
+        "static-analysis"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26711",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-050",
+      "title": "On the Lexical Superstition of Large Language Models for Code Comprehension: Re-evaluation on Code of Low Lexical Quality",
+      "file": "2026-09-23-arxiv-on-the-lexical-superstition-of-large-language-mode.json",
+      "tags": [
+        "code-comprehension",
+        "llm",
+        "robustness",
+        "identifier-naming",
+        "software-engineering"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26388",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-049",
+      "title": "Discovery-Driven Integration of Disjoint Tables via Text",
+      "file": "2026-09-23-arxiv-discovery-driven-integration-of-disjoint-tables-vi.json",
+      "tags": [
+        "data-integration",
+        "text-mediated-join",
+        "contrastive-learning",
+        "data-lakes",
+        "nlp"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 7,
+      "source_url": "https://arxiv.org/abs/2609.26658",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-052",
+      "title": "awesome-jev",
+      "file": "2026-09-23-github-trending-awesome-jev.json",
+      "tags": [
+        "awesome-list",
+        "jev",
+        "llm",
+        "model-routing",
+        "structured-output"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 6,
+      "source_url": "https://github.com/yibie/awesome-jev",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-053",
+      "title": "Show HN: Training a model to identify AI web content from structure alone",
+      "file": "2026-09-23-hackernews-top-show-hn-training-a-model-to-identify-ai-web-conten.json",
+      "tags": [
+        "ai-detection",
+        "web-content",
+        "model-training",
+        "arxiv",
+        "classification"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 6,
+      "source_url": "https://arxiv.org/abs/2609.15369",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-055",
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "file": "2026-09-23-hackernews-top-pentagon-says-overreliance-on-ai-contributed-to-mi.json",
+      "tags": [
+        "ai-safety",
+        "governance",
+        "automation-bias",
+        "accountability",
+        "news"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 6,
+      "source_url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-054",
+      "title": "GTR: Gated Token Recurrence for Efficient Dense Prediction",
+      "file": "2026-09-23-arxiv-gtr-gated-token-recurrence-for-efficient-dense-pre.json",
+      "tags": [
+        "vision-backbone",
+        "linear-attention",
+        "recurrence",
+        "dense-prediction",
+        "efficiency"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 6,
+      "source_url": "https://arxiv.org/abs/2609.26590",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-057",
+      "title": "Receptiveness, Not Sycophancy: Distinguishing Engagement from Deference in Language Models",
+      "file": "2026-09-23-arxiv-receptiveness-not-sycophancy-distinguishing-engage.json",
+      "tags": [
+        "sycophancy",
+        "alignment",
+        "evaluation",
+        "construct-validity",
+        "llm"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 6,
+      "source_url": "https://arxiv.org/abs/2609.26579",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-056",
+      "title": "Behavior is Not Enough: A Mechanism-Based Evaluation of Social Norm Emergence in LLM Societies",
+      "file": "2026-09-23-arxiv-behavior-is-not-enough-a-mechanism-based-evaluatio.json",
+      "tags": [
+        "multi-agent",
+        "social-norms",
+        "evaluation",
+        "cooperation",
+        "llm-societies"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 6,
+      "source_url": "https://arxiv.org/abs/2609.26481",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-060",
+      "title": "jev-skill",
+      "file": "2026-09-23-github-trending-jev-skill.json",
+      "tags": [
+        "jev",
+        "agent-skills",
+        "workflows",
+        "python",
+        "use-cases"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 6,
+      "source_url": "https://github.com/wuyoscar/jev-skill",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-059",
+      "title": "PERSONAWEAVER: Controllable Diversity Beyond Conventional Archetypes in Procedural Character Generation",
+      "file": "2026-09-23-arxiv-personaweaver-controllable-diversity-beyond-conven.json",
+      "tags": [
+        "persona-generation",
+        "diversity",
+        "llm",
+        "procedural-generation",
+        "character-ai"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 6,
+      "source_url": "https://arxiv.org/abs/2609.26629",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-058",
+      "title": "Layout-Guided Masking for GROBID: Lightweight Structural Gains in Large-Scale Scientific PDF Ingestion",
+      "file": "2026-09-23-arxiv-layout-guided-masking-for-grobid-lightweight-struc.json",
+      "tags": [
+        "pdf-parsing",
+        "grobid",
+        "document-processing",
+        "scholarly-data",
+        "efficiency"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 6,
+      "source_url": "https://arxiv.org/abs/2609.26381",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-063",
+      "title": "When Recursive Models Finish Computing",
+      "file": "2026-09-23-arxiv-when-recursive-models-finish-computing.json",
+      "tags": [
+        "recursive-models",
+        "latent-reasoning",
+        "dynamics",
+        "sudoku",
+        "interpretability"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 6,
+      "source_url": "https://arxiv.org/abs/2609.26487",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-062",
+      "title": "Topology-Stratified Materials Discovery with A Flow-Based Generative Model",
+      "file": "2026-09-23-arxiv-topology-stratified-materials-discovery-with-a-flo.json",
+      "tags": [
+        "materials-discovery",
+        "generative-model",
+        "flow-matching",
+        "crystal-structure",
+        "inverse-design"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 6,
+      "source_url": "https://arxiv.org/abs/2609.26547",
+      "status": "published"
+    },
+    {
+      "id": "kb-2026-09-23-061",
+      "title": "Combining Hierarchical Cognitive Process with Process Supervision for Interpretable Scene Safety Understanding",
+      "file": "2026-09-23-arxiv-combining-hierarchical-cognitive-process-with-proc.json",
+      "tags": [
+        "process-supervision",
+        "interpretability",
+        "scene-understanding",
+        "moe",
+        "llm"
+      ],
+      "organized_at": "2026-09-23T07:21:00Z",
+      "score": 6,
+      "source_url": "https://arxiv.org/abs/2609.26399",
+      "status": "published"
+    }
+  ]
+}

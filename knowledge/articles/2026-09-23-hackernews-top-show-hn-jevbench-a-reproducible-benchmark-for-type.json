@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-034",
+  "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+  "source": "hackernews-top",
+  "source_id": "49800574",
+  "summary": "Show HN 项目 JevBench，为 Jev 类类型化决策模型提供可复现的准确性与可靠性基准。",
+  "tags": [
+    "benchmark",
+    "jev",
+    "typed-decisions",
+    "reproducibility",
+    "evaluation"
+  ],
+  "collected_at": "2026-09-23T07:09:33Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://benchmarkheaven.com/jev-models",
+  "score": 7
+}

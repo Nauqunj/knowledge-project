@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-005",
+  "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
+  "source": "arxiv",
+  "source_id": "2609.26779",
+  "summary": "长周期编码 Agent 的上下文压缩：只截断不改写，成本降最多 50%，性能保持。",
+  "tags": [
+    "context-compaction",
+    "coding-agent",
+    "test-time-scaling",
+    "long-horizon",
+    "llm-agent"
+  ],
+  "collected_at": "2026-09-23T07:12:08Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://arxiv.org/abs/2609.26779",
+  "score": 8
+}

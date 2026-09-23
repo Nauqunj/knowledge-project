@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-041",
+  "title": "WeChatBridge",
+  "source": "github-trending",
+  "source_id": "freestylefly/WeChatBridge",
+  "summary": "macOS 原生工具，把微信聊天记录一键转发到 AI Agent 与 Obsidian。",
+  "tags": [
+    "macos",
+    "wechat",
+    "obsidian",
+    "ai-agent",
+    "swift"
+  ],
+  "collected_at": "2026-09-23T07:09:33Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://github.com/freestylefly/WeChatBridge",
+  "score": 7
+}

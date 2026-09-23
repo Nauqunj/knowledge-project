@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-030",
+  "title": "Writing Rust code that's fast by asking agents to make the code faster",
+  "source": "hackernews-top",
+  "source_id": "49803085",
+  "summary": "Max Woolf 记录用编码 Agent 迭代优化 Rust 性能，展示基准驱动的性能工程流程。",
+  "tags": [
+    "coding-agent",
+    "rust",
+    "performance-optimization",
+    "agentic-iteration",
+    "benchmark"
+  ],
+  "collected_at": "2026-09-23T07:09:33Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://minimaxir.com/2026/09/agentic-iteration/",
+  "score": 7
+}

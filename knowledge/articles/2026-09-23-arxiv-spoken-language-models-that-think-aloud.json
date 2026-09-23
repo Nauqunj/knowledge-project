@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-038",
+  "title": "Spoken Language Models that Think Aloud",
+  "source": "arxiv",
+  "source_id": "2609.26488",
+  "summary": "为推理型语音模型提出异步自言自语：Thinker-Talker 并行流减少静默且保持准确率。",
+  "tags": [
+    "spoken-language-model",
+    "chain-of-thought",
+    "real-time",
+    "thinker-talker",
+    "speech"
+  ],
+  "collected_at": "2026-09-23T07:12:08Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://arxiv.org/abs/2609.26488",
+  "score": 7
+}

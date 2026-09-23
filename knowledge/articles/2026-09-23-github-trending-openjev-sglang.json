@@ -1,0 +1,25 @@
+{
+  "id": "kb-2026-09-23-064",
+  "title": "openjev-sglang",
+  "source": "github-trending",
+  "source_id": "ekzhang/openjev-sglang",
+  "source_url": "https://github.com/ekzhang/openjev-sglang",
+  "summary": "用 SGLang 跑 Qwen3.6-35B，以 prefill-only 复现 Jev 接口。",
+  "highlights": [
+    "每个问题用 max_new_tokens=1 读答案标签 logprob，无自回归生成，N 个问题只需 N+1 次单 token 调用",
+    "基于 B200 与 SGLang 0.5.19 Rust 前端，启用 radix 缓存与 breakable prefill CUDA graphs",
+    "覆盖 noul/choice/score 三类题型，单请求最多 64 问、每题最多 64 个候选标签"
+  ],
+  "score": 7,
+  "score_reason": "把 Jev 的类型化决策接口在开源模型上跑通且可自部署，prefill-only 路径明确、工程细节完整；但依赖单卡 B200、适用场景偏窄，属可直接借鉴的专项实现。",
+  "tags": [
+    "jev",
+    "sglang",
+    "prefill-only",
+    "structured-generation",
+    "llm-inference"
+  ],
+  "collected_at": "2026-09-23T08:45:18Z",
+  "organized_at": "2026-09-23T08:57:08Z",
+  "status": "published"
+}

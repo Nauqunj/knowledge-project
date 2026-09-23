@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-062",
+  "title": "Topology-Stratified Materials Discovery with A Flow-Based Generative Model",
+  "source": "arxiv",
+  "source_id": "2609.26547",
+  "summary": "基于流的生成模型 UFO-MGen 学习 Wyckoff 表示，外推生成晶体并支持属性约束逆向设计。",
+  "tags": [
+    "materials-discovery",
+    "generative-model",
+    "flow-matching",
+    "crystal-structure",
+    "inverse-design"
+  ],
+  "collected_at": "2026-09-23T07:12:08Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://arxiv.org/abs/2609.26547",
+  "score": 6
+}

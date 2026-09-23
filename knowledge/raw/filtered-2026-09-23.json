@@ -1,0 +1,1064 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T07:21:00Z",
+  "input_count": 111,
+  "published_count": 64,
+  "incomplete_count": 0,
+  "discarded_count": 49,
+  "dedup_skipped_count": 65,
+  "reason_counts": {
+    "relevance_score<0.6": 47,
+    "score<5": 2
+  },
+  "incomplete": [],
+  "discarded": [
+    {
+      "id": "Lumid-Off/AirCard-Windows",
+      "source": "github-trending",
+      "title": "AirCard-Windows",
+      "url": "https://github.com/Lumid-Off/AirCard-Windows",
+      "relevance_score": 0.46,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "v-modal/awesome-jev-tools",
+      "source": "github-trending",
+      "title": "awesome-jev-tools",
+      "url": "https://github.com/v-modal/awesome-jev-tools",
+      "relevance_score": 0.56,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+      "source": "github-trending",
+      "title": "ai-engineering-interview-questions-company-wise",
+      "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+      "relevance_score": 0.54,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "Mak5er/AirCard-iOS",
+      "source": "github-trending",
+      "title": "AirCard-iOS",
+      "url": "https://github.com/Mak5er/AirCard-iOS",
+      "relevance_score": 0.43,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "AbdelStark/awesome-typesafe-jev",
+      "source": "github-trending",
+      "title": "awesome-typesafe-jev",
+      "url": "https://github.com/AbdelStark/awesome-typesafe-jev",
+      "relevance_score": 0.59,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "cobanov/awesome-jev",
+      "source": "github-trending",
+      "title": "awesome-jev",
+      "url": "https://github.com/cobanov/awesome-jev",
+      "relevance_score": 0.55,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "49794844",
+      "source": "hackernews-top",
+      "title": "Delta: Highly available, strongly consistent storage using chain replication (2022)",
+      "url": "https://engineering.fb.com/2022/05/04/data-infrastructure/delta/",
+      "relevance_score": 0.35,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "49804931",
+      "source": "hackernews-top",
+      "title": "Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent",
+      "url": "https://www.coveragecat.com/",
+      "relevance_score": 0.53,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "49795260",
+      "source": "hackernews-top",
+      "title": "Did OpenAI solve the wrong Navier-Stokes problem?",
+      "url": "https://www.scientificamerican.com/article/did-openai-solve-the-wrong-navier-stokes-problem/",
+      "relevance_score": 0.55,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "49794193",
+      "source": "hackernews-top",
+      "title": "Solitaire Alone Together",
+      "url": "https://solitairealonetogether.com/",
+      "relevance_score": 0.28,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26725",
+      "source": "arxiv",
+      "title": "Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows",
+      "url": "https://arxiv.org/abs/2609.26725",
+      "relevance_score": 0.56,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26682",
+      "source": "arxiv",
+      "title": "From Alignment to Access Control: A Framework for GenAI Policy Enforcement",
+      "url": "https://arxiv.org/abs/2609.26682",
+      "relevance_score": 0.58,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26642",
+      "source": "arxiv",
+      "title": "The Delegation Blind Spot: Auditing Product Decisions from Agent Choices",
+      "url": "https://arxiv.org/abs/2609.26642",
+      "relevance_score": 0.59,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26603",
+      "source": "arxiv",
+      "title": "Towards Hierarchical GNNs for multi-grid power flow: generalization across operating scenarios",
+      "url": "https://arxiv.org/abs/2609.26603",
+      "relevance_score": 0.55,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26565",
+      "source": "arxiv",
+      "title": "Quantum-Aided Active Device Detection in Energy-Harvesting Symbiotic Radio Networks",
+      "url": "https://arxiv.org/abs/2609.26565",
+      "relevance_score": 0.46,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26562",
+      "source": "arxiv",
+      "title": "The Disciplinary Language Transfer Problem: How Psychological Vocabulary Produces Governance Failures in AI Agent Deployment",
+      "url": "https://arxiv.org/abs/2609.26562",
+      "relevance_score": 0.53,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26556",
+      "source": "arxiv",
+      "title": "Neutral-Atom-based Quantum Optimization for Resource Allocation in NOMA Networks",
+      "url": "https://arxiv.org/abs/2609.26556",
+      "relevance_score": 0.46,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26527",
+      "source": "arxiv",
+      "title": "A Semiotics-Aware Framework for Evaluating Fidelity and Coverage in Natural Language Generation",
+      "url": "https://arxiv.org/abs/2609.26527",
+      "relevance_score": 0.57,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26512",
+      "source": "arxiv",
+      "title": "Do Vision Model See Like the Brain? A Comparison Across EEG Encoding Model",
+      "url": "https://arxiv.org/abs/2609.26512",
+      "relevance_score": 0.59,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26507",
+      "source": "arxiv",
+      "title": "The Ethics of Artificial Intelligence in Military Operations",
+      "url": "https://arxiv.org/abs/2609.26507",
+      "relevance_score": 0.54,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26687",
+      "source": "arxiv",
+      "title": "Detecting GPT-Assisted Writing Using Interpretable Stylometric Features",
+      "url": "https://arxiv.org/abs/2609.26687",
+      "relevance_score": 0.55,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26610",
+      "source": "arxiv",
+      "title": "Semantic Abstraction for Natural Language Inference: a Methodological Framework for Discovering and Compensating Semantic Knowledge and Reasoning Gaps in Large Language Models",
+      "url": "https://arxiv.org/abs/2609.26610",
+      "relevance_score": 0.58,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26539",
+      "source": "arxiv",
+      "title": "A retrospective analysis on the use of LLMs to study infant syntax learning",
+      "url": "https://arxiv.org/abs/2609.26539",
+      "relevance_score": 0.49,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26468",
+      "source": "arxiv",
+      "title": "How to Estimate Whether You Have Found Several Needles in a Haystack: Measuring Calibration in Multi-Label Text Classification",
+      "url": "https://arxiv.org/abs/2609.26468",
+      "relevance_score": 0.57,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26422",
+      "source": "arxiv",
+      "title": "Enriching Speech Emotion Representations with Conversational Context",
+      "url": "https://arxiv.org/abs/2609.26422",
+      "relevance_score": 0.59,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26347",
+      "source": "arxiv",
+      "title": "TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling",
+      "url": "https://arxiv.org/abs/2609.26347",
+      "relevance_score": 0.58,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26346",
+      "source": "arxiv",
+      "title": "Blaming Across the Aisle: Political Contrasting and Blame Attribution in the Danish Parliament",
+      "url": "https://arxiv.org/abs/2609.26346",
+      "relevance_score": 0.49,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26338",
+      "source": "arxiv",
+      "title": "Designing and Analysing Argument Mining Pipelines: Towards a Comprehensive Assessment",
+      "url": "https://arxiv.org/abs/2609.26338",
+      "relevance_score": 0.51,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26306",
+      "source": "arxiv",
+      "title": "CHiME-9 ECHI: A Machine Learning Challenge for Enhancing Conversations to Address Hearing Impairment",
+      "url": "https://arxiv.org/abs/2609.26306",
+      "relevance_score": 0.51,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26783",
+      "source": "arxiv",
+      "title": "A Decentralized Partially Observable Team Decision Methodology with Delayed Information Sharing",
+      "url": "https://arxiv.org/abs/2609.26783",
+      "relevance_score": 0.51,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26751",
+      "source": "arxiv",
+      "title": "EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations",
+      "url": "https://arxiv.org/abs/2609.26751",
+      "relevance_score": 0.58,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26748",
+      "source": "arxiv",
+      "title": "Automatic depth-based local center clustering via β-integrated local depth and adaptive grouping",
+      "url": "https://arxiv.org/abs/2609.26748",
+      "relevance_score": 0.49,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26737",
+      "source": "arxiv",
+      "title": "Diffusion-Induced Spatial Attention Overlapping Community Detection",
+      "url": "https://arxiv.org/abs/2609.26737",
+      "relevance_score": 0.55,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26707",
+      "source": "arxiv",
+      "title": "Optimal Sequential Annotations for Off-Policy Evaluation",
+      "url": "https://arxiv.org/abs/2609.26707",
+      "relevance_score": 0.56,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26705",
+      "source": "arxiv",
+      "title": "When are bosonic Gaussian states classical to learn?",
+      "url": "https://arxiv.org/abs/2609.26705",
+      "relevance_score": 0.47,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26683",
+      "source": "arxiv",
+      "title": "PROSWIN: Probabilistic Solar Wind Speed Forecasting Using Deep Distributional Regression From Solar Images",
+      "url": "https://arxiv.org/abs/2609.26683",
+      "relevance_score": 0.48,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26647",
+      "source": "arxiv",
+      "title": "Statistical Rates for Entropic Optimal Transport in the Discrete to SubGaussian Regime",
+      "url": "https://arxiv.org/abs/2609.26647",
+      "relevance_score": 0.52,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26631",
+      "source": "arxiv",
+      "title": "Label-Efficient Learning for Ground-Based Sky-Image Classification: A Benchmark of Transfer Learning, Active Learning, and Pseudo-Labeling on GCD",
+      "url": "https://arxiv.org/abs/2609.26631",
+      "relevance_score": 0.47,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26624",
+      "source": "arxiv",
+      "title": "On Basis Function Selection for Sparse Gaussian Process Regression",
+      "url": "https://arxiv.org/abs/2609.26624",
+      "relevance_score": 0.53,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26617",
+      "source": "arxiv",
+      "title": "MMAP: Multimodal Missing-Aware Pretraining for Longitudinal Alzheimer's Prediction",
+      "url": "https://arxiv.org/abs/2609.26617",
+      "relevance_score": 0.55,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26605",
+      "source": "arxiv",
+      "title": "Foundation model embeddings capture pre-diagnostic changes on screening mammograms",
+      "url": "https://arxiv.org/abs/2609.26605",
+      "relevance_score": 0.55,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26598",
+      "source": "arxiv",
+      "title": "Unlocking Cross-Scenario Physical Layer Security: A Mixture-of-Experts Framework with Generative Diffusion Models",
+      "url": "https://arxiv.org/abs/2609.26598",
+      "relevance_score": 0.52,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26581",
+      "source": "arxiv",
+      "title": "Polyak-Type Extragradient Methods for Monotone Root-Finding Problems",
+      "url": "https://arxiv.org/abs/2609.26581",
+      "relevance_score": 0.5,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26537",
+      "source": "arxiv",
+      "title": "Notes on Fourier-Bessel wavelets",
+      "url": "https://arxiv.org/abs/2609.26537",
+      "relevance_score": 0.43,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26508",
+      "source": "arxiv",
+      "title": "Gap-Free Streaming PCA Beyond Rank-One Updates: Near-Optimal Rates and Applications to Differential Privacy",
+      "url": "https://arxiv.org/abs/2609.26508",
+      "relevance_score": 0.54,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26502",
+      "source": "arxiv",
+      "title": "Deep Generative Crystal Structure Prediction: A Benchmark Study and a Controlled Test of Prototype Dependence",
+      "url": "https://arxiv.org/abs/2609.26502",
+      "relevance_score": 0.56,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "2609.26474",
+      "source": "arxiv",
+      "title": "PP-Net: A Hybrid Physical-Prior Neural Network for Scattered Light Removal in Biomedical Images on Embedded Devices",
+      "url": "https://arxiv.org/abs/2609.26474",
+      "relevance_score": 0.47,
+      "reasons": [
+        "relevance_score<0.6"
+      ]
+    },
+    {
+      "id": "v-modal/awesome-jev-tools",
+      "source": "github-trending",
+      "title": "awesome-jev-tools",
+      "url": "https://github.com/v-modal/awesome-jev-tools",
+      "reasons": [
+        "score<5"
+      ],
+      "score": 3
+    },
+    {
+      "id": "AbdelStark/awesome-typesafe-jev",
+      "source": "github-trending",
+      "title": "awesome-typesafe-jev",
+      "url": "https://github.com/AbdelStark/awesome-typesafe-jev",
+      "reasons": [
+        "score<5"
+      ],
+      "score": 4
+    }
+  ],
+  "deduplicated": [
+    {
+      "id": "zai-org/ZCode",
+      "source": "github-trending",
+      "title": "ZCode",
+      "url": "https://github.com/zai-org/ZCode",
+      "duplicate_of": "kb-2026-09-23-003",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "jev-chat/jev-chat-jarvis",
+      "source": "github-trending",
+      "title": "jev-chat-jarvis",
+      "url": "https://github.com/jev-chat/jev-chat-jarvis",
+      "duplicate_of": "kb-2026-09-23-004",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "yibie/awesome-jev",
+      "source": "github-trending",
+      "title": "awesome-jev",
+      "url": "https://github.com/yibie/awesome-jev",
+      "duplicate_of": "kb-2026-09-23-052",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "unreallabsai/unreal-agent",
+      "source": "github-trending",
+      "title": "unreal-agent",
+      "url": "https://github.com/unreallabsai/unreal-agent",
+      "duplicate_of": "kb-2026-09-23-007",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "hydra-db/open-glean",
+      "source": "github-trending",
+      "title": "open-glean",
+      "url": "https://github.com/hydra-db/open-glean",
+      "duplicate_of": "kb-2026-09-23-021",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "kerpopule/hermes-jev-skills",
+      "source": "github-trending",
+      "title": "hermes-jev-skills",
+      "url": "https://github.com/kerpopule/hermes-jev-skills",
+      "duplicate_of": "kb-2026-09-23-019",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "rmalde/minecraft-agent",
+      "source": "github-trending",
+      "title": "minecraft-agent",
+      "url": "https://github.com/rmalde/minecraft-agent",
+      "duplicate_of": "kb-2026-09-23-044",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+      "source": "github-trending",
+      "title": "OrcaBonsai-27B-Uncensored",
+      "url": "https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+      "duplicate_of": "kb-2026-09-23-029",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "wuyoscar/jev-skill",
+      "source": "github-trending",
+      "title": "jev-skill",
+      "url": "https://github.com/wuyoscar/jev-skill",
+      "duplicate_of": "kb-2026-09-23-060",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "freestylefly/WeChatBridge",
+      "source": "github-trending",
+      "title": "WeChatBridge",
+      "url": "https://github.com/freestylefly/WeChatBridge",
+      "duplicate_of": "kb-2026-09-23-041",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "Rizzo-AI-Academy/rizzo-flow",
+      "source": "github-trending",
+      "title": "rizzo-flow",
+      "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
+      "duplicate_of": "kb-2026-09-23-036",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "jev-chat/jev-chat-windows",
+      "source": "github-trending",
+      "title": "jev-chat-windows",
+      "url": "https://github.com/jev-chat/jev-chat-windows",
+      "duplicate_of": "kb-2026-09-23-043",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "jkudish/jev-mcp",
+      "source": "github-trending",
+      "title": "jev-mcp",
+      "url": "https://github.com/jkudish/jev-mcp",
+      "duplicate_of": "kb-2026-09-23-039",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "Oldcircle/geo-sleuth",
+      "source": "github-trending",
+      "title": "geo-sleuth",
+      "url": "https://github.com/Oldcircle/geo-sleuth",
+      "duplicate_of": "kb-2026-09-23-048",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "cobanov/awesome-jev",
+      "source": "github-trending",
+      "title": "awesome-jev",
+      "url": "https://github.com/cobanov/awesome-jev",
+      "duplicate_of": "kb-2026-09-23-052",
+      "reason": "duplicate-title(1.000)"
+    },
+    {
+      "id": "49805509",
+      "source": "hackernews-top",
+      "title": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "duplicate_of": "kb-2026-09-23-002",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "49803892",
+      "source": "hackernews-top",
+      "title": "Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "duplicate_of": "kb-2026-09-23-001",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "49801324",
+      "source": "hackernews-top",
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "duplicate_of": "kb-2026-09-23-033",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "49804316",
+      "source": "hackernews-top",
+      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+      "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "duplicate_of": "kb-2026-09-23-012",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "49806430",
+      "source": "hackernews-top",
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "duplicate_of": "kb-2026-09-23-055",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "49805748",
+      "source": "hackernews-top",
+      "title": "Unreal Agent",
+      "url": "https://unreallabs.ai/blog/unreal-agent/",
+      "duplicate_of": "kb-2026-09-23-025",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "49808816",
+      "source": "hackernews-top",
+      "title": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "duplicate_of": "kb-2026-09-23-046",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "49802161",
+      "source": "hackernews-top",
+      "title": "OpenAI is well positioned to fast-follow Jev",
+      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+      "duplicate_of": "kb-2026-09-23-037",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "49800574",
+      "source": "hackernews-top",
+      "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+      "url": "https://benchmarkheaven.com/jev-models",
+      "duplicate_of": "kb-2026-09-23-034",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "49800566",
+      "source": "hackernews-top",
+      "title": "Show HN: Training a model to identify AI web content from structure alone",
+      "url": "https://arxiv.org/abs/2609.15369",
+      "duplicate_of": "kb-2026-09-23-053",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "49803085",
+      "source": "hackernews-top",
+      "title": "Writing Rust code that's fast by asking agents to make the code faster",
+      "url": "https://minimaxir.com/2026/09/agentic-iteration/",
+      "duplicate_of": "kb-2026-09-23-030",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26780",
+      "source": "arxiv",
+      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+      "url": "https://arxiv.org/abs/2609.26780",
+      "duplicate_of": "kb-2026-09-23-016",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26779",
+      "source": "arxiv",
+      "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
+      "url": "https://arxiv.org/abs/2609.26779",
+      "duplicate_of": "kb-2026-09-23-005",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26777",
+      "source": "arxiv",
+      "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
+      "url": "https://arxiv.org/abs/2609.26777",
+      "duplicate_of": "kb-2026-09-23-018",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26761",
+      "source": "arxiv",
+      "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+      "url": "https://arxiv.org/abs/2609.26761",
+      "duplicate_of": "kb-2026-09-23-010",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26760",
+      "source": "arxiv",
+      "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
+      "url": "https://arxiv.org/abs/2609.26760",
+      "duplicate_of": "kb-2026-09-23-008",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26758",
+      "source": "arxiv",
+      "title": "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It",
+      "url": "https://arxiv.org/abs/2609.26758",
+      "duplicate_of": "kb-2026-09-23-024",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26756",
+      "source": "arxiv",
+      "title": "FleXray: Universal Clinical X-ray Segmentation",
+      "url": "https://arxiv.org/abs/2609.26756",
+      "duplicate_of": "kb-2026-09-23-027",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26749",
+      "source": "arxiv",
+      "title": "Metrics Failure in LLM-Based Code Vulnerability Repair: An Empirical Study and a Change-Aware Screen",
+      "url": "https://arxiv.org/abs/2609.26749",
+      "duplicate_of": "kb-2026-09-23-040",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26718",
+      "source": "arxiv",
+      "title": "The Sirens' Song: When Proximal Background Context Overshadows Distant Evidence",
+      "url": "https://arxiv.org/abs/2609.26718",
+      "duplicate_of": "kb-2026-09-23-035",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26711",
+      "source": "arxiv",
+      "title": "TraceVIC: Causal Reasoning over Code Evolution for Identifying Vulnerability-Inducing Commits",
+      "url": "https://arxiv.org/abs/2609.26711",
+      "duplicate_of": "kb-2026-09-23-051",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26708",
+      "source": "arxiv",
+      "title": "Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning",
+      "url": "https://arxiv.org/abs/2609.26708",
+      "duplicate_of": "kb-2026-09-23-009",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26704",
+      "source": "arxiv",
+      "title": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning",
+      "url": "https://arxiv.org/abs/2609.26704",
+      "duplicate_of": "kb-2026-09-23-017",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26693",
+      "source": "arxiv",
+      "title": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation",
+      "url": "https://arxiv.org/abs/2609.26693",
+      "duplicate_of": "kb-2026-09-23-023",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26679",
+      "source": "arxiv",
+      "title": "A Spectral Theory of Grokking: Weight Decay induces Feature Learning",
+      "url": "https://arxiv.org/abs/2609.26679",
+      "duplicate_of": "kb-2026-09-23-031",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26637",
+      "source": "arxiv",
+      "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
+      "url": "https://arxiv.org/abs/2609.26637",
+      "duplicate_of": "kb-2026-09-23-026",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26621",
+      "source": "arxiv",
+      "title": "Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference",
+      "url": "https://arxiv.org/abs/2609.26621",
+      "duplicate_of": "kb-2026-09-23-032",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26579",
+      "source": "arxiv",
+      "title": "Receptiveness, Not Sycophancy: Distinguishing Engagement from Deference in Language Models",
+      "url": "https://arxiv.org/abs/2609.26579",
+      "duplicate_of": "kb-2026-09-23-057",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26550",
+      "source": "arxiv",
+      "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+      "url": "https://arxiv.org/abs/2609.26550",
+      "duplicate_of": "kb-2026-09-23-014",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26547",
+      "source": "arxiv",
+      "title": "Topology-Stratified Materials Discovery with A Flow-Based Generative Model",
+      "url": "https://arxiv.org/abs/2609.26547",
+      "duplicate_of": "kb-2026-09-23-062",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26532",
+      "source": "arxiv",
+      "title": "REFLEX with Jev for Efficient Selective Control in LLM Agents",
+      "url": "https://arxiv.org/abs/2609.26532",
+      "duplicate_of": "kb-2026-09-23-015",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26796",
+      "source": "arxiv",
+      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+      "url": "https://arxiv.org/abs/2609.26796",
+      "duplicate_of": "kb-2026-09-23-013",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26781",
+      "source": "arxiv",
+      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+      "url": "https://arxiv.org/abs/2609.26781",
+      "duplicate_of": "kb-2026-09-23-011",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26658",
+      "source": "arxiv",
+      "title": "Discovery-Driven Integration of Disjoint Tables via Text",
+      "url": "https://arxiv.org/abs/2609.26658",
+      "duplicate_of": "kb-2026-09-23-049",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26638",
+      "source": "arxiv",
+      "title": "Diffusion Drafts, AR Verifies: Accelerating Document OCR with Self-Speculative Decoding",
+      "url": "https://arxiv.org/abs/2609.26638",
+      "duplicate_of": "kb-2026-09-23-022",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26634",
+      "source": "arxiv",
+      "title": "Knowledge Pull Requests for Continual Document Authoring",
+      "url": "https://arxiv.org/abs/2609.26634",
+      "duplicate_of": "kb-2026-09-23-042",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26629",
+      "source": "arxiv",
+      "title": "PERSONAWEAVER: Controllable Diversity Beyond Conventional Archetypes in Procedural Character Generation",
+      "url": "https://arxiv.org/abs/2609.26629",
+      "duplicate_of": "kb-2026-09-23-059",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26536",
+      "source": "arxiv",
+      "title": "Transcribe, Translate, and Optimize: Joint Reward Learning for Speech Translation",
+      "url": "https://arxiv.org/abs/2609.26536",
+      "duplicate_of": "kb-2026-09-23-047",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26489",
+      "source": "arxiv",
+      "title": "Calibration as a First-Class Criterion in LLM Evaluation",
+      "url": "https://arxiv.org/abs/2609.26489",
+      "duplicate_of": "kb-2026-09-23-045",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26488",
+      "source": "arxiv",
+      "title": "Spoken Language Models that Think Aloud",
+      "url": "https://arxiv.org/abs/2609.26488",
+      "duplicate_of": "kb-2026-09-23-038",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26481",
+      "source": "arxiv",
+      "title": "Behavior is Not Enough: A Mechanism-Based Evaluation of Social Norm Emergence in LLM Societies",
+      "url": "https://arxiv.org/abs/2609.26481",
+      "duplicate_of": "kb-2026-09-23-056",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26399",
+      "source": "arxiv",
+      "title": "Combining Hierarchical Cognitive Process with Process Supervision for Interpretable Scene Safety Understanding",
+      "url": "https://arxiv.org/abs/2609.26399",
+      "duplicate_of": "kb-2026-09-23-061",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26388",
+      "source": "arxiv",
+      "title": "On the Lexical Superstition of Large Language Models for Code Comprehension: Re-evaluation on Code of Low Lexical Quality",
+      "url": "https://arxiv.org/abs/2609.26388",
+      "duplicate_of": "kb-2026-09-23-050",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26381",
+      "source": "arxiv",
+      "title": "Layout-Guided Masking for GROBID: Lightweight Structural Gains in Large-Scale Scientific PDF Ingestion",
+      "url": "https://arxiv.org/abs/2609.26381",
+      "duplicate_of": "kb-2026-09-23-058",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26368",
+      "source": "arxiv",
+      "title": "HySparse2: Hybrid Sparse Attention with Two-Level KV Sharing",
+      "url": "https://arxiv.org/abs/2609.26368",
+      "duplicate_of": "kb-2026-09-23-020",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26048",
+      "source": "arxiv",
+      "title": "FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents",
+      "url": "https://arxiv.org/abs/2609.26048",
+      "duplicate_of": "kb-2026-09-23-006",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26667",
+      "source": "arxiv",
+      "title": "MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.26667",
+      "duplicate_of": "kb-2026-09-23-028",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26590",
+      "source": "arxiv",
+      "title": "GTR: Gated Token Recurrence for Efficient Dense Prediction",
+      "url": "https://arxiv.org/abs/2609.26590",
+      "duplicate_of": "kb-2026-09-23-054",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "2609.26487",
+      "source": "arxiv",
+      "title": "When Recursive Models Finish Computing",
+      "url": "https://arxiv.org/abs/2609.26487",
+      "duplicate_of": "kb-2026-09-23-063",
+      "reason": "duplicate-url"
+    },
+    {
+      "id": "ekzhang/openjev-sglang",
+      "source": "github-trending",
+      "title": "openjev-sglang",
+      "url": "https://github.com/ekzhang/openjev-sglang",
+      "duplicate_of": "kb-2026-09-23-064",
+      "reason": "duplicate-url"
+    }
+  ],
+  "last_run": {
+    "run_at": "2026-09-23T09:04:56Z",
+    "input_count": 111,
+    "published_count": 0,
+    "dedup_skipped_count": 65,
+    "discarded_count": 46,
+    "incomplete_count": 0
+  },
+  "runs": [
+    {
+      "run_at": "2026-09-23T07:21:00Z",
+      "input_count": 110,
+      "published_count": 63,
+      "dedup_skipped_count": 14,
+      "discarded_count": 47,
+      "incomplete_count": 0,
+      "note": "first organize run (legacy schema)"
+    },
+    {
+      "run_at": "2026-09-23T08:57:08Z",
+      "source": "github-trending",
+      "input_count": 18,
+      "published_count": 1,
+      "dedup_skipped_count": 14,
+      "discarded_count": 3,
+      "note": "incremental github-trending run"
+    },
+    {
+      "run_at": "2026-09-23T09:04:56Z",
+      "input_count": 111,
+      "published_count": 0,
+      "dedup_skipped_count": 65,
+      "discarded_count": 46,
+      "incomplete_count": 0
+    }
+  ]
+}

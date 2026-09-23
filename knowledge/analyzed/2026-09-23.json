@@ -1,0 +1,2663 @@
+{
+  "analyzed_at": "2026-09-23T09:00:00Z",
+  "count": 111,
+  "items": [
+    {
+      "id": "zai-org/ZCode",
+      "source": "github-trending",
+      "source_id": "zai-org/ZCode",
+      "title": "ZCode",
+      "url": "https://github.com/zai-org/ZCode",
+      "summary": "Z.ai 官方编码 Agent 工作台，含 Electron 桌面、Web 与终端三个入口。",
+      "highlights": [
+        "Electron 桌面、Web、TUI 三种入口共用同一 Agent CLI 与运行时，命令行发行包只需 Node 即可启动",
+        "内置远程 SSH/WSL 工作区支持，远程资源经 SFTP 上传，开发态不访问 CDN",
+        "Apache-2.0；仓库仅 2 次提交即获 6.4k stars / 1.9k forks，并附架构基线校验配置"
+      ],
+      "score": 8,
+      "score_reason": "官方开源、三端入口齐备且可直接部署，对自建编码 Agent 的团队实用；但属工程整合型产品，底层机制创新有限且提交历史极短。",
+      "tags": [
+        "coding-agent",
+        "agent-harness",
+        "typescript",
+        "code-generation",
+        "zai"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "jev-chat/jev-chat-jarvis",
+      "source": "github-trending",
+      "source_id": "jev-chat/jev-chat-jarvis",
+      "title": "jev-chat-jarvis",
+      "url": "https://github.com/jev-chat/jev-chat-jarvis",
+      "summary": "Android 对话副驾：无障碍服务只读屏幕，在微信等 App 生成候选回复并一键填入。",
+      "highlights": [
+        "基于 AccessibilityService 只读屏幕，不 hook、不修改目标 App 包，规避封号与改包风险",
+        "回复只填入输入框，发送始终由用户手动确认，避免自动发送",
+        "覆盖微信、QQ、X、飞书四类 IM，Kotlin 实现，上线两天获 4.5k stars"
+      ],
+      "score": 6,
+      "score_reason": "低侵入手机端 Agent 范式有参考价值且热度高，但强依赖无障碍机制与特定客户端界面，上架合规成本高，技术深度一般。",
+      "tags": [
+        "android",
+        "chat-assistant",
+        "accessibility-service",
+        "kotlin",
+        "llm"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "yibie/awesome-jev",
+      "source": "github-trending",
+      "source_id": "yibie/awesome-jev",
+      "title": "awesome-jev",
+      "url": "https://github.com/yibie/awesome-jev",
+      "summary": "Jev（TypeSafe 类型化决策模型）生态项目与集成合集，聚焦模型路由与结构化输出。",
+      "highlights": [
+        "收录基于 Jev 的公开项目、集成与讨论，覆盖模型路由、语义路由、结构化输出方向",
+        "与同期至少 5 个同主题 Jev 列表内容高度重叠，创建时间集中在 9/17–9/21"
+      ],
+      "score": 4,
+      "score_reason": "纯索引类列表，无自有技术内容与评测，且与同期多个同主题列表重复，参考价值有限。",
+      "tags": [
+        "awesome-list",
+        "jev",
+        "llm",
+        "model-routing",
+        "structured-output"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "unreallabsai/unreal-agent",
+      "source": "github-trending",
+      "source_id": "unreallabsai/unreal-agent",
+      "title": "unreal-agent",
+      "url": "https://github.com/unreallabsai/unreal-agent",
+      "summary": "Go 编写的异步优先 Agent 运行框架，Session 可 fork、工具调用异步执行。",
+      "highlights": [
+        "组件全部可替换：Inbox 幂等去重、append-only 可 fork 的 Session、Coordinator、Context Builder、Operation Manager",
+        "Tool Translator 在协调器事件循环上同步运行且禁止 I/O，实际工作转为可序列化 Operation 交 actor 运行时异步执行",
+        "Session 与 Operation 存储格式带版本号，支持恢复、fork 与跨进程序列化（如代理到远程 sandbox 执行）"
+      ],
+      "score": 8,
+      "score_reason": "并发与持久化边界划分清晰，Go 实现适合把 Agent 跑在生产服务里，属可直接选型的框架；生态与文档尚不及 Python 系。",
+      "tags": [
+        "agent-framework",
+        "golang",
+        "async",
+        "agent-harness",
+        "concurrency"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "hydra-db/open-glean",
+      "source": "github-trending",
+      "source_id": "hydra-db/open-glean",
+      "title": "open-glean",
+      "url": "https://github.com/hydra-db/open-glean",
+      "summary": "对标 Glean 的开源企业知识 AI 平台，连接内部应用并以 RAG 问答，含权限控制。",
+      "highlights": [
+        "覆盖连接器、索引与权限三类模块，对应企业搜索的核心链路",
+        "TypeScript 实现，定位自建内部知识助手、替代商业 SaaS",
+        "仓库创建当天后再无更新，实际完成度与可运行性无法验证"
+      ],
+      "score": 5,
+      "score_reason": "企业级 RAG 的模块划分有参考价值，但项目创建后即停止提交，且未提供可验证的评测，只能作为架构参考。",
+      "tags": [
+        "enterprise-search",
+        "rag",
+        "knowledge-work",
+        "typescript",
+        "ai-platform"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "Lumid-Off/AirCard-Windows",
+      "source": "github-trending",
+      "source_id": "Lumid-Off/AirCard-Windows",
+      "title": "AirCard-Windows",
+      "url": "https://github.com/Lumid-Off/AirCard-Windows",
+      "summary": "用 Rust 实现的 Windows 端 AirCard 工具，仓库未提供描述，功能推测与卡片/卡包皮肤的迁移或管理相关。该项目进入本周趋势榜主要靠 700+ stars，但与 AI/LLM/Agent 关联较弱。列出仅供追踪趋势，实际技术价值需查看仓库代码后再判断。",
+      "relevance_score": 0.46,
+      "score_breakdown": {
+        "tech_depth": 0.3,
+        "practical_value": 0.35,
+        "timeliness": 0.8,
+        "community_heat": 0.7,
+        "domain_match": 0.1
+      },
+      "tags": [
+        "rust",
+        "windows",
+        "utility",
+        "trending"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "v-modal/awesome-jev-tools",
+      "source": "github-trending",
+      "source_id": "v-modal/awesome-jev-tools",
+      "title": "awesome-jev-tools",
+      "url": "https://github.com/v-modal/awesome-jev-tools",
+      "summary": "Jev 生态工具合集，标签涉及机器人控制与仿真，指向类型化决策用于策略选择。",
+      "highlights": [
+        "主题标签覆盖 robotics、robotics-control、robotics-simulation，暗示 Jev 被试用于机器人策略选择",
+        "无语言标注、无自有代码，与同期多个 Jev 列表高度同质"
+      ],
+      "score": 3,
+      "score_reason": "纯链接列表且无语言/实现信息，收录质量待观察，当前几乎没有可直接使用的信息。",
+      "tags": [
+        "awesome-list",
+        "jev",
+        "robotics",
+        "model-routing",
+        "tooling"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "kerpopule/hermes-jev-skills",
+      "source": "github-trending",
+      "source_id": "kerpopule/hermes-jev-skills",
+      "title": "hermes-jev-skills",
+      "url": "https://github.com/kerpopule/hermes-jev-skills",
+      "summary": "把 Jev 决策模型接入 Hermes/Claude Code/Codex 的 9 个技能。",
+      "highlights": [
+        "9 个技能以通用 SKILL.md 分发，并给出实测数据：路由约 0.4s/轮、377 个技能选择约 2.8s、邮件分拣约 $0.00002/封",
+        "全部决策 fail-open，超时/低置信度即回退原行为；提供 shadow 模式先记录不切换，并实测否定自研方案",
+        "实测发现基于 Jev 摘要的 handoff 召回 58.7%，低于直接使用完整对话的 75.0%，因此默认不压缩上下文"
+      ],
+      "score": 8,
+      "score_reason": "有真实测量与失败结论、有隐私边界说明、可跨多个宿主直接安装，工程落地价值高；依赖 TypeSafe 云 API。",
+      "tags": [
+        "agent-framework",
+        "jev",
+        "model-routing",
+        "context-compaction",
+        "agent-skills"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+      "source": "github-trending",
+      "source_id": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+      "title": "ai-engineering-interview-questions-company-wise",
+      "url": "https://github.com/pallavi-shekhar/ai-engineering-interview-questions-company-wise",
+      "summary": "面向 AI 工程岗位面试的题库与答案速查表，按公司分类整理，主题覆盖 LLM 推理、RAG、微调等常见考点。内容为 Markdown，便于检索和背诵。对准备 AI/LLM 岗位面试的工程师是低成本的复习资料；技术深度有限，偏求职工具属性，与研发实践关联较弱。",
+      "relevance_score": 0.54,
+      "score_breakdown": {
+        "tech_depth": 0.3,
+        "practical_value": 0.5,
+        "timeliness": 0.8,
+        "community_heat": 0.65,
+        "domain_match": 0.6
+      },
+      "tags": [
+        "interview-prep",
+        "ai-engineering",
+        "llm",
+        "education"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "Mak5er/AirCard-iOS",
+      "source": "github-trending",
+      "source_id": "Mak5er/AirCard-iOS",
+      "title": "AirCard-iOS",
+      "url": "https://github.com/Mak5er/AirCard-iOS",
+      "summary": "iOS 上用于自定义 Apple Wallet 卡片皮肤与锁屏密码主题的工具，Swift 实现。与 AI/LLM/Agent 无直接关系，本周进入趋势榜主要因消费者个性化需求带来的关注度。列出仅为保持趋势完整性，分析与本情报主题关联度低。",
+      "relevance_score": 0.43,
+      "score_breakdown": {
+        "tech_depth": 0.25,
+        "practical_value": 0.35,
+        "timeliness": 0.8,
+        "community_heat": 0.65,
+        "domain_match": 0.05
+      },
+      "tags": [
+        "ios",
+        "swift",
+        "customization",
+        "trending"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "rmalde/minecraft-agent",
+      "source": "github-trending",
+      "source_id": "rmalde/minecraft-agent",
+      "title": "minecraft-agent",
+      "url": "https://github.com/rmalde/minecraft-agent",
+      "summary": "用 Astra 规划、JEV 选动作，8 分 43 秒在 Minecraft 击杀末影龙。",
+      "highlights": [
+        "完整速通实录：131 次 JEV 决策 + 35 次 Astra 调用，耗时 8 分 43 秒，较上一版 14 分 31 秒缩短约 40%",
+        "只读 Java 传感器上报龙头精确位置，不改游戏规则与实体状态，动作经标准玩家协议发送",
+        "床炸伤害经测试从 11 提升到 46（先瞄准再收紧窗口）；17 项 run 校验 + 8 项路线检查 + 29 个本地测试"
+      ],
+      "score": 7,
+      "score_reason": "规划-控制分层的具身 Agent 完整样例，证据链与校验机制扎实，可直接借鉴评测方法；依赖专有 GPT-6/JEV API 与本地 Minecraft 环境。",
+      "tags": [
+        "embodied-agent",
+        "minecraft",
+        "planning",
+        "agent-framework",
+        "javascript"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+      "source": "github-trending",
+      "source_id": "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+      "title": "OrcaBonsai-27B-Uncensored",
+      "url": "https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+      "summary": "对三值量化 Bonsai 2 27B 做运行时拒绝方向消融，权重保持 bit 级不变。",
+      "highlights": [
+        "不改权重、不重量化：在 129 个残差写入点执行 y←y−α(y·r)r，原三值包（约 1.72 bit/weight）保持 bit 级一致",
+        "实测 AdvBench 拒绝率 99%→6%、XSTest-safe 过度拒绝 5.2%→0.4%，MMLU +1.0 / GSM8K −1.3 在噪声范围内",
+        "同一编辑以 rank-1 LoRA（9.68MB）导出使 GGUF 保持字节不变；alpha 强度与生效层均可运行时调节"
+      ],
+      "score": 7,
+      "score_reason": "运行时行为干预思路清晰、自检与导出工具齐备，可迁移到低比特部署；但拒绝方向迁移效果未量化，且移除拒答存在明显合规风险。",
+      "tags": [
+        "quantization",
+        "llm-inference",
+        "behavior-control",
+        "lora",
+        "mlx"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "AbdelStark/awesome-typesafe-jev",
+      "source": "github-trending",
+      "source_id": "AbdelStark/awesome-typesafe-jev",
+      "title": "awesome-typesafe-jev",
+      "url": "https://github.com/AbdelStark/awesome-typesafe-jev",
+      "summary": "TypeSafe System One 模型资料汇编，含 SDK、在线演示与独立评测，来源可追溯。",
+      "highlights": [
+        "除链接外收录 SDK 与 live demo，并标注独立评测结果，相对普通列表更强调 source-backed",
+        "主题标签覆盖 semantic-routing、typed-decisions、model-evaluation，可作为术语索引",
+        "同期至少 5 个同主题 Jev 列表之一，内容重叠度高"
+      ],
+      "score": 4,
+      "score_reason": "比同批其他 Jev 列表稍完整（收纳 SDK 与评测），但仍属二手索引，无自有实验或代码。",
+      "tags": [
+        "awesome-list",
+        "jev",
+        "model-evaluation",
+        "semantic-routing",
+        "structured-output"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "wuyoscar/jev-skill",
+      "source": "github-trending",
+      "source_id": "wuyoscar/jev-skill",
+      "title": "jev-skill",
+      "url": "https://github.com/wuyoscar/jev-skill",
+      "summary": "收集 Jev 使用案例、工作流与 Agent 技能的仓库，偏可复用实践整理。",
+      "highlights": [
+        "以 use case 与 workflow 为主，展示 Jev 在具体 Agent 流程中的接入方式",
+        "Python 实现但未给出基准或评测，深度中等，可迁移性需结合场景判断"
+      ],
+      "score": 5,
+      "score_reason": "对已了解 Jev 的开发者可作为用例索引，但技术深度与可验证性一般，不构成独立技术贡献。",
+      "tags": [
+        "jev",
+        "agent-skills",
+        "workflows",
+        "python",
+        "use-cases"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "freestylefly/WeChatBridge",
+      "source": "github-trending",
+      "source_id": "freestylefly/WeChatBridge",
+      "title": "WeChatBridge",
+      "url": "https://github.com/freestylefly/WeChatBridge",
+      "summary": "macOS 原生工具，把微信聊天记录一键转发到 AI Agent 与 Obsidian。",
+      "highlights": [
+        "以系统 Share Extension 方式实现，无需读取微信数据库即可导出聊天记录",
+        "出口对接 AI Agent 与 Obsidian，便于把 IM 内容纳入 RAG 或第二大脑流程",
+        "Swift 原生实现，仅支持 macOS，功能范围较窄"
+      ],
+      "score": 6,
+      "score_reason": "解决「微信内容出不来」的具体痛点、安装即用，但平台单一、缺少数据清洗与隐私说明。",
+      "tags": [
+        "macos",
+        "wechat",
+        "obsidian",
+        "swift",
+        "ai-agent"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "cobanov/awesome-jev",
+      "source": "github-trending",
+      "source_id": "cobanov/awesome-jev",
+      "title": "awesome-jev",
+      "url": "https://github.com/cobanov/awesome-jev",
+      "summary": "Jev 生态 curated 列表，侧重置信度感知 AI、决策智能与 LLM 护栏。",
+      "highlights": [
+        "标签突出 confidence-aware-ai 与 llm-guardrails，可作为 Jev 在安全与路由方向的交叉索引",
+        "无自有实现或评测，内容与同期多个同主题列表高度重叠"
+      ],
+      "score": 3,
+      "score_reason": "纯链接聚合且与同批列表高度重复，未提供超出标签本身的增量信息。",
+      "tags": [
+        "awesome-list",
+        "jev",
+        "guardrails",
+        "model-routing",
+        "decision-intelligence"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "Rizzo-AI-Academy/rizzo-flow",
+      "source": "github-trending",
+      "source_id": "Rizzo-AI-Academy/rizzo-flow",
+      "title": "rizzo-flow",
+      "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
+      "summary": "本地优先的 Jev 兼容实现：llama.cpp 只读答案字母 logits，不生成 token。",
+      "highlights": [
+        "状态只 prefill 一次、各问题微批分支共享 KV cache，仅读答案字母 logits；RTX 5060 Ti Q8_0 下单次决策 p50 约 49ms",
+        "与 SemIf 在相同 fixtures 上配对比较为打平（差异落在噪声区间），并公开全部 logits、prompt 与权重哈希",
+        "内置温度校准并按权重/精度/运行时/后端指纹绑定；支持 noul/choice/score/numeric 及弃答策略"
+      ],
+      "score": 8,
+      "score_reason": "接口兼容加可复现基准、且承认自身局限，是少见的透明实现，本地部署可直接跑；但仅在 Windows+NVIDIA 单机验证，单问题上限 26 个选项。",
+      "tags": [
+        "jev",
+        "llama-cpp",
+        "local-first",
+        "llm-inference",
+        "structured-output"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "jev-chat/jev-chat-windows",
+      "source": "github-trending",
+      "source_id": "jev-chat/jev-chat-windows",
+      "title": "jev-chat-windows",
+      "url": "https://github.com/jev-chat/jev-chat-windows",
+      "summary": "Windows 微信回复辅助：截图加本地离线 OCR，Jev 判断后给 3 条候选回复。",
+      "highlights": [
+        "截图 + 离线 OCR + 本地判断全流程本地化，聊天内容不上云",
+        "仅填充候选回复，发送始终手动，规避自动发送风险",
+        "PyQt 桌面实现，依赖 Windows 4.x 微信客户端界面与固定窗口布局"
+      ],
+      "score": 5,
+      "score_reason": "本地优先与隐私设计值得借鉴，但截图/OCR 方案对客户端版本和界面变化脆弱，可维护性偏低。",
+      "tags": [
+        "wechat",
+        "ocr",
+        "local-first",
+        "pyqt",
+        "llm"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "jkudish/jev-mcp",
+      "source": "github-trending",
+      "source_id": "jkudish/jev-mcp",
+      "title": "jev-mcp",
+      "url": "https://github.com/jkudish/jev-mcp",
+      "summary": "把 Jev 模型封装成 MCP 工具，让支持 MCP 的 Agent 直接调用带类型的判断。",
+      "highlights": [
+        "以标准 MCP 接口暴露 Jev，Claude Code、Cursor 等宿主无需改造即可接入",
+        "把决策抽象为工具调用，适合路由、分类等高频低价值判断",
+        "JavaScript 实现，为薄封装，功能与上游 API 能力一致"
+      ],
+      "score": 6,
+      "score_reason": "接入方式最省事、可直接用于已有 MCP 生态，但功能单一、缺少评测与超时回退等生产化处理。",
+      "tags": [
+        "mcp",
+        "jev",
+        "tool-calling",
+        "javascript",
+        "agent-integration"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "Oldcircle/geo-sleuth",
+      "source": "github-trending",
+      "source_id": "Oldcircle/geo-sleuth",
+      "title": "geo-sleuth",
+      "url": "https://github.com/Oldcircle/geo-sleuth",
+      "summary": "Agent 技能：融合 OpenStreetMap 几何、天际线高程、卫星与街景推断照片拍摄地。",
+      "highlights": [
+        "多源证据融合（OSM 几何、高程天际线、卫星与街景），并输出可核查的推理过程",
+        "兼容 Claude Code、Codex、Cursor、Gemini CLI、OpenCode 与 GitHub Copilot 六种宿主",
+        "面向 OSINT 场景，topic 标注含 geoint、image-geolocation、reverse-image-search"
+      ],
+      "score": 6,
+      "score_reason": "多工具协同与可解释推理的清晰技能范例，可直接安装使用；应用场景垂直、泛化价值有限。",
+      "tags": [
+        "agent-skills",
+        "geolocation",
+        "osint",
+        "computer-vision",
+        "openstreetmap"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    },
+    {
+      "id": "49805509",
+      "source": "hackernews-top",
+      "source_id": "49805509",
+      "title": "GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "summary": "OpenAI 发布 GPT-6 的两个新版本 Sol 与 Luna（官方博文）。HN 上近 1500 分、近 700 条讨论，是本周关注度最高的事件之一：Sol 被定位为面向高难度推理与 Agent 场景的旗舰，Luna 则偏性价比。对开发者意味着需要重新评估模型选型、成本结构与评测基准，尤其是长程 Agent 与编码任务。",
+      "relevance_score": 0.93,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.9,
+        "timeliness": 1.0,
+        "community_heat": 1.0,
+        "domain_match": 0.95
+      },
+      "tags": [
+        "openai",
+        "gpt-6",
+        "foundation-model",
+        "llm",
+        "model-release"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "49803892",
+      "source": "hackernews-top",
+      "source_id": "49803892",
+      "title": "Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "summary": "Anthropic 发布 Claude Opus 5.5（官方页面），HN 上 1445 分、907 条评论，讨论热度甚至超过 GPT-6 消息。作为旗舰模型例行升级，关注点集中在推理、编码与长上下文能力，以及与企业级 Agent 工作流的结合。对正在做模型选型的团队，需要与 GPT-6 Sol/Luna 做同基准横评后再决定迁移。",
+      "relevance_score": 0.93,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.9,
+        "timeliness": 1.0,
+        "community_heat": 1.0,
+        "domain_match": 0.95
+      },
+      "tags": [
+        "anthropic",
+        "claude",
+        "foundation-model",
+        "llm",
+        "model-release"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "49801324",
+      "source": "hackernews-top",
+      "source_id": "49801324",
+      "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+      "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+      "summary": "报道称 OpenAI 的 GPT-6 Astra 破解了一条自 2005 年起无人解开的 Enigma 加密信息。消息在 HN 获得 600+ 分。其意义不在密码学突破本身（多半依赖已知明文/结构搜索），而在于展示大模型在考古式模式搜索与长期未解问题上的辅助价值，也引发对「AI 能力被夸大」的讨论，值得关注其方法论细节。",
+      "relevance_score": 0.71,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.85,
+        "domain_match": 0.8
+      },
+      "tags": [
+        "openai",
+        "gpt-6",
+        "reasoning",
+        "cryptanalysis",
+        "case-study"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "49804316",
+      "source": "hackernews-top",
+      "source_id": "49804316",
+      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+      "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "summary": "Artificial Analysis 对 Claude Opus 5.5 的独立评测，覆盖智能水平、性能与价格，Max 档位尤为关注。相比官方发布稿，这类第三方横评提供了可比较的基准数据与性价比曲线，适合做模型选型与成本预算的工程师参考，但需注意评测集与自身业务分布的差异。",
+      "relevance_score": 0.77,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.8,
+        "timeliness": 0.95,
+        "community_heat": 0.7,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "benchmark",
+        "claude",
+        "model-evaluation",
+        "pricing",
+        "llm"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "49806430",
+      "source": "hackernews-top",
+      "source_id": "49806430",
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "summary": "彭博报道称美国国防部承认，对 AI 的过度依赖是导致伊朗学校遭导弹袭击的因素之一。这是 AI 在高风险决策场景失效的严重现实案例，直接关系到自动化决策的问责、人机协同边界与「AI 建议不可质疑」的组织风险。对做 Agent 与决策系统的团队，是审视人类复核机制与失败模式的重要警示。",
+      "relevance_score": 0.63,
+      "score_breakdown": {
+        "tech_depth": 0.4,
+        "practical_value": 0.5,
+        "timeliness": 0.95,
+        "community_heat": 0.85,
+        "domain_match": 0.6
+      },
+      "tags": [
+        "ai-safety",
+        "governance",
+        "automation-bias",
+        "accountability",
+        "news"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "49805748",
+      "source": "hackernews-top",
+      "source_id": "49805748",
+      "title": "Unreal Agent",
+      "url": "https://unreallabs.ai/blog/unreal-agent/",
+      "summary": "Unreal Labs 关于 Unreal Agent 的官方博客，介绍其「异步优先」Agent harness 的设计动机与用法。相比 GitHub 仓库，博文更系统地阐述并发、任务编排与工具调用上的取舍，适合想理解 Go 生态 Agent 框架如何服务生产吞吐的作者视角，可与仓库对照阅读。",
+      "relevance_score": 0.73,
+      "score_breakdown": {
+        "tech_depth": 0.65,
+        "practical_value": 0.7,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "agent-framework",
+        "async",
+        "golang",
+        "agent-harness",
+        "blog"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "49794844",
+      "source": "hackernews-top",
+      "source_id": "49794844",
+      "title": "Delta: Highly available, strongly consistent storage using chain replication (2022)",
+      "url": "https://engineering.fb.com/2022/05/04/data-infrastructure/delta/",
+      "summary": "Meta 工程博客旧文（2022），介绍 Delta——基于链式复制（chain replication）实现高可用、强一致的对象存储，用于其内部存储基础设施。与 AI 无直接关系，但链式复制与一致性协议对构建大规模模型训练数据/特征存储仍有借鉴意义。因热度极低（22 分、1 评论），本条属于主题匹配产生的噪声条目。",
+      "relevance_score": 0.35,
+      "score_breakdown": {
+        "tech_depth": 0.65,
+        "practical_value": 0.35,
+        "timeliness": 0.2,
+        "community_heat": 0.15,
+        "domain_match": 0.15
+      },
+      "tags": [
+        "distributed-systems",
+        "storage",
+        "chain-replication",
+        "meta",
+        "infrastructure"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "49808816",
+      "source": "hackernews-top",
+      "source_id": "49808816",
+      "title": "The current balance of power in open models",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "summary": "Nathan Lambert 在 Interconnects 上分析当前开源模型的力量格局，梳理各实验室在开放权重上的位置、能力差距与商业化压力。对判断「该押注哪个开源模型、闭源与开源差距是否收敛」的团队是一份结构化的趋势判断，适合与具体评测数据结合阅读。",
+      "relevance_score": 0.67,
+      "score_breakdown": {
+        "tech_depth": 0.55,
+        "practical_value": 0.65,
+        "timeliness": 0.9,
+        "community_heat": 0.45,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "open-models",
+        "ecosystem",
+        "llm",
+        "trend-analysis",
+        "open-weights"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "49802161",
+      "source": "hackernews-top",
+      "source_id": "49802161",
+      "title": "OpenAI is well positioned to fast-follow Jev",
+      "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch/",
+      "summary": "Arcturus Labs 的博文，论证 OpenAI 有充分条件快速跟进 Jev 这类类型化决策模型。文章把 Jev 的「不生成 token、直接输出结构化决策」视为可能威胁现有推理 API 商业模式的路线，并分析 OpenAI 的数据、分发与工程优势。对关注决策层新范式与厂商竞争格局的读者有较高信息量。",
+      "relevance_score": 0.7,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.55,
+        "timeliness": 0.95,
+        "community_heat": 0.7,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "jev",
+        "typed-decisions",
+        "openai",
+        "competition",
+        "analysis"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "49800574",
+      "source": "hackernews-top",
+      "source_id": "49800574",
+      "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+      "url": "https://benchmarkheaven.com/jev-models",
+      "summary": "Show HN 项目 JevBench，为类型化决策模型提供可复现的基准测试。随着 Jev 类模型增多，缺乏统一评测标准成为生态瓶颈；该基准尝试用可复现流程衡量决策准确性与可靠性。对要比较不同决策模型、或自建决策层选型的团队有直接参考价值，需关注其任务覆盖与评测严谨性。",
+      "relevance_score": 0.71,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.7,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "benchmark",
+        "jev",
+        "typed-decisions",
+        "reproducibility",
+        "evaluation"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "49800566",
+      "source": "hackernews-top",
+      "source_id": "49800566",
+      "title": "Show HN: Training a model to identify AI web content from structure alone",
+      "url": "https://arxiv.org/abs/2609.15369",
+      "summary": "Show HN 展示的一项工作：仅基于网页结构（而非文本内容）训练模型识别 AI 生成内容。相比困惑度/水印等文本侧方法，结构特征更难被改写规避，为 AI 内容检测提供了新信号。对内容平台做反垃圾、反 AI 灌水有实用价值，也提示模型输出分布检测的技术边界。附带 arXiv 论文。",
+      "relevance_score": 0.64,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.6,
+        "timeliness": 0.85,
+        "community_heat": 0.45,
+        "domain_match": 0.7
+      },
+      "tags": [
+        "ai-detection",
+        "web-content",
+        "model-training",
+        "arxiv",
+        "classification"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "49804931",
+      "source": "hackernews-top",
+      "source_id": "49804931",
+      "title": "Launch HN: Coverage Cat (YC S22) – Umbrella insurance via your personal agent",
+      "url": "https://www.coveragecat.com/",
+      "summary": "YC S22 公司 Coverage Cat 的 Launch HN：用「个人 Agent」帮助用户选购伞式责任险（umbrella insurance）。展示了 Agent 在保险比价、表单填写等高频但低信任任务上的落地方式，也触及 Agent 代表用户签约的法律与合规问题。对关注垂直行业 Agent 商业化路径的读者有参考价值，技术深度有限。",
+      "relevance_score": 0.53,
+      "score_breakdown": {
+        "tech_depth": 0.35,
+        "practical_value": 0.5,
+        "timeliness": 0.85,
+        "community_heat": 0.4,
+        "domain_match": 0.6
+      },
+      "tags": [
+        "ai-agent",
+        "insurance",
+        "vertical-agent",
+        "startup",
+        "launch"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "49795260",
+      "source": "hackernews-top",
+      "source_id": "49795260",
+      "title": "Did OpenAI solve the wrong Navier-Stokes problem?",
+      "url": "https://www.scientificamerican.com/article/did-openai-solve-the-wrong-navier-stokes-problem/",
+      "summary": "《科学美国人》质疑 OpenAI 宣称解决的 Navier-Stokes 问题：文章分析其攻克的或许是一个在假设与边界条件上被简化、并非数学界真正关心的版本。这是「AI 解决重大科学难题」类新闻的典型祛魅，对评估大模型在基础科学中的真实贡献、避免被 PR 误导很有价值。",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.35,
+        "timeliness": 0.85,
+        "community_heat": 0.5,
+        "domain_match": 0.5
+      },
+      "tags": [
+        "openai",
+        "mathematics",
+        "scientific-claim",
+        "critique",
+        "research"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "49803085",
+      "source": "hackernews-top",
+      "source_id": "49803085",
+      "title": "Writing Rust code that's fast by asking agents to make the code faster",
+      "url": "https://minimaxir.com/2026/09/agentic-iteration/",
+      "summary": "博主 Max Woolf 的实践文章：让编码 Agent 帮忙把 Rust 代码优化得更快，记录用 Agent 迭代性能优化的流程与效果。相比「Agent 写新代码」，性能调优对反馈信号（benchmark）要求更严，文章展示了如何用基准驱动 Agent 迭代，对做代码生成与性能工程的开发者有直接借鉴意义。",
+      "relevance_score": 0.72,
+      "score_breakdown": {
+        "tech_depth": 0.65,
+        "practical_value": 0.75,
+        "timeliness": 0.9,
+        "community_heat": 0.5,
+        "domain_match": 0.8
+      },
+      "tags": [
+        "coding-agent",
+        "rust",
+        "performance-optimization",
+        "agentic-iteration",
+        "benchmark"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "49794193",
+      "source": "hackernews-top",
+      "source_id": "49794193",
+      "title": "Solitaire Alone Together",
+      "url": "https://solitairealonetogether.com/",
+      "summary": "一个叫 Solitaire Alone Together 的网页项目/作品，HN 上获得 138 分。从标题与站点看与 AI、LLM、Agent 无直接关联，应是主题关键词匹配或榜单噪声带入的非技术条目。列出仅为覆盖完整性，分析与本情报主题相关性低。",
+      "relevance_score": 0.28,
+      "score_breakdown": {
+        "tech_depth": 0.15,
+        "practical_value": 0.15,
+        "timeliness": 0.6,
+        "community_heat": 0.45,
+        "domain_match": 0.05
+      },
+      "tags": [
+        "web-app",
+        "game",
+        "non-technical",
+        "trending"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26780",
+      "source": "arxiv",
+      "source_id": "2609.26780",
+      "title": "SpeakerMem-R1: Speaker-Centered Dual-Track Memory for Multi-Party Dialogue",
+      "url": "https://arxiv.org/abs/2609.26780",
+      "summary": "面向多方对话的长期记忆系统 SpeakerMem-R1：双轨记忆同时存储带说话人标注的原始消息与派生状态，并按「个人视图 / 群组视图」组织，检索时按实体、事件与时间对齐两路证据。作者用 SpeakerLevenshtein 与说话人条件化的 GRPO 训练 Writer-R1，缓解消息归属与状态更新的错误。在 EverMemBench 公开榜上取得 62.33% 的最佳成绩，适合研究多说话人 Agent 记忆与关系理解的开发者。",
+      "relevance_score": 0.77,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.7,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.9
+      },
+      "tags": [
+        "long-term-memory",
+        "multi-party-dialogue",
+        "reinforcement-learning",
+        "llm",
+        "conversation"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26779",
+      "source": "arxiv",
+      "source_id": "2609.26779",
+      "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
+      "url": "https://arxiv.org/abs/2609.26779",
+      "summary": "针对长周期编码 Agent 的自动上下文压缩技术 CliffCompaction，在有限上下文窗口下把成本降低最多 50%，同时在 Terminal-Bench、KernelBench 上维持甚至提升表现。关键设计是压缩只做截断/丢弃、绝不改写原文，且每次压缩只作用于原始内容、丢弃旧压缩结果，从而避免上下文漂移累积。开源为与 scaffold 无关的 API 代理，可直接配合 Claude Code、Codex 使用。",
+      "relevance_score": 0.82,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.85,
+        "timeliness": 0.95,
+        "community_heat": 0.55,
+        "domain_match": 0.9
+      },
+      "tags": [
+        "context-compaction",
+        "coding-agent",
+        "test-time-scaling",
+        "long-horizon",
+        "llm-agent"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26777",
+      "source": "arxiv",
+      "source_id": "2609.26777",
+      "title": "SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving",
+      "url": "https://arxiv.org/abs/2609.26777",
+      "summary": "SWE-Serve 是一个评估 Agent 完成「生产级推理服务工程」任务的基准，53 个任务均取自 SGLang 近期真实生产改动，覆盖六类推理工程家族，需在 CPU 或单张 H100 上实现并接受隐藏功能/回归测试与性能门槛。评测 11 个模型 31 种配置，最佳配置 pass@1 仅 75%；在 19 个端到端任务上约三分之一能通过其他测试的补丁被服务级测试拒绝，量化了「本地跑通」与「生产正确」之间的差距。",
+      "relevance_score": 0.76,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.75,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.9
+      },
+      "tags": [
+        "benchmark",
+        "agentic-engineering",
+        "inference-serving",
+        "sglang",
+        "swe"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26761",
+      "source": "arxiv",
+      "source_id": "2609.26761",
+      "title": "A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem",
+      "url": "https://arxiv.org/abs/2609.26761",
+      "summary": "A2M 提出针对 MCP 生态的两阶段黑盒攻击框架：Attraction 阶段优化第三方服务器的工具元数据以提高被调用概率，Manipulation 阶段利用执行轨迹精修对抗性工具返回值，把 Agent 导向攻击者期望的结果。在 LiveMCPBench 上，直接攻击的恶意工具调用率达 93.6%，认知拒绝服务场景下 token 成本放大到基准的 32.4 倍。研究揭示 MCP 语义供应链风险，呼吁工具审查与运行时隔离。",
+      "relevance_score": 0.77,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.7,
+        "timeliness": 0.95,
+        "community_heat": 0.55,
+        "domain_match": 0.9
+      },
+      "tags": [
+        "mcp",
+        "ai-security",
+        "agent-hijacking",
+        "prompt-injection",
+        "supply-chain"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26760",
+      "source": "arxiv",
+      "source_id": "2609.26760",
+      "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
+      "url": "https://arxiv.org/abs/2609.26760",
+      "summary": "Growing Harness 提出「长大的是脚手架而非上下文」：让 Agent 把反复出现的控制决策固化为可复用代码，仅在需要语义推理时调用 LLM。方法从无策略脚手架出发，用函数级执行轨迹定位失败、联合修复、并以成功优先的留出集门控回滚。在 BrowseComp-Plus 与 WebArena-Verified 上，六个基准-模型组合中五个取得最佳，LLM 调用减少 76%–91.8%，部署推理成本降 74.4%–98.6%。",
+      "relevance_score": 0.79,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.75,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.9
+      },
+      "tags": [
+        "agent-harness",
+        "code-generation",
+        "self-improvement",
+        "tool-use",
+        "llm-agent"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26758",
+      "source": "arxiv",
+      "source_id": "2609.26758",
+      "title": "Type-Safe Is Not Error-Free: A Constrained Decision Head Follows the Option Name, Not the Rubric Bound to It",
+      "url": "https://arxiv.org/abs/2609.26758",
+      "summary": "研究指出「类型安全不等于判断正确」：类型化决策模型虽保证输出符合 schema，但选项名称本身会左右判断。作者只改变选项名与 rubric 的对应关系（0/1 改为 no/yes），在 1200 条带任务 rubric 的工作流决策上，答案翻转率增加 70.4/百，AUC 从 .94 跌至 .23，出现系统性排序反转；中性命名或随机字符串则恢复正常。结果提醒决策模型的评测必须控制命名极性。",
+      "relevance_score": 0.73,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.6,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "typed-decisions",
+        "jev",
+        "robustness",
+        "evaluation",
+        "llm"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26756",
+      "source": "arxiv",
+      "source_id": "2609.26756",
+      "title": "FleXray: Universal Clinical X-ray Segmentation",
+      "url": "https://arxiv.org/abs/2609.26756",
+      "summary": "FleXray 是全身体位临床 X 光解剖分割的通用模型。由于 X 光是 3D 到 2D 投影、结构重叠导致标注困难，作者改用「物理驱动的生成式数据引擎」：借助已有全身 CT 分割与图像编辑模型，合成带完整标注、外观与成像几何多样的 2D X 光。模型可分割 60 种解剖结构，支持疾病分级自动测量与 X 光引导介入导航，并开源模型、代码、数据集与浏览器工具。",
+      "relevance_score": 0.72,
+      "score_breakdown": {
+        "tech_depth": 0.75,
+        "practical_value": 0.7,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.55
+      },
+      "tags": [
+        "medical-imaging",
+        "segmentation",
+        "generative-data",
+        "x-ray",
+        "foundation-model"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26749",
+      "source": "arxiv",
+      "source_id": "2609.26749",
+      "title": "Metrics Failure in LLM-Based Code Vulnerability Repair: An Empirical Study and a Change-Aware Screen",
+      "url": "https://arxiv.org/abs/2609.26749",
+      "summary": "论文实证指出用「编译通过率」衡量 LLM 修复 C/C++ 漏洞是不可靠指标：在 Big-Vul 203 个漏洞函数、三个开源代码模型与三种提示策略的五组实验中，编译率对真正改善代码的干预几乎不敏感，约 64% 编译失败与模型无关，且仅切换一个编译标准 flag 就会使数值波动 1.8–2.7 倍并给模型排出相反顺序。作者提出只对编辑区域计分的 diff_F1 作为廉价初筛，呼吁采用变更感知、执行验证的评测。",
+      "relevance_score": 0.69,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.6,
+        "timeliness": 0.95,
+        "community_heat": 0.45,
+        "domain_match": 0.75
+      },
+      "tags": [
+        "code-repair",
+        "vulnerability",
+        "evaluation-metrics",
+        "llm",
+        "software-engineering"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26725",
+      "source": "arxiv",
+      "source_id": "2609.26725",
+      "title": "Does AI Save Time on Product Design? A Randomized Controlled Experiment of AI Prompt-to-Design Workflows",
+      "url": "https://arxiv.org/abs/2609.26725",
+      "summary": "一项随机对照实验：50 名产品设计师与 50 名产品经理分别在有/无 Figma Make 的条件下完成三项标准化设计任务。结果显示使用提示生成设计工具者完成时间约缩短 20%，产品经理获益更大，而专业设计师的收益依任务而异。该研究为「AI 提效」提供了少见的实验证据，适合关注 AI 工具在设计与协作流程中真实 ROI 的读者。",
+      "relevance_score": 0.56,
+      "score_breakdown": {
+        "tech_depth": 0.45,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.45,
+        "domain_match": 0.5
+      },
+      "tags": [
+        "human-computer-interaction",
+        "product-design",
+        "rct",
+        "llm-tools",
+        "figma"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26718",
+      "source": "arxiv",
+      "source_id": "2609.26718",
+      "title": "The Sirens' Song: When Proximal Background Context Overshadows Distant Evidence",
+      "url": "https://arxiv.org/abs/2609.26718",
+      "summary": "论文指出长上下文模型忽略远处证据的主因不只是距离，而是与大量无关近端背景竞争，称为「近端陷阱」（Proximity Trap）。为此提出 LYRA：用 t 分布方向匹配机制重塑上下文检索分布，把注意力质量更多导向任务相关证据，同时保留相对位置信息。在 LongBench-v2、RULER、LongBench 上跨长度与任务类别稳定提升，并发布 ProxBench 用于分级评测背景干扰下的远端证据利用。",
+      "relevance_score": 0.71,
+      "score_breakdown": {
+        "tech_depth": 0.75,
+        "practical_value": 0.6,
+        "timeliness": 0.95,
+        "community_heat": 0.45,
+        "domain_match": 0.8
+      },
+      "tags": [
+        "long-context",
+        "attention",
+        "rag",
+        "llm",
+        "benchmark"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26711",
+      "source": "arxiv",
+      "source_id": "2609.26711",
+      "title": "TraceVIC: Causal Reasoning over Code Evolution for Identifying Vulnerability-Inducing Commits",
+      "url": "https://arxiv.org/abs/2609.26711",
+      "summary": "TraceVIC 用时间图建模代码演化来定位「引入漏洞的提交」（VIC）。现有方法依赖 git blame 与位置启发式，假设真正的 VIC 就在修改链的起点或末端，而漏洞行为可能跨多个版本演化。TraceVIC 先定位根因行、追踪其历史，构建兼具单版本程序结构与跨版本演化对应关系的图，再按对漏洞条件的贡献排序候选提交。完整历史建模使 F2 从 0.637 升至 0.814，在四个未见 C/C++ 项目 79 个漏洞中命中 78 个。",
+      "relevance_score": 0.66,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.55,
+        "timeliness": 0.95,
+        "community_heat": 0.45,
+        "domain_match": 0.6
+      },
+      "tags": [
+        "software-security",
+        "vulnerability",
+        "temporal-graph",
+        "code-evolution",
+        "static-analysis"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26708",
+      "source": "arxiv",
+      "source_id": "2609.26708",
+      "title": "Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning",
+      "url": "https://arxiv.org/abs/2609.26708",
+      "summary": "量化感知蒸馏（QAD）能恢复低比特模型的短问短答能力，却让数学与代码等长推理严重退化，长生成常陷入重复循环。作者将其归因于「量化放大的曝光偏差」：QAD 在固定语料前缀上训练，而量化误差沿模型自身自回归轨迹累积。为此提出 on-policy 蒸馏阶段，让学生走部署时的量化前向路径、由冻结的全精度教师在自己的前缀上给反馈。在 2.79/1.88 有效比特下，MATH-500 保留率从 35% 升到 70%，HumanEval 从 66% 升到 91%。",
+      "relevance_score": 0.79,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.75,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "quantization",
+        "distillation",
+        "reasoning",
+        "on-policy",
+        "llm"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26704",
+      "source": "arxiv",
+      "source_id": "2609.26704",
+      "title": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning",
+      "url": "https://arxiv.org/abs/2609.26704",
+      "summary": "论文质疑「重复采样」作为主流测试时扩展策略：独立采样只能在解码噪声层面探索，产生大量近似重复解而非真正不同的思路。作者改为先采样问题相关的概念、提示或策略，再据其条件化生成答案，并用强化学习训练一个小型概念生成器，使其产出的概念最大化冻结大模型的答题成功率。在困难数学题上，该「搜索策略」显著提升 pass@k，超过更大未调优模型提供的概念，并可迁移到不同家族的答案模型。",
+      "relevance_score": 0.76,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.7,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "reasoning",
+        "test-time-compute",
+        "reinforcement-learning",
+        "search",
+        "llm"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26693",
+      "source": "arxiv",
+      "source_id": "2609.26693",
+      "title": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation",
+      "url": "https://arxiv.org/abs/2609.26693",
+      "summary": "论文揭示本地推理栈会污染工具调用评测结果：Ollama 的默认 tools= 请求按模型被静态模板开关门控，部分模型返回文本式调用、部分返回原生 tool_calls，Phi-3 与 Gemma-3 则在推理前被直接拒绝；由于拒绝与重试耗尽未被保留为结构化失败元数据，分析会误判为「模型不调用」而报出 0% 保真度。作者跨 Ollama、llama.cpp、vLLM、SGLang 验证差异，并给出把服务行为纳入评测协议的检查清单。",
+      "relevance_score": 0.73,
+      "score_breakdown": {
+        "tech_depth": 0.75,
+        "practical_value": 0.7,
+        "timeliness": 0.95,
+        "community_heat": 0.45,
+        "domain_match": 0.75
+      },
+      "tags": [
+        "tool-use",
+        "evaluation",
+        "inference-serving",
+        "ollama",
+        "llm"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26682",
+      "source": "arxiv",
+      "source_id": "2609.26682",
+      "title": "From Alignment to Access Control: A Framework for GenAI Policy Enforcement",
+      "url": "https://arxiv.org/abs/2609.26682",
+      "summary": "论文系统梳理生成式 AI 应用中的「策略（policy）」定义与执行乱象，指出不同实践者对 policy 的理解各异，导致安全机制碎片化、难以满足合规要求。作者提出一套方法论来剖析现有策略定义与执行方案，归纳其中的好、坏与糟粕，并给出面向社区的建议与行动呼吁。文章是 USENIX Security 2026 相关 Enigma 演讲的配套扩展，适合 AI 安全与合规从业者参考。",
+      "relevance_score": 0.58,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.6
+      },
+      "tags": [
+        "genai-security",
+        "policy-enforcement",
+        "governance",
+        "access-control",
+        "ai-safety"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26679",
+      "source": "arxiv",
+      "source_id": "2609.26679",
+      "title": "A Spectral Theory of Grokking: Weight Decay induces Feature Learning",
+      "url": "https://arxiv.org/abs/2609.26679",
+      "summary": "论文为 grokking（先记忆、后泛化的延迟泛化现象）提供定量理论：对采用平方损失与 L2 权重衰减的齐次网络，证明记忆完成后仍存在有限残差，且残差比重在对应较小 NTK 特征值的分量上更大。这些残差反过来驱动 NTK 演化，投影到任务相关谱方向后形成「残差驱动核增长」与权重衰减竞争的系统，预测 grokking 时标由学习率与权重衰减之积控制，并在模加法实验的 84×90 网络网格中得到验证。",
+      "relevance_score": 0.71,
+      "score_breakdown": {
+        "tech_depth": 0.85,
+        "practical_value": 0.5,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.8
+      },
+      "tags": [
+        "grokking",
+        "learning-theory",
+        "weight-decay",
+        "neural-tangent-kernel",
+        "theory"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26642",
+      "source": "arxiv",
+      "source_id": "2609.26642",
+      "title": "The Delegation Blind Spot: Auditing Product Decisions from Agent Choices",
+      "url": "https://arxiv.org/abs/2609.26642",
+      "summary": "论文指出「Agent 执行成功」不等于「用户会认可这次产品改进」，并提出针对具体决策的审计方法：把声明的观测通道与产品价值对比映射为相容区间与见证人群。作者在共享合成任务上对两个固定模型快照做 4800 次请求，36 个保守主区间全部无法判定，而一个确定性抽取器无需模型调用即解决九项比较中的七项，说明模型自报告会引入不必要的不确定性。适合做 Agent 效果度量与决策审计的团队。",
+      "relevance_score": 0.59,
+      "score_breakdown": {
+        "tech_depth": 0.55,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.6
+      },
+      "tags": [
+        "agent-evaluation",
+        "decision-theory",
+        "auditing",
+        "product-decisions",
+        "measurement"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26637",
+      "source": "arxiv",
+      "source_id": "2609.26637",
+      "title": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
+      "url": "https://arxiv.org/abs/2609.26637",
+      "summary": "论文通过注册自定义工具、借助标准 API 特性诱导闭源前沿模型外化中间推理，从而窥探其隐藏的思维链。作者先在开源模型上验证提取出的推理与原生 CoT 表现一致、且大幅优于无推理基线，再扩展到包括 GPT-6 Astra 在内的闭源模型；随后从 token 效率、推理步类型与推理树结构比较模型差异，发现 Astra 采取 token 高效的定向推理，更早锁定正确路径、仅外化关键步骤。为理解前沿模型推理提供了行为学视角。",
+      "relevance_score": 0.72,
+      "score_breakdown": {
+        "tech_depth": 0.75,
+        "practical_value": 0.6,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "chain-of-thought",
+        "reasoning",
+        "interpretability",
+        "frontier-models",
+        "gpt-6"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26621",
+      "source": "arxiv",
+      "source_id": "2609.26621",
+      "title": "Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference",
+      "url": "https://arxiv.org/abs/2609.26621",
+      "summary": "论文证明贪心解码并非精度不变：同一模型、提示与算法在 BF16 与 FP16 下会产生不同输出，在六个模型、三个基准上 49%–100% 的提示出现分歧，单个 token 翻转常级联成整条轨迹偏离。误差传播分析显示关键在 LM head 处 top-2 logit 间距相对扰动方向的大小。作者提出仅在间距低于阈值时用 FP32 重算 LM head 的低开销干预，在低批单流下提升 22–36 个百分点精确一致率，延迟开销低于 4%。",
+      "relevance_score": 0.71,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.6,
+        "timeliness": 0.95,
+        "community_heat": 0.45,
+        "domain_match": 0.75
+      },
+      "tags": [
+        "inference",
+        "numerical-precision",
+        "greedy-decoding",
+        "llm",
+        "reproducibility"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26603",
+      "source": "arxiv",
+      "source_id": "2609.26603",
+      "title": "Towards Hierarchical GNNs for multi-grid power flow: generalization across operating scenarios",
+      "url": "https://arxiv.org/abs/2609.26603",
+      "summary": "论文研究面向多电网潮流计算的分层 GNN，通过两个约简图在 GENCO 校正网络内交换信息以提升对新运行场景的泛化。在三种电网拓扑、每模型三个随机种子、200 轮训练下比较 Kron 传输、同锚点 Quotient 构造与扁平基线：Kron 将族平衡电压误差从 5.66 降到 0.85，相对扁平 GENCO 降低 85%、相对 Quotient 降低 31%。但模型尚不能在未见拓扑上胜过拟合基线，跨拓扑泛化仍是下一步目标。",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.65,
+        "practical_value": 0.4,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.3
+      },
+      "tags": [
+        "graph-neural-network",
+        "power-flow",
+        "generalization",
+        "hierarchical-modeling",
+        "energy"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26579",
+      "source": "arxiv",
+      "source_id": "2609.26579",
+      "title": "Receptiveness, Not Sycophancy: Distinguishing Engagement from Deference in Language Models",
+      "url": "https://arxiv.org/abs/2609.26579",
+      "summary": "论文指出「社交谄媚」评测存在构念效度问题：其判定标志（认同、积极）同时也是社会心理学中「对话接纳性」的特征。作者用道德建议数据集发现，被判为更谄媚的回答也更接纳，而人为提升人类回答的接纳性（保持结论不变）同样会被判为更谄媚。预注册实验显示参与者更偏好接纳性高的回答。作者提出一种在不增加实质让步的前提下提升接纳性的方法，说明接纳与独立判断可以兼得。",
+      "relevance_score": 0.62,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.45,
+        "domain_match": 0.7
+      },
+      "tags": [
+        "sycophancy",
+        "alignment",
+        "evaluation",
+        "construct-validity",
+        "llm"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26565",
+      "source": "arxiv",
+      "source_id": "2609.26565",
+      "title": "Quantum-Aided Active Device Detection in Energy-Harvesting Symbiotic Radio Networks",
+      "url": "https://arxiv.org/abs/2609.26565",
+      "summary": "论文针对能量收集共生无线电网络中的上行活跃设备检测（ADD）问题，提出基于码域非正交多址（NOMA）的系统：IoT 设备从环境上行信号取能并用低密度扩频码回散射。为降低 ADD 复杂度，采用 Grover 量子搜索算法，相比穷举最大似然获得二次方的查询复杂度下降；数值结果显示性能接近 ML 而搜索迭代大幅减少。与 AI/LLM 主题关联有限，属量子算法在网络优化中的应用。",
+      "relevance_score": 0.46,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.25,
+        "timeliness": 0.85,
+        "community_heat": 0.3,
+        "domain_match": 0.2
+      },
+      "tags": [
+        "quantum-computing",
+        "wireless-networks",
+        "noma",
+        "iot",
+        "signal-processing"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26562",
+      "source": "arxiv",
+      "source_id": "2609.26562",
+      "title": "The Disciplinary Language Transfer Problem: How Psychological Vocabulary Produces Governance Failures in AI Agent Deployment",
+      "url": "https://arxiv.org/abs/2609.26562",
+      "summary": "论文提出「学科语言迁移问题」：治理语境中描述 AI Agent 的词汇（学习、记忆、价值观、合规、身份、信任）借自心理学与组织科学，把整套「隐形语法」带入治理话语，使其对准一个在当前 AI 架构中并不存在的形而上学实体，导致部署、监督与问责系统性失效。作者识别六项嵌入西方心理学治理话语的认识论假设并追溯其哲学来源，产出可操作的「学科审计」六问与 37 条术语翻译表。",
+      "relevance_score": 0.53,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.45,
+        "timeliness": 0.85,
+        "community_heat": 0.35,
+        "domain_match": 0.5
+      },
+      "tags": [
+        "ai-governance",
+        "epistemology",
+        "agent-deployment",
+        "policy",
+        "language"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26556",
+      "source": "arxiv",
+      "source_id": "2609.26556",
+      "title": "Neutral-Atom-based Quantum Optimization for Resource Allocation in NOMA Networks",
+      "url": "https://arxiv.org/abs/2609.26556",
+      "summary": "论文探索用中性原子量子平台求解无线网络资源分配问题：把 NOMA 上行中的最大接入问题（联合准入控制、用户分簇、信道分配与功率分配）等价重构为图论中的最大独立集（MIS），从而可编码进 Rydberg 原子阵列的物理几何与阻塞约束中。数值结果验证了该方法的可行性，为大规模无线资源优化提供了量子计算路径。与 AI/LLM 核心领域关联较弱。",
+      "relevance_score": 0.46,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.25,
+        "timeliness": 0.85,
+        "community_heat": 0.3,
+        "domain_match": 0.2
+      },
+      "tags": [
+        "quantum-computing",
+        "resource-allocation",
+        "noma",
+        "optimization",
+        "wireless"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26550",
+      "source": "arxiv",
+      "source_id": "2609.26550",
+      "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+      "url": "https://arxiv.org/abs/2609.26550",
+      "summary": "论文研究用「只做决策」的 Jev 作为 LLM-as-a-judge 的经济型先筛：与十六个生成式与奖励模型裁判对比并经盲审人类裁决，Jev-judge 在常规偏好与证据支撑的事实性判断上与最强裁判差距不到 3 个百分点，费用仅为其 0.36%。差距主要出现在需要检查推导或抵抗精巧错误答案的场景，且集中在低置信度决策上。作者给出冻结级联：接受高置信判决、将不确定者升级给强裁判，可保留 99% 精度而降低成本。",
+      "relevance_score": 0.77,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.8,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.9
+      },
+      "tags": [
+        "llm-as-a-judge",
+        "jev",
+        "evaluation",
+        "cost-efficiency",
+        "cascade"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26547",
+      "source": "arxiv",
+      "source_id": "2609.26547",
+      "title": "Topology-Stratified Materials Discovery with A Flow-Based Generative Model",
+      "url": "https://arxiv.org/abs/2609.26547",
+      "summary": "UFO-MGen 是一个通用的基于流的生成模型，学习 Wyckoff 表示的拓扑特征以在巨大结构与化学空间中生成晶体。在严格的多稳定性评估框架下，它取得最高的晶体生成成功率、最高的 SUN（稳定/唯一/新颖）率，并展现出此前模型未报告的显著外推能力。作者还实现微调模块以支持属性约束的晶体生成，实现面向目标属性的逆向材料设计，可加速高性能材料发现。",
+      "relevance_score": 0.6,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.35
+      },
+      "tags": [
+        "materials-discovery",
+        "generative-model",
+        "flow-matching",
+        "crystal-structure",
+        "inverse-design"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26532",
+      "source": "arxiv",
+      "source_id": "2609.26532",
+      "title": "REFLEX with Jev for Efficient Selective Control in LLM Agents",
+      "url": "https://arxiv.org/abs/2609.26532",
+      "summary": "REFLEX 是一种 Agent 架构：用 Jev 作为快速类型化决策层处理有界决策，仅在置信度低或需要生成时调用强 LLM。在冻结的 100 任务基准上，REFLEX 达到 95% 成功率，同时相比纯强模型 Agent 减少 72.7% 的强模型调用，且该收益在三种回退家族下持续存在。受控实验显示可靠性取决于动作集规模与授权边界附近的近似合法选项；在 BFCL 与 τ 类评测中，当普通路由已很准时其优势有限。",
+      "relevance_score": 0.77,
+      "score_breakdown": {
+        "tech_depth": 0.75,
+        "practical_value": 0.75,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.9
+      },
+      "tags": [
+        "jev",
+        "selective-control",
+        "llm-agent",
+        "cost-efficiency",
+        "routing"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26527",
+      "source": "arxiv",
+      "source_id": "2609.26527",
+      "title": "A Semiotics-Aware Framework for Evaluating Fidelity and Coverage in Natural Language Generation",
+      "url": "https://arxiv.org/abs/2609.26527",
+      "summary": "论文提出评估文本间「符号学对齐」的框架：当两段文字描述同一表达时，基于词面重叠或整篇相似度的传统指标可能漏掉框定方式上的实质差异。该框架用「上下文意义 + 文本凸显的话语指称」构成符号学画像，并给出符号保真度与符号覆盖度两个分数，衡量一方画像被另一方支持的程度及回收程度。实验显示覆盖度通常低于保真度，且 LLM 与人工数据在低采样温度下对齐最好。",
+      "relevance_score": 0.57,
+      "score_breakdown": {
+        "tech_depth": 0.55,
+        "practical_value": 0.45,
+        "timeliness": 0.9,
+        "community_heat": 0.35,
+        "domain_match": 0.65
+      },
+      "tags": [
+        "nlg-evaluation",
+        "semiotics",
+        "text-generation",
+        "metrics",
+        "llm"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26512",
+      "source": "arxiv",
+      "source_id": "2609.26512",
+      "title": "Do Vision Model See Like the Brain? A Comparison Across EEG Encoding Model",
+      "url": "https://arxiv.org/abs/2609.26512",
+      "summary": "论文比较六种 CNN 与两种视觉 Transformer 与人类 EEG 响应的对应关系：对十名被试观看 200 张自然图像的逐层预测相关性进行分析，发现 CNN 在最早层对应最强、深层明显衰减，而 Transformer 在深层仍保持强对应。该优势取决于 token 表示，保留全部 patch token（CLIP-ViT r=0.640、DINOv2-ViT r=0.656）明显优于池化表示（r≈0.48–0.51）。对照实验表明是架构而非训练目标主导，提示 CNN 的分类瓶颈在深层压缩了与大脑相关的信息。",
+      "relevance_score": 0.59,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.4,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.55
+      },
+      "tags": [
+        "vision-transformer",
+        "eeg",
+        "neuroscience",
+        "cnn",
+        "interpretability"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26507",
+      "source": "arxiv",
+      "source_id": "2609.26507",
+      "title": "The Ethics of Artificial Intelligence in Military Operations",
+      "url": "https://arxiv.org/abs/2609.26507",
+      "summary": "论文讨论 AI 介入军事用武决策的伦理挑战，认为其核心是认识论问题：不只是自主武器是否可被允许开火，而是当关键职能被委托给不透明算法时，负责任的人类判断还能否存活。作者指出责任在设计师、操作者与政策制定者之间扩散，而国际人道法预设的判断能力恰是当前 AI 所欠缺的。为此提出以具名问责角色、未公开基准的对抗性审计、分级部署门槛与北约评测标准为核心的治理框架。",
+      "relevance_score": 0.54,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.4,
+        "timeliness": 0.9,
+        "community_heat": 0.45,
+        "domain_match": 0.5
+      },
+      "tags": [
+        "ai-ethics",
+        "military-ai",
+        "governance",
+        "autonomous-weapons",
+        "accountability"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26796",
+      "source": "arxiv",
+      "source_id": "2609.26796",
+      "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+      "url": "https://arxiv.org/abs/2609.26796",
+      "summary": "Flash-dLLM 是面向扩散大语言模型（dLLM）的免训练推理加速框架。作者指出在同时启用 KV 缓存与并行 token 验证时，GPU 显存 I/O 成为主要瓶颈，于是设计 I/O 感知的融合 KV 缓存内核减少冗余显存搬运，并提出 KV 缓存驱动的「草稿-验证」解码：dLLM 自身同时充当草稿器与验证器，无需辅助模型。在 GSM8K 与 HumanEval 上相比最强基线 Elastic-Cache 分别加速 5.1 倍与 11.0 倍。",
+      "relevance_score": 0.77,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.75,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.8
+      },
+      "tags": [
+        "diffusion-llm",
+        "kv-cache",
+        "inference-acceleration",
+        "parallel-decoding",
+        "efficiency"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26781",
+      "source": "arxiv",
+      "source_id": "2609.26781",
+      "title": "Agensh: Scaling Organizational Intelligence to 1,024 Agents",
+      "url": "https://arxiv.org/abs/2609.26781",
+      "summary": "Agensh 是无需中心编排者的可扩展自组织多 Agent 框架：并发 worker 执行「收集上下文—认领并自指派子任务—行动并共享发现—验证—异步合并」的协作循环，由共享工作区、消息接口与共享上下文三部分支撑。在 ProgramBench 五个最难任务上，把 Agent 数从 1 扩到 128 使平均测试通过率从 19.31% 升至 28.78%；在 pandoc 上从 1 扩到 1024 个 Agent 后通过率从 33.89% 升至 55.06%，显示「Agent 数量」可作为新的扩展维度。",
+      "relevance_score": 0.77,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.7,
+        "timeliness": 0.95,
+        "community_heat": 0.55,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "multi-agent",
+        "self-organization",
+        "scaling",
+        "agent-harness",
+        "orchestration"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26687",
+      "source": "arxiv",
+      "source_id": "2609.26687",
+      "title": "Detecting GPT-Assisted Writing Using Interpretable Stylometric Features",
+      "url": "https://arxiv.org/abs/2609.26687",
+      "summary": "论文评估仅凭提交文本、可解释的文体计量特征来区分学生独立写作与 ChatGPT 辅助写作的能力。数据来自 90 名参与者分别独立写作与借助 ChatGPT 写作，验证时保持同一参与者的样本不跨集。留出测试集上随机森林达到 ROC-AUC 0.87、F1 0.84，假阳性率 22.2%、假阴性率 11.1%；SHAP 分析显示词汇与语法特征主导预测。说明透明、文本内在的特征对检测 GPT 辅助写作有可测信号。",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.45,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.35,
+        "domain_match": 0.55
+      },
+      "tags": [
+        "ai-text-detection",
+        "stylometry",
+        "education",
+        "machine-learning",
+        "gpt"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26658",
+      "source": "arxiv",
+      "source_id": "2609.26658",
+      "title": "Discovery-Driven Integration of Disjoint Tables via Text",
+      "url": "https://arxiv.org/abs/2609.26658",
+      "summary": "论文研究「发现驱动的数据集成」：在数据湖中，语义相关但缺少显式连接属性的离散表需要先被发现、再补全关系结构，而非结构化文本正是连接它们的证据。作者把任务形式化为「文本中介的连接路径发现」，提出双向交叉注意力架构 LOKI，通过全局表-文本对比目标让行与句的细粒度关联自发涌现，无需局部标注。方法把隐式关联转成可解释连接路径并物化为带句子级溯源的类型化表，宏观类型对精度 0.982，LLM API 成本最高低 40 倍。",
+      "relevance_score": 0.66,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.6,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.6
+      },
+      "tags": [
+        "data-integration",
+        "text-mediated-join",
+        "contrastive-learning",
+        "data-lakes",
+        "nlp"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26638",
+      "source": "arxiv",
+      "source_id": "2609.26638",
+      "title": "Diffusion Drafts, AR Verifies: Accelerating Document OCR with Self-Speculative Decoding",
+      "url": "https://arxiv.org/abs/2609.26638",
+      "summary": "GravityOCR 提出「扩散起草、自回归验证」的自推测解码，加速文档 OCR。自回归 OCR 模型精确但每 token 需一次串行解码，而扩散并行生成在同一轮预测多个 token 时彼此未知、直接提交易引入错误。GravityOCR 用参数共享的 AR-块扩散模型联合训练并行起草与因果验证，验证通过才提交多 token，并支持用序列与结构级奖励做 GRPO。部署中每次前向平均提交 9.7 个 token，区域裁剪解码加速 3.94 倍，端到端页面处理加速 1.32 倍。",
+      "relevance_score": 0.74,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.7,
+        "timeliness": 0.95,
+        "community_heat": 0.45,
+        "domain_match": 0.7
+      },
+      "tags": [
+        "ocr",
+        "speculative-decoding",
+        "diffusion",
+        "document-ai",
+        "efficiency"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26634",
+      "source": "arxiv",
+      "source_id": "2609.26634",
+      "title": "Knowledge Pull Requests for Continual Document Authoring",
+      "url": "https://arxiv.org/abs/2609.26634",
+      "summary": "论文提出「知识拉取请求」（KPR），让持续文档撰写中的每次修改都可解释：面对新知识从其他来源、语言或时间浮现，现有做法要么无差别编辑、要么整篇重写。KPR 先抽取新知识中的断言、过滤并路由到章节、标记与现有内容的冲突，产出 ChangeLog 把「知识变了什么」（断言提案）与「文本怎么变」（文档 diff）分开。在跨语言维基修订与 RAGTIME 报告更新上，它比重写或重生成整合更多信息、更好保留既有内容。",
+      "relevance_score": 0.68,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.65,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.7
+      },
+      "tags": [
+        "document-authoring",
+        "rag",
+        "continual-learning",
+        "knowledge-integration",
+        "llm"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26629",
+      "source": "arxiv",
+      "source_id": "2609.26629",
+      "title": "PERSONAWEAVER: Controllable Diversity Beyond Conventional Archetypes in Procedural Character Generation",
+      "url": "https://arxiv.org/abs/2609.26629",
+      "summary": "论文指出基于 LLM 的程序化角色生成存在行为同质化：直接生成或从 persona 库检索都会产出高度认同正向道德规范、回答像助手一样的角色。为此提出 PersonaWeaver，把「世界构建」与「行为规格」解耦，用人工策划的多样化道德立场库与对话反应库来建模行为，从而测试 LLM 能多大程度脱离默认行为模式。在十种写实/奇幻设定与三个 LLM 上，它比先前方法产生更宽泛的道德与互动响应分布，并让语言、长度与情感更多样。",
+      "relevance_score": 0.61,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.65
+      },
+      "tags": [
+        "persona-generation",
+        "diversity",
+        "llm",
+        "procedural-generation",
+        "character-ai"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26610",
+      "source": "arxiv",
+      "source_id": "2609.26610",
+      "title": "Semantic Abstraction for Natural Language Inference: a Methodological Framework for Discovering and Compensating Semantic Knowledge and Reasoning Gaps in Large Language Models",
+      "url": "https://arxiv.org/abs/2609.26610",
+      "summary": "论文关注 LLM 在自然语言推理（NLI）中的语义抽象短板。作者提出一套方法论框架，在「语义相容/不相容」的概念下构造更高抽象层的新语义知识，把前提与假设之间的词汇-语义关系重新配置，形成能诱发不同推理路径的灵活语义网络，使模型对同一响应趋于一致。实验显示该方法能发现并补偿 LLM 在 NLI 上的语义知识缺口，部分模型准确率提升超过 10%，尤其改善非蕴含类别，说明模型需要的是结构化知识而非更多数据。",
+      "relevance_score": 0.58,
+      "score_breakdown": {
+        "tech_depth": 0.55,
+        "practical_value": 0.45,
+        "timeliness": 0.9,
+        "community_heat": 0.35,
+        "domain_match": 0.7
+      },
+      "tags": [
+        "natural-language-inference",
+        "semantic-reasoning",
+        "knowledge-gap",
+        "llm",
+        "interpretability"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26539",
+      "source": "arxiv",
+      "source_id": "2609.26539",
+      "title": "A retrospective analysis on the use of LLMs to study infant syntax learning",
+      "url": "https://arxiv.org/abs/2609.26539",
+      "summary": "论文对使用 LLM 研究婴儿句法习得这一研究纲领做认识论回顾，聚焦 BabyLM 挑战：用发展上更贴近婴儿的语料训练模型，使其在句法任务上达到人类水平。作者梳理数据集如何构建、选用哪些模型、如何训练与句法评测，指出 BabyLM 及相关研究在方法论上存在显著假设，削弱了其理论解释力；并观察到使用发展真实性语料对常见基准表现影响有限，提示 LLM 与婴儿句法学习者在计算机制上存在重要差异。",
+      "relevance_score": 0.49,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.3,
+        "timeliness": 0.85,
+        "community_heat": 0.35,
+        "domain_match": 0.5
+      },
+      "tags": [
+        "babylm",
+        "language-acquisition",
+        "syntax",
+        "epistemology",
+        "llm"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26536",
+      "source": "arxiv",
+      "source_id": "2609.26536",
+      "title": "Transcribe, Translate, and Optimize: Joint Reward Learning for Speech Translation",
+      "url": "https://arxiv.org/abs/2609.26536",
+      "summary": "论文针对基于 LLM 的语音翻译中「转录式思维链」的训练-推理失配：SFT 使用参考转录，而推理时输入的是模型自己生成的转录。作者提出用 GRPO 联合微调识别与翻译，对转录与译文分别打分、翻译以模型生成的转录为条件，并比较三种 token 优势策略。在 Qwen2.5-Omni-3B、四种语言、CoVoST 2 与 FLEURS 上，CoT GRPO 相比 Direct ST GRPO 平均提升 1.77/0.83 BLEU，相比 CoT SFT 降低词错误率 8.8%/7.2%。",
+      "relevance_score": 0.67,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.6,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.7
+      },
+      "tags": [
+        "speech-translation",
+        "grpo",
+        "reinforcement-learning",
+        "chain-of-thought",
+        "asr"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26489",
+      "source": "arxiv",
+      "source_id": "2609.26489",
+      "title": "Calibration as a First-Class Criterion in LLM Evaluation",
+      "url": "https://arxiv.org/abs/2609.26489",
+      "summary": "论文主张把「校准」（模型置信度与经验正确率的一致性）提升为 LLM 评测的一等标准。作者指出问题不在方法缺失，而在采用不足：NLP 研究常引入新模型、数据集与基准却不检查置信度是否有意义，这既会在部署中因过度自信造成实际危害，也会污染 LLM-as-a-judge、合成数据生成与主动学习等依赖置信度的研究环节。由于标准校准指标只需「置信度分数 + 正确性判断」两个输入，多数基准已具备，可立即报告；开放式生成仍是开放难题。",
+      "relevance_score": 0.67,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.65,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.8
+      },
+      "tags": [
+        "calibration",
+        "evaluation",
+        "llm",
+        "trustworthiness",
+        "llm-as-a-judge"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26488",
+      "source": "arxiv",
+      "source_id": "2609.26488",
+      "title": "Spoken Language Models that Think Aloud",
+      "url": "https://arxiv.org/abs/2609.26488",
+      "summary": "论文提出面向推理型语音语言模型（SLM）的「异步自言自语」框架。直接把思维链套用到 SLM 会在「先想后说」的串行范式下产生长时间静默，破坏实时语音交互。作者在 Thinker-Talker 架构中维护主推理流与轻量自言自语流：后者据用户输入与推理状态生成简短、任务相关的进展语句，再用动态平衡策略在运行时协调两流，避免静默空档并在最终答案就绪时取消待说语句。在语音推理与问答基准上显著减少可听静默且保持准确率。",
+      "relevance_score": 0.7,
+      "score_breakdown": {
+        "tech_depth": 0.75,
+        "practical_value": 0.65,
+        "timeliness": 0.95,
+        "community_heat": 0.4,
+        "domain_match": 0.7
+      },
+      "tags": [
+        "spoken-language-model",
+        "chain-of-thought",
+        "real-time",
+        "thinker-talker",
+        "speech"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26481",
+      "source": "arxiv",
+      "source_id": "2609.26481",
+      "title": "Behavior is Not Enough: A Mechanism-Based Evaluation of Social Norm Emergence in LLM Societies",
+      "url": "https://arxiv.org/abs/2609.26481",
+      "summary": "论文指出「仅凭行为无法识别社会规范」：同一合作均衡可能来自共同期望、策略激励或单纯模仿，而现有多 Agent LLM 研究多把行为趋同当作规范涌现的证据。作者提出同时测量 Agent 报告的「经验期望」与「规范期望」的评测框架，通过受控消融隔离「互动中的社会学习」与「基于网络分组的社择」两种机制，并在四个 LLM 家族下测试对抗扰动的稳定性。结果显示期望诱导提升合作贡献，社会学习稳定行为，社会选择能识别合作者但强化作用有限。",
+      "relevance_score": 0.62,
+      "score_breakdown": {
+        "tech_depth": 0.65,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.7
+      },
+      "tags": [
+        "multi-agent",
+        "social-norms",
+        "evaluation",
+        "cooperation",
+        "llm-societies"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26468",
+      "source": "arxiv",
+      "source_id": "2609.26468",
+      "title": "How to Estimate Whether You Have Found Several Needles in a Haystack: Measuring Calibration in Multi-Label Text Classification",
+      "url": "https://arxiv.org/abs/2609.26468",
+      "summary": "论文关注多标签分类中的置信度校准这一被忽视的问题：医疗编码、新闻主题等任务通常被大量负标签主导，而现有分箱方案计算逐标签期望校准误差时，要么低估误差、要么只是反映标签频率、要么出现大量样本极少的箱子。作者提出对正负标签分配等权重的新分箱方案，在层级与极端多标签分类上给出有意义的校准误差估计，并指出为 LLM 的多标签预测校准置信度仍是开放挑战。",
+      "relevance_score": 0.57,
+      "score_breakdown": {
+        "tech_depth": 0.55,
+        "practical_value": 0.45,
+        "timeliness": 0.9,
+        "community_heat": 0.35,
+        "domain_match": 0.6
+      },
+      "tags": [
+        "calibration",
+        "multi-label-classification",
+        "evaluation",
+        "uncertainty",
+        "llm"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26422",
+      "source": "arxiv",
+      "source_id": "2609.26422",
+      "title": "Enriching Speech Emotion Representations with Conversational Context",
+      "url": "https://arxiv.org/abs/2609.26422",
+      "summary": "论文提出 ACERT，为语音情感识别（SER）引入会话上下文。多数研究只在话语级别预测情感，忽略对话上下文及其承载的情感流动与说话人互动。ACERT 通过整合可变长度的会话上下文窗口以更好地刻画语音互动中的情感演化。作者在情感表达风格与场景各异的数据集上验证鲁棒性：在 IEMOCAP 上超过当前 SOTA，在 SAFE 上建立首个上下文感知基准，在 MELD 的非加权、类平衡指标上表现强劲；消融显示收益来自情感与会话连续性而非说话人身份或声学条件。",
+      "relevance_score": 0.59,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.35,
+        "domain_match": 0.6
+      },
+      "tags": [
+        "speech-emotion-recognition",
+        "context-modeling",
+        "conversation",
+        "affective-computing",
+        "speech"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26399",
+      "source": "arxiv",
+      "source_id": "2609.26399",
+      "title": "Combining Hierarchical Cognitive Process with Process Supervision for Interpretable Scene Safety Understanding",
+      "url": "https://arxiv.org/abs/2609.26399",
+      "summary": "论文研究可解释的场景安全理解：传统方法直接学习场景到安全等级的映射，缺乏可解释性，难以用于关键领域。作者先构建分层认知安全结构，据此开发基于多步推理、带过程标签的高质量场景安全数据集，既作基准也用于提升 LLM 的安全推理能力，并借助信息流与显著性技术细粒度分析中间步骤。随后提出模块化的过程监督框架，以 LLM 为核心，结合 LoRA 与 MoE 让各专家模块负责推理链的特定子过程，实验显示其可解释性与性能均优于传统方法。",
+      "relevance_score": 0.6,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.35,
+        "domain_match": 0.65
+      },
+      "tags": [
+        "process-supervision",
+        "interpretability",
+        "scene-understanding",
+        "moe",
+        "llm"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26388",
+      "source": "arxiv",
+      "source_id": "2609.26388",
+      "title": "On the Lexical Superstition of Large Language Models for Code Comprehension: Re-evaluation on Code of Low Lexical Quality",
+      "url": "https://arxiv.org/abs/2609.26388",
+      "summary": "论文研究 LLM 在代码理解中的「词汇迷信」：在保持程序结构不变的前提下重命名标识符，检验模型是否给了词法线索过大权重。作者提出语义保持的标识符重命名框架 Face/Off，在多个模型与代码理解任务上做渐进命名条件实验，发现词法过度依赖普遍存在：移除或误导标识符信息后性能普遍下降，输出常被误导性命名引向错误含义，且提示与微调干预都难以消除。类型推断对照显示，当答案可局部推导时命名效应变小。",
+      "relevance_score": 0.66,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.55,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.75
+      },
+      "tags": [
+        "code-comprehension",
+        "llm",
+        "robustness",
+        "identifier-naming",
+        "software-engineering"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26381",
+      "source": "arxiv",
+      "source_id": "2609.26381",
+      "title": "Layout-Guided Masking for GROBID: Lightweight Structural Gains in Large-Scale Scientific PDF Ingestion",
+      "url": "https://arxiv.org/abs/2609.26381",
+      "summary": "论文为 GROBID（CPU 上运行的模块化字体流 PDF 解析器、大型开放学术语料的事实标准）增加轻量布局引导掩码：用 CPU 检测器定位图表与页眉页脚页码等版文区域，编码为类型化区域掩码，把 token 路由到 GROBID 的专用模型或直接丢弃。在两个 PMC 语料上多数结构指标提升，表检测 F1 从 0.16 升到 0.94、表结构 GriTS-Top 从 0.27 升到 0.78；正文段落精度最优，端到端 CPU 成本比最便宜 GPU 方案低 2.7–3.2 倍。",
+      "relevance_score": 0.61,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.6,
+        "timeliness": 0.9,
+        "community_heat": 0.35,
+        "domain_match": 0.5
+      },
+      "tags": [
+        "pdf-parsing",
+        "grobid",
+        "document-processing",
+        "scholarly-data",
+        "efficiency"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26368",
+      "source": "arxiv",
+      "source_id": "2609.26368",
+      "title": "HySparse2: Hybrid Sparse Attention with Two-Level KV Sharing",
+      "url": "https://arxiv.org/abs/2609.26368",
+      "summary": "HySparse2 是带两级 KV 共享的混合稀疏注意力架构，面向长时程、多轮 Agent 场景的预填充效率、KV 缓存紧凑性与长上下文检索精度。外层 KV Bridging 采用 YOCO 式自解码器-交叉解码器结构但只桥接全注意力层，自解码器用混合滑窗注意力、交叉解码器用混合稀疏注意力；内层把块级稀疏改为 token 级以提升细粒度检索，并把近期 token 滑窗强制纳入稀疏选择。在 80B-A3B MoE 上长上下文检索与多轮 Agent 任务优于 HySparse，预填充算力与 KV 存储显著下降。",
+      "relevance_score": 0.75,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.7,
+        "timeliness": 0.95,
+        "community_heat": 0.45,
+        "domain_match": 0.8
+      },
+      "tags": [
+        "sparse-attention",
+        "kv-cache",
+        "long-context",
+        "inference-efficiency",
+        "moe"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26347",
+      "source": "arxiv",
+      "source_id": "2609.26347",
+      "title": "TransBERT: A Framework for Synthetic Translation in Domain-Specific Language Modeling",
+      "url": "https://arxiv.org/abs/2609.26347",
+      "summary": "论文提出 TransBERT 框架，完全使用合成翻译文本预训练语言模型，并发布可扩展翻译工具包 TransCorpus。以法国生命科学领域为例，作者证明仅靠合成翻译数据即可在下游任务上达到 SOTA 表现。团队开源 TransCorpus 工具、TransCorpus-bio-fr 语料（36.4GB 法语生命科学文本）、TransBERT-bio-fr 预训练模型及可复现的训练/微调代码，说明在高资源翻译方向上做合成翻译是构建低资源语言/领域 NLP 资源的可行路径。",
+      "relevance_score": 0.58,
+      "score_breakdown": {
+        "tech_depth": 0.55,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.35,
+        "domain_match": 0.55
+      },
+      "tags": [
+        "synthetic-data",
+        "domain-adaptation",
+        "pretraining",
+        "multilingual",
+        "life-sciences"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26346",
+      "source": "arxiv",
+      "source_id": "2609.26346",
+      "title": "Blaming Across the Aisle: Political Contrasting and Blame Attribution in the Danish Parliament",
+      "url": "https://arxiv.org/abs/2609.26346",
+      "summary": "论文研究丹麦议会 1997–2026 年的责任归咎话语，结合自建分类器 BlameBERT（F1 0.80）与多层统计建模。分类器用面向低-中资源语言的标注高效流程构建。结果显示归咎呈「香蕉形」轨迹：约 2016 年前下降，2019–2026 年显著持续上升；执政地位稳定影响归咎（称为「政治对照」），反对党归咎明显多于执政党，且该效应受意识形态调节。近年政治翼与意识形态极端性的交互增强，提示话语严苛化在右翼尤为集中。",
+      "relevance_score": 0.49,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.35,
+        "timeliness": 0.85,
+        "community_heat": 0.3,
+        "domain_match": 0.45
+      },
+      "tags": [
+        "political-nlp",
+        "classifier",
+        "danish",
+        "blame-attribution",
+        "computational-social-science"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26338",
+      "source": "arxiv",
+      "source_id": "2609.26338",
+      "title": "Designing and Analysing Argument Mining Pipelines: Towards a Comprehensive Assessment",
+      "url": "https://arxiv.org/abs/2609.26338",
+      "summary": "论文是一项关于论辩挖掘（AM）流水线的元研究：AM 通过一系列任务把自然语言转换为底层论证结构，但不同方法对这些任务的概念化各不相同，导致难以直接比较。作者系统回顾若干 SOTA 端到端 AM 工作，用「语言学、计算、领域」三视角框架分析其流水线如何建模、计算论证结构并整合领域知识，进而提出面向语言与计算视角的通用设计。工作为 AM 方法提供以方法论为中心的描述基础，便于后续更系统的比较。",
+      "relevance_score": 0.51,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.4,
+        "timeliness": 0.85,
+        "community_heat": 0.3,
+        "domain_match": 0.5
+      },
+      "tags": [
+        "argument-mining",
+        "pipeline",
+        "nlp",
+        "meta-study",
+        "evaluation"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26306",
+      "source": "arxiv",
+      "source_id": "2609.26306",
+      "title": "CHiME-9 ECHI: A Machine Learning Challenge for Enhancing Conversations to Address Hearing Impairment",
+      "url": "https://arxiv.org/abs/2609.26306",
+      "summary": "论文介绍 CHiME-9 ECHI 挑战的任务与结果，目标是改善听障人士的对话体验：场景为嘈杂自助餐厅中四人对话，含干扰语音与音效，参与者拿到 Meta Aria 眼镜与助听器麦克风录音以及对话者的干净语音样本，任务是从含噪多通道录音中抽取对话伙伴的语音。论文回顾七支队伍的提交并按主观可懂度与质量综合排序。结果显示客观指标并不反映听者表现，但顶级系统在可懂度与质量上较基线有实质提升。",
+      "relevance_score": 0.51,
+      "score_breakdown": {
+        "tech_depth": 0.55,
+        "practical_value": 0.4,
+        "timeliness": 0.85,
+        "community_heat": 0.35,
+        "domain_match": 0.3
+      },
+      "tags": [
+        "speech-enhancement",
+        "hearing-impairment",
+        "challenge",
+        "multi-channel",
+        "audio"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26048",
+      "source": "arxiv",
+      "source_id": "2609.26048",
+      "title": "FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents",
+      "url": "https://arxiv.org/abs/2609.26048",
+      "summary": "FIRE 研究 Agent 的运行时策略：在不改模型权重与用户提示的前提下，由 harness 在此前出现失败的状态上施加针对性自然语言指令与动作拒绝。在 Terminal-Bench 2.1 全 87 任务、每任务两次尝试下，策略使三个 GPT-5.6 档位的重复成功率（pass^2）分别从 50.6% 升至 54.0%、55.2% 升至 60.9%、64.4% 升至 73.6%；Sol 最优两次成功率仅变 1.2 点而重复成功率升 9.2 点，说明策略主要把「可达解」转化为稳定交付。随机五臂实验进一步隔离机制。",
+      "relevance_score": 0.8,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.8,
+        "timeliness": 0.95,
+        "community_heat": 0.5,
+        "domain_match": 0.9
+      },
+      "tags": [
+        "agent-reliability",
+        "runtime-policy",
+        "terminal-bench",
+        "llm-agent",
+        "reliability"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26783",
+      "source": "arxiv",
+      "source_id": "2609.26783",
+      "title": "A Decentralized Partially Observable Team Decision Methodology with Delayed Information Sharing",
+      "url": "https://arxiv.org/abs/2609.26783",
+      "summary": "论文研究带低秩隐动态与未知系统模型的去中心化部分可观测团队决策：结合团队理论等价性与低秩模型表示，在未知转移模型的情况下处理部分可观测马尔可夫决策过程中的合作决策。每个成员仅依据本地私有信息与团队间延迟共享的公共信息，学习近似低秩 MDP 并用最小二乘值迭代计算策略，得到既不需中心协调者也不需集中训练的全去中心化学习与规划算法。作者证明各成员解逼近集中式团队最优策略，并给出有限样本性能与样本复杂度界。",
+      "relevance_score": 0.51,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.35,
+        "timeliness": 0.85,
+        "community_heat": 0.3,
+        "domain_match": 0.4
+      },
+      "tags": [
+        "multi-agent",
+        "pomdp",
+        "decentralized-learning",
+        "reinforcement-learning",
+        "theory"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26751",
+      "source": "arxiv",
+      "source_id": "2609.26751",
+      "title": "EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations",
+      "url": "https://arxiv.org/abs/2609.26751",
+      "summary": "论文发布 EquivSVA，一个经形式验证的行为断言数据集，按「行为族」组织：每族含四个结构不同但外部可观测行为等价的 RTL 实现、共享接口级金标准属性、三个受控变异体与形式验证证据。数据集涵盖 12 类 120 个行为族、480 个参考实现、914 条金标准属性与 360 个变异体，每族通过固定的 17 项验证套件。作者用 Qwen2.5-Coder-7B-Instruct 在留出测试集上演示：293 条仅接口属性中 93 条形式健全，且 24 个测试族中 14 个的健全属性数随等价实现而变化。",
+      "relevance_score": 0.58,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.5,
+        "timeliness": 0.9,
+        "community_heat": 0.35,
+        "domain_match": 0.5
+      },
+      "tags": [
+        "systemverilog",
+        "assertion-generation",
+        "dataset",
+        "formal-verification",
+        "llm"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26748",
+      "source": "arxiv",
+      "source_id": "2609.26748",
+      "title": "Automatic depth-based local center clustering via β-integrated local depth and adaptive grouping",
+      "url": "https://arxiv.org/abs/2609.26748",
+      "summary": "论文提出自动基于深度的局部中心聚类（A-DLCC），一种完全数据驱动、无需数值调参的聚类方法：用 β-积分局部深度识别在多个局部层级上持续居于中心、被称为「局部中心」的稳定样本并按代表性排序。每个局部中心诱导一个相似点群，群间相似度由提出的非参数「群级局部相似度」度量。为引导合并，作者引入图论中的瓶颈路径思想构造自适应合并准则：群被更易到达的邻居吸收，或与双向更可达的邻居结合，且合并须强于配置模型零假设预期，从而自动估计簇数并决定何时停止。",
+      "relevance_score": 0.49,
+      "score_breakdown": {
+        "tech_depth": 0.5,
+        "practical_value": 0.4,
+        "timeliness": 0.85,
+        "community_heat": 0.25,
+        "domain_match": 0.4
+      },
+      "tags": [
+        "clustering",
+        "unsupervised-learning",
+        "depth-statistics",
+        "parameter-free",
+        "machine-learning"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26737",
+      "source": "arxiv",
+      "source_id": "2609.26737",
+      "title": "Diffusion-Induced Spatial Attention Overlapping Community Detection",
+      "url": "https://arxiv.org/abs/2609.26737",
+      "summary": "论文提出 DISCO，用于重叠社区检测的深度学习框架：结合影响力扩散动力学导出的结构先验、稀疏多头注意力与非负社区归属学习。结构先验可识别直接邻居之外的候选交互，并据结构邻近性偏置注意力，缓解局部消息传递的过度平滑；Bernoulli-Poisson 边重建目标支持仅用节点属性、仅用结构画像或两者兼用进行重叠社区推断。基准实验显示其与成熟的图卷积、图注意力方法竞争力相当。作者还给出网络安全概念验证：用连续网络快照间社区归属变化作为可解释的异常信号。",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.45,
+        "timeliness": 0.9,
+        "community_heat": 0.3,
+        "domain_match": 0.4
+      },
+      "tags": [
+        "graph-neural-network",
+        "community-detection",
+        "attention",
+        "anomaly-detection",
+        "cybersecurity"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26707",
+      "source": "arxiv",
+      "source_id": "2609.26707",
+      "title": "Optimal Sequential Annotations for Off-Policy Evaluation",
+      "url": "https://arxiv.org/abs/2609.26707",
+      "summary": "论文研究离线强化学习与离策略评估中的标注预算分配：近期 AI 应用中状态与奖励以复杂文本或图像记录，可用 LLM-as-a-judge 廉价标注但存在未知偏差，专家标注更准但更贵。作者展示如何用有限真值标注预算，结合带缺失奖励的双重稳健 OPE，为序列式评估优化方差最优的标注概率，并给出可行的批自适应实现。在无家可归者服务组织的个案记录与 LMArena 人类偏好数据上，RMSE 分别降低 34–65% 与 17–68%。",
+      "relevance_score": 0.56,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.5,
+        "timeliness": 0.85,
+        "community_heat": 0.3,
+        "domain_match": 0.4
+      },
+      "tags": [
+        "off-policy-evaluation",
+        "reinforcement-learning",
+        "annotation",
+        "doubly-robust",
+        "llm-as-a-judge"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26705",
+      "source": "arxiv",
+      "source_id": "2609.26705",
+      "title": "When are bosonic Gaussian states classical to learn?",
+      "url": "https://arxiv.org/abs/2609.26705",
+      "summary": "论文从学习理论视角追问「玻色高斯态何时是经典可学的」：若 n 模玻色高斯态能用与学习经典 2n 元高斯分布相同数量的样本、同样简单的操作学出，才算经典可学。作者证明可学性存在由热涨落决定的平滑过渡：接近真空协方差的「冷态」非经典可学，单拷贝层析需 Ω(n³) 拷贝，超过经典 Θ(n²)；热涨落超过真空噪声的「温态」则可用简单非自适应非纠缠外差测量达到 Θ(n²)。",
+      "relevance_score": 0.47,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.2,
+        "timeliness": 0.85,
+        "community_heat": 0.3,
+        "domain_match": 0.15
+      },
+      "tags": [
+        "quantum-computing",
+        "learning-theory",
+        "sample-complexity",
+        "tomography",
+        "physics"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26683",
+      "source": "arxiv",
+      "source_id": "2609.26683",
+      "title": "PROSWIN: Probabilistic Solar Wind Speed Forecasting Using Deep Distributional Regression From Solar Images",
+      "url": "https://arxiv.org/abs/2609.26683",
+      "summary": "论文提出 PROSWIN，用太阳图像与磁图预测地球处每小时太阳风速、提前四天，采用深度神经网络结合分布回归以给出概率化预测。因为标准误差指标低估高速太阳风（HSS）峰值的重要性，作者提出同时奖励时间线与峰值准确度的「prediction score」模型选择指标。在 14 年数据上预测不确定性校准良好（平均偏差 <1%），时间线 CRPS 41.0 km/s、HSS 峰值 CRPS 45.3 km/s；相比文献模型，它是唯一在时间线与峰值上同时准确的。方法可迁移到其他预测问题。",
+      "relevance_score": 0.48,
+      "score_breakdown": {
+        "tech_depth": 0.55,
+        "practical_value": 0.35,
+        "timeliness": 0.85,
+        "community_heat": 0.3,
+        "domain_match": 0.25
+      },
+      "tags": [
+        "solar-wind",
+        "probabilistic-forecasting",
+        "distributional-regression",
+        "deep-learning",
+        "space-weather"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26667",
+      "source": "arxiv",
+      "source_id": "2609.26667",
+      "title": "MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.26667",
+      "summary": "MAGIC 研究 LLM 多 Agent 系统的协作拓扑，指出代表性拓扑生成器往往整组织统一使用单个 Agent 或预定义小组，忽略了不同子任务对协作粒度的差异化需求。其核心洞见是按功能角色局部选择粒度，在同一组织内兼顾细粒度控制与可复用协作模式。方法把拓扑构建形式化为序列决策：依次选角色、实例化为单 Agent 或可复用小组、连接到已有单元，并用基于势能的奖励塑形提供中间反馈。在八个基准上优于 SOTA 基线，效率研究显示推理开销较低。",
+      "relevance_score": 0.72,
+      "score_breakdown": {
+        "tech_depth": 0.75,
+        "practical_value": 0.65,
+        "timeliness": 0.95,
+        "community_heat": 0.45,
+        "domain_match": 0.8
+      },
+      "tags": [
+        "multi-agent",
+        "collaboration-topology",
+        "reinforcement-learning",
+        "agent-graph",
+        "dense-reward"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26647",
+      "source": "arxiv",
+      "source_id": "2609.26647",
+      "title": "Statistical Rates for Entropic Optimal Transport in the Discrete to SubGaussian Regime",
+      "url": "https://arxiv.org/abs/2609.26647",
+      "summary": "论文研究熵最优传输在半离散（一方有限支撑、另一方 subGaussian）情形下的统计速率，证明经验对偶势到总体对偶势的收敛速率在首项上不含维度依赖，方法依赖半对偶目标的强凹性分析与半离散势的专门界。由此得到下游量的快速率：经验重心投影达到 n^{-1} 的平方误差率，优于全 subGaussian 情形已知的 n^{-1/2}，提示统计复杂度由离散测度决定。作者还分析 Sinkhorn-EM，在良设定平衡的两成分高斯混合中证明迭代的 √n 一致性。",
+      "relevance_score": 0.52,
+      "score_breakdown": {
+        "tech_depth": 0.65,
+        "practical_value": 0.35,
+        "timeliness": 0.85,
+        "community_heat": 0.3,
+        "domain_match": 0.35
+      },
+      "tags": [
+        "optimal-transport",
+        "statistical-theory",
+        "convergence-rates",
+        "em-algorithm",
+        "machine-learning"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26631",
+      "source": "arxiv",
+      "source_id": "2609.26631",
+      "title": "Label-Efficient Learning for Ground-Based Sky-Image Classification: A Benchmark of Transfer Learning, Active Learning, and Pseudo-Labeling on GCD",
+      "url": "https://arxiv.org/abs/2609.26631",
+      "summary": "论文在 Ground-based Cloud Dataset 上评测地面云图分类的标注效率，不比新架构而比较三种实用策略：监督迁移学习、基于不确定性的主动学习与高置信伪标注，以 ImageNet 预训练 ResNet50 为冻结骨干、五个随机种子、1%–100% 标注预算。结果显示监督迁移学习已十分高效：1% 标注时准确率 0.635，40% 时 0.730，接近全标注的 0.735；主动学习与伪标注仅带来小幅且不一致的提升。诊断表明被接受的伪标签可靠（0.946–0.977）但偏向易分组，不确定性采样则偏向难分组但收益有限。",
+      "relevance_score": 0.47,
+      "score_breakdown": {
+        "tech_depth": 0.45,
+        "practical_value": 0.4,
+        "timeliness": 0.85,
+        "community_heat": 0.25,
+        "domain_match": 0.3
+      },
+      "tags": [
+        "transfer-learning",
+        "active-learning",
+        "semi-supervised",
+        "image-classification",
+        "benchmark"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26624",
+      "source": "arxiv",
+      "source_id": "2609.26624",
+      "title": "On Basis Function Selection for Sparse Gaussian Process Regression",
+      "url": "https://arxiv.org/abs/2609.26624",
+      "summary": "论文指出稀疏高斯过程虽以固定基展开实现 O(N) 推理，实践中却习惯直接把基截断到前 M 项，而形式化上完全可以只挑选对当前数据真正重要的 M 个基函数，以免预算浪费在无信号处，但需要候选排序准则。作者从信息论视角提出三种准则，分别对应选择时「无数据」「无先验」与「两者之间」三种知识状态，并在六个 UCI 回归基准与 HSGP、VFF、VISH 三个基族上比较截断与选择策略：无数据准则可作为安全默认，对 VISH 收益显著；数据感知准则在 HSGP 上提升明显。",
+      "relevance_score": 0.53,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.45,
+        "timeliness": 0.85,
+        "community_heat": 0.25,
+        "domain_match": 0.4
+      },
+      "tags": [
+        "gaussian-process",
+        "sparse-approximation",
+        "basis-selection",
+        "regression",
+        "kernel-methods"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26617",
+      "source": "arxiv",
+      "source_id": "2609.26617",
+      "title": "MMAP: Multimodal Missing-Aware Pretraining for Longitudinal Alzheimer's Prediction",
+      "url": "https://arxiv.org/abs/2609.26617",
+      "summary": "论文提出 MMAP，一种面向缺失数据的多模态对齐预训练方法，用于从不完整的图像-表格数据中学习表征。临床数据的模态缺失与表格不完整严重制约预测模型，而仅靠疾病标签的监督信号对高维多模态数据又太弱。MMAP 用高效 sigmoid 对比学习结合生成式重建预训练图像编码器，表格编码器基于表格基础模型，并以缺失 token 生成器让两个编码器接受不完整输入，从而对图像或表格缺失都具鲁棒性。在阿尔茨海默病的阶段转化与淀粉样蛋白状态两个纵向任务上优于强基线。",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.5,
+        "timeliness": 0.85,
+        "community_heat": 0.3,
+        "domain_match": 0.3
+      },
+      "tags": [
+        "multimodal",
+        "missing-data",
+        "medical-ai",
+        "contrastive-learning",
+        "alzheimers"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26605",
+      "source": "arxiv",
+      "source_id": "2609.26605",
+      "title": "Foundation model embeddings capture pre-diagnostic changes on screening mammograms",
+      "url": "https://arxiv.org/abs/2609.26605",
+      "summary": "论文研究筛检乳腺 X 光的基础模型嵌入是否无需任务特定适配即可编码诊断前的组织变化：比较活检为癌、活检阴性女性与匹配的筛查阴性对照，观察嵌入沿「癌症方向」移动的速度，并检验其是否依赖预训练领域。研究纳入 1773 名活检女性与 1773 名匹配对照，每人均有至少两次年度筛查。相同流程应用于四个 2D 模型，结果发现方向性嵌入速度是「临床相关预训练」而非通用生物医学预训练的性质，提示基础模型嵌入可不经微调编码诊断前的乳腺影像变化。",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.5,
+        "timeliness": 0.85,
+        "community_heat": 0.3,
+        "domain_match": 0.35
+      },
+      "tags": [
+        "medical-imaging",
+        "foundation-model",
+        "mammography",
+        "embeddings",
+        "early-detection"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26598",
+      "source": "arxiv",
+      "source_id": "2609.26598",
+      "title": "Unlocking Cross-Scenario Physical Layer Security: A Mixture-of-Experts Framework with Generative Diffusion Models",
+      "url": "https://arxiv.org/abs/2609.26598",
+      "summary": "论文提出面向 6G 跨场景物理层安全的自适应学习框架：以混合专家（MoE）架构实现安全传输波束成形。作者先选少量代表性场景，为每类建立基于生成式扩散模型（GDM）的专家，其扩散过程学习安全策略解空间的整体概率分布，Transformer 去噪提升跨配置泛化；再用轻量门控网络根据信道特征识别场景并选择最相关专家，最后由基于注意力的组合器综合高分专家的安全提案以覆盖未见场景。仿真显示可识别场景、正确选专家并在连续场景上维持近最优保密速率。",
+      "relevance_score": 0.52,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.4,
+        "timeliness": 0.85,
+        "community_heat": 0.3,
+        "domain_match": 0.3
+      },
+      "tags": [
+        "mixture-of-experts",
+        "diffusion-model",
+        "physical-layer-security",
+        "6g",
+        "wireless"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26590",
+      "source": "arxiv",
+      "source_id": "2609.26590",
+      "title": "GTR: Gated Token Recurrence for Efficient Dense Prediction",
+      "url": "https://arxiv.org/abs/2609.26590",
+      "summary": "GTR（Gated Token Recurrence）是一种无 softmax 的循环视觉骨干，针对自注意力在分辨率升高时二次复杂度的问题，结合门控线性注意力、交替空间扫描方向与空间增强的 SwiGLU 模块。它以检测专用的 DINOv3 为教师，仅用最后一层 patch token 对齐（线性投影 + 平方 L2 损失）蒸馏，无需掩码预测或中间层监督。GTR-L 在 COCO val2017 上达 58.9 box AP，4090 上批次一编译 FP16 中位延迟 1.908ms，专用 CUDA 算子比 FLA v0.5.0 快 4 倍，也可迁移到分割、姿态与深度估计。",
+      "relevance_score": 0.63,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.55,
+        "timeliness": 0.9,
+        "community_heat": 0.4,
+        "domain_match": 0.5
+      },
+      "tags": [
+        "vision-backbone",
+        "linear-attention",
+        "recurrence",
+        "dense-prediction",
+        "efficiency"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26581",
+      "source": "arxiv",
+      "source_id": "2609.26581",
+      "title": "Polyak-Type Extragradient Methods for Monotone Root-Finding Problems",
+      "url": "https://arxiv.org/abs/2609.26581",
+      "summary": "论文研究求解确定性与随机单调寻根问题的 Polyak 型步长外推梯度法，证明确定性外推梯度的投影式修正可由「最小化到解的距离上界」导出，与经典 Polyak 步长构造平行。基于此给出统一确定性分析，依赖控制算子沿外推方向变化的局部临界条件，无需全局 Lipschitz 连续，即可在同一框架下覆盖 Hölder 连续等更广条件下的次线性收敛与强单调下的线性收敛。作者还证明直接随机变体 PolyakSEG 需各分量算子共享解，否则可能不收敛，并提出 DecPolyakSEG 结合递减步长恢复收敛。",
+      "relevance_score": 0.5,
+      "score_breakdown": {
+        "tech_depth": 0.65,
+        "practical_value": 0.3,
+        "timeliness": 0.85,
+        "community_heat": 0.25,
+        "domain_match": 0.35
+      },
+      "tags": [
+        "optimization",
+        "extragradient",
+        "step-size",
+        "monotone-operators",
+        "theory"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26537",
+      "source": "arxiv",
+      "source_id": "2609.26537",
+      "title": "Notes on Fourier-Bessel wavelets",
+      "url": "https://arxiv.org/abs/2609.26537",
+      "summary": "论文系统发展了一类 Fourier-Bessel 小波族的数学基础与构造，灵感来自 Shaqfa 等人的圆盘调和函数。作者先给出 Bessel 与修正 Bessel 函数的性质及构造所需的小波属性，再由 Helmholtz 方程在单位圆盘上的 Neumann 边值解导出 Fourier-Bessel 圆盘调和函数；在此基础上施加高斯空间包络并对零角阶做零均值修正构造小波族，推导 L2 归一化常数并讨论频域峰值一致性所需的 L1 归一化，最后给出闭式频域表示。动机是相邻径向特征值近似线性间隔并收敛到 π。",
+      "relevance_score": 0.43,
+      "score_breakdown": {
+        "tech_depth": 0.55,
+        "practical_value": 0.25,
+        "timeliness": 0.8,
+        "community_heat": 0.2,
+        "domain_match": 0.25
+      },
+      "tags": [
+        "wavelets",
+        "mathematics",
+        "frequency-analysis",
+        "signal-processing",
+        "theory"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26508",
+      "source": "arxiv",
+      "source_id": "2609.26508",
+      "title": "Gap-Free Streaming PCA Beyond Rank-One Updates: Near-Optimal Rates and Applications to Differential Privacy",
+      "url": "https://arxiv.org/abs/2609.26508",
+      "summary": "论文对 Oja 算法在最一般的「无间隙」流式主成分分析场景（不对均值矩阵作特征间隙假设）给出新分析，并配以近似匹配的下界。此前达到近优速率的工作或需间隙假设，或局限于秩一更新；本文证明只需对单个随机更新的二阶矩界，避免了先前近优分析所需的几乎必然界与离线矩阵 Bernstein 界，并把结果扩展到 Rayleigh 商形式的近似 PCA，回答了 [JJK+16] 的开放问题。作为主要应用，给出 subGaussian 数据下无间隙的差分隐私 PCA 保证。",
+      "relevance_score": 0.54,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.35,
+        "timeliness": 0.85,
+        "community_heat": 0.3,
+        "domain_match": 0.4
+      },
+      "tags": [
+        "streaming-pca",
+        "differential-privacy",
+        "optimization",
+        "matrix-analysis",
+        "theory"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26502",
+      "source": "arxiv",
+      "source_id": "2609.26502",
+      "title": "Deep Generative Crystal Structure Prediction: A Benchmark Study and a Controlled Test of Prototype Dependence",
+      "url": "https://arxiv.org/abs/2609.26502",
+      "summary": "论文系统评测 12 个代表性生成式晶体结构预测模型，横跨潜变量、扩散、流匹配、自回归与流形随机游走等架构，与模板方法 TCSP 2.0 在 180 个测试结构及 46 个泄漏受控子集上比较，统一结构匹配、对称性与共识标准。结果显示模板检索最强（top-1 68.3%），EquiCSP 66.4%、Uni-3DAR 62.9% 次之；生成模型正确预测的结构大多也能被模板替换得到，独特可达集很小。移除整个化学计量原型族后最强模型精度下降 50–78%，说明当前生成式 CSP 更像隐式软原型库。",
+      "relevance_score": 0.56,
+      "score_breakdown": {
+        "tech_depth": 0.65,
+        "practical_value": 0.45,
+        "timeliness": 0.9,
+        "community_heat": 0.35,
+        "domain_match": 0.3
+      },
+      "tags": [
+        "crystal-structure-prediction",
+        "generative-model",
+        "benchmark",
+        "materials",
+        "prototype-dependence"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26487",
+      "source": "arxiv",
+      "source_id": "2609.26487",
+      "title": "When Recursive Models Finish Computing",
+      "url": "https://arxiv.org/abs/2609.26487",
+      "summary": "论文研究递归模型在名义推理预算之外继续更新隐状态的动态，以回答「输出错误是计算未完成还是已陷入持续失败」。在 1000 个困难数独上，把注意力型与 MLP 型 Tiny Recursive Model 的递归步数从 16 扩到 512，累计精确解出率分别从 59.2% 升至 87.5%、74.4% 升至 91.9%，解决了名义预算下三分之二以上的未解题。两种架构在首次精确解出后隐状态运动都急剧下降，完成态沿轨迹方向局部收缩，称为「轨迹条件各向异性稳定」。",
+      "relevance_score": 0.6,
+      "score_breakdown": {
+        "tech_depth": 0.75,
+        "practical_value": 0.4,
+        "timeliness": 0.9,
+        "community_heat": 0.35,
+        "domain_match": 0.55
+      },
+      "tags": [
+        "recursive-models",
+        "latent-reasoning",
+        "dynamics",
+        "sudoku",
+        "interpretability"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "2609.26474",
+      "source": "arxiv",
+      "source_id": "2609.26474",
+      "title": "PP-Net: A Hybrid Physical-Prior Neural Network for Scattered Light Removal in Biomedical Images on Embedded Devices",
+      "url": "https://arxiv.org/abs/2609.26474",
+      "summary": "论文提出 PP-Net，一种用于生物医学图像散射光去除的混合物理先验神经网络：DFN-Net 抑制传感器噪声，ASAP 估计散射图并恢复基于物理的先验图，GF-Net 将先验图与去噪观测融合精修；为减少对配对真值的依赖，采用渐进式合成训练与跨域迁移策略。在配对的合成基准上物理先验分支最多提升 PSNR 1.26 dB，在噪声与散射联合退化下较代表性基线提升 PSNR 超过 10.8 dB、SSIM 超过 0.62，真实图像 NIQE 平均下降 43.3%。经 RKNN 转换与 INT8 量化，512×512 图像边缘推理约 200ms。",
+      "relevance_score": 0.47,
+      "score_breakdown": {
+        "tech_depth": 0.55,
+        "practical_value": 0.35,
+        "timeliness": 0.85,
+        "community_heat": 0.25,
+        "domain_match": 0.2
+      },
+      "tags": [
+        "image-restoration",
+        "physical-prior",
+        "medical-imaging",
+        "edge-computing",
+        "quantization"
+      ],
+      "analyzed_at": "2026-09-23T07:45:00Z"
+    },
+    {
+      "id": "ekzhang/openjev-sglang",
+      "source": "github-trending",
+      "source_id": "ekzhang/openjev-sglang",
+      "title": "openjev-sglang",
+      "url": "https://github.com/ekzhang/openjev-sglang",
+      "summary": "用 SGLang 跑 Qwen3.6-35B，以 prefill-only 复现 Jev 接口。",
+      "highlights": [
+        "每个问题以 max_new_tokens=1 只读答案标签 logprob，N 个问题共 N+1 次单 token 调用，无自回归生成",
+        "SGLang 0.5.19 Rust 前端 + radix 缓存 + breakable prefill CUDA graphs，单容器一张 B200，支持 Modal 缩容到零",
+        "64 个答案标签在启动时用真实 tokenizer 校验为单 token（A–Z 及 AA、AB…），覆盖 noul/choice/score"
+      ],
+      "score": 7,
+      "score_reason": "工程细节完整、可自部署，prefill-only 路径明确，适合作为自建决策服务参考；依赖单卡 B200、适用场景偏窄。",
+      "tags": [
+        "jev",
+        "sglang",
+        "structured-generation",
+        "llm-inference",
+        "prefill-only"
+      ],
+      "analyzed_at": "2026-09-23T09:00:00Z"
+    }
+  ],
+  "trends": {
+    "common_themes": [
+      "Jev / TypeSafe System One「类型化决策模型」生态集中爆发：18 条中 11 条与之相关，含 5 个同主题 awesome 列表",
+      "Agent harness 独立成品类（ZCode、unreal-agent），共同强调工具调用、Session 持久化与并发调度",
+      "决策层下沉：把路由、分类、护栏等高频小决策交给小模型或单次前向，减少大模型调用与成本",
+      "本地优先与隐私保护：本地 OCR、llama.cpp 本地推理、聊天内容不上云",
+      "agent-skills / SKILL.md 作为跨宿主分发格式，同时兼容 Claude Code、Codex、Cursor、OpenCode 等",
+      "IM 内容接入 AI 流水线（微信 → Agent / Obsidian / RAG）"
+    ],
+    "emerging_concepts": [
+      "prefill-only / 零生成 token 推断：直接读取答案标签 logits 得到类型化决策，规避自回归解码开销",
+      "运行时行为干预：不修改权重、不重新量化，在残差流上做可调强度的方向投影",
+      "用 rank-1 LoRA 作为等价权重编辑的载体，使量化模型包保持字节不变",
+      "概率校准与运行时/精度/权重哈希指纹绑定，避免校准结果跨后端误用",
+      "Jev 兼容 API 的开源复现（openjev-sglang、rizzo-flow）正在形成事实接口标准",
+      "同主题 awesome-list 批量涌现（同期 ≥5 个 Jev 列表），需警惕热度信号被噪声放大"
+    ]
+  },
+  "source": "multi"
+}

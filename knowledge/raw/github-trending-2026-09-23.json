@@ -1,0 +1,622 @@
+{
+  "source": "github",
+  "skill": "github-trending",
+  "collected_at": "2026-09-23T08:45:18Z",
+  "query": "AI OR LLM OR agent OR \"large language model\" OR RAG OR MCP, created:>2026-09-16 (past 7 days), sorted by stars desc, per_page=20",
+  "count": 18,
+  "items": [
+    {
+      "id": "zai-org/ZCode",
+      "title": "ZCode",
+      "description": "Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "url": "https://github.com/zai-org/ZCode",
+      "stars": 6405,
+      "language": "TypeScript",
+      "topics": [],
+      "created_at": "2026-09-20T12:01:16Z",
+      "updated_at": "2026-09-21T00:02:36Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.9,
+      "score_breakdown": {
+        "tech_depth": 0.8,
+        "practical_value": 0.9,
+        "timeliness": 0.95,
+        "community_heat": 0.95,
+        "domain_match": 0.95
+      },
+      "tags": [
+        "coding-agent",
+        "agent-harness",
+        "typescript",
+        "code-generation",
+        "zai"
+      ],
+      "summary": "Z.ai 官方开源的编码 Agent 运行框架（harness），TypeScript 实现，主打强大、智能与可扩展。作为国产大模型厂商对标 Claude Code / Codex 的 CLI 级编码助手底座，它提供工具调用、上下文管理与扩展机制，便于接入自定义模型与工具链。上线数日即获 6400+ stars，对需要自建编码 Agent 或多模型切换的工程团队有较高参考价值。",
+      "name": "zai-org/ZCode"
+    },
+    {
+      "id": "jev-chat/jev-chat-jarvis",
+      "title": "jev-chat-jarvis",
+      "description": "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+      "url": "https://github.com/jev-chat/jev-chat-jarvis",
+      "stars": 4566,
+      "language": "Kotlin",
+      "topics": [
+        "accessibility-service",
+        "android",
+        "chat-assistant",
+        "llm",
+        "qq",
+        "wechat"
+      ],
+      "created_at": "2026-09-21T11:12:53Z",
+      "updated_at": "2026-09-23T05:11:39Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.83,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.8,
+        "timeliness": 0.95,
+        "community_heat": 0.9,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "android",
+        "chat-assistant",
+        "llm",
+        "accessibility-service",
+        "kotlin"
+      ],
+      "summary": "安卓上的对话副驾：通过无障碍服务只读屏幕内容，在微信、QQ、X、飞书等 App 中理解对方消息并生成候选回复，一键填入输入框，是否发送由用户决定。设计上非侵入——不 hook、不修改目标应用包，规避封号与隐私风险。展示了「屏幕读取 + LLM 推理 + 半自动回复」这一低侵入手机端 Agent 范式，适合移动端 AI 助手开发者参考。",
+      "name": "jev-chat/jev-chat-jarvis"
+    },
+    {
+      "id": "yibie/awesome-jev",
+      "title": "awesome-jev",
+      "description": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
+      "url": "https://github.com/yibie/awesome-jev",
+      "stars": 1367,
+      "language": "Python",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "jev",
+        "llm"
+      ],
+      "created_at": "2026-09-17T14:23:21Z",
+      "updated_at": "2026-09-23T02:34:16Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.65,
+      "score_breakdown": {
+        "tech_depth": 0.4,
+        "practical_value": 0.55,
+        "timeliness": 0.9,
+        "community_heat": 0.8,
+        "domain_match": 0.8
+      },
+      "tags": [
+        "awesome-list",
+        "jev",
+        "llm",
+        "model-routing",
+        "structured-output"
+      ],
+      "summary": "围绕 Jev（TypeSafe AI 的 System One「类型化决策」模型）整理的项目、集成与讨论合集。Jev 不生成文本，而是直接在预定义选项上输出带类型的决策结果，强调低延迟与结构化输出。该列表汇总社区在模型路由、语义路由、结构化输出等方向的实践，适合想了解「小模型做决策层」这一新范式的研究者与工程师作为入门索引。",
+      "name": "yibie/awesome-jev"
+    },
+    {
+      "id": "unreallabsai/unreal-agent",
+      "title": "unreal-agent",
+      "description": "Async-first agent harness",
+      "url": "https://github.com/unreallabsai/unreal-agent",
+      "stars": 1261,
+      "language": "Go",
+      "topics": [],
+      "created_at": "2026-09-21T23:14:02Z",
+      "updated_at": "2026-09-22T17:00:39Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.8,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.75,
+        "timeliness": 0.95,
+        "community_heat": 0.8,
+        "domain_match": 0.9
+      },
+      "tags": [
+        "agent-framework",
+        "golang",
+        "async",
+        "agent-harness",
+        "concurrency"
+      ],
+      "summary": "用 Go 编写的「异步优先」Agent 运行框架，把并发与异步 I/O 作为一等设计目标，适合处理大量并行工具调用与长时任务。相比主流 Python harness，Go 实现在高并发调度、内存占用与部署体积上有优势。对需要把 Agent 跑在生产服务里、关注吞吐与延迟的团队是值得对比的技术选型；HN 上同步有官方博客讨论其设计动机。",
+      "name": "unreallabsai/unreal-agent"
+    },
+    {
+      "id": "hydra-db/open-glean",
+      "title": "open-glean",
+      "description": "An open-source AI platform for knowledge work. Connect your apps, find answers, and get work done.",
+      "url": "https://github.com/hydra-db/open-glean",
+      "stars": 869,
+      "language": "TypeScript",
+      "topics": [],
+      "created_at": "2026-09-17T05:22:08Z",
+      "updated_at": "2026-09-17T05:46:34Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.75,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.75,
+        "timeliness": 0.9,
+        "community_heat": 0.7,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "enterprise-search",
+        "rag",
+        "knowledge-work",
+        "typescript",
+        "ai-platform"
+      ],
+      "summary": "开源的企业知识工作 AI 平台，定位类似 Glean：连接内部应用与数据源，用检索增强问答帮员工找信息、完成任务。仓库用 TypeScript 实现，涵盖连接器、索引与权限等模块，是企业级 RAG / 内部知识 Agent 的开源参考。适合需要自建内部知识助手、又不想绑定商业 SaaS 的团队评估其架构与集成成本。",
+      "name": "hydra-db/open-glean"
+    },
+    {
+      "id": "v-modal/awesome-jev-tools",
+      "title": "awesome-jev-tools",
+      "description": "A curated list of tools  built for Jev — TypeSafe AI's System One model for typed decisions.",
+      "url": "https://github.com/v-modal/awesome-jev-tools",
+      "stars": 668,
+      "language": null,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "awesome-lists",
+        "jev",
+        "llm",
+        "robotics",
+        "robotics-algorithms",
+        "robotics-control",
+        "robotics-simulation"
+      ],
+      "created_at": "2026-09-19T16:48:59Z",
+      "updated_at": "2026-09-19T17:02:33Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.56,
+      "score_breakdown": {
+        "tech_depth": 0.35,
+        "practical_value": 0.45,
+        "timeliness": 0.85,
+        "community_heat": 0.65,
+        "domain_match": 0.65
+      },
+      "tags": [
+        "awesome-list",
+        "jev",
+        "robotics",
+        "model-routing",
+        "tooling"
+      ],
+      "summary": "Jev 生态的工具合集，主题覆盖 awesome-list、机器人学与机器人控制/仿真等方向，说明「类型化决策模型」正被尝试用于机器人策略选择等低延迟决策场景。对关注 Jev 应用边界的开发者可作为工具与示例的索引；不过列表本身信息密度有限，价值取决于后续收录质量。",
+      "name": "v-modal/awesome-jev-tools"
+    },
+    {
+      "id": "kerpopule/hermes-jev-skills",
+      "title": "hermes-jev-skills",
+      "description": "Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex)",
+      "url": "https://github.com/kerpopule/hermes-jev-skills",
+      "stars": 633,
+      "language": "Python",
+      "topics": [],
+      "created_at": "2026-09-18T20:01:29Z",
+      "updated_at": "2026-09-22T22:22:36Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.76,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.75,
+        "timeliness": 0.9,
+        "community_heat": 0.65,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "agent-framework",
+        "jev",
+        "model-routing",
+        "context-compaction",
+        "python"
+      ],
+      "summary": "为 Hermes（及 Claude Code、Codex）Agent 提供的一套 Jev 驱动技能：模型路由、记忆、上下文压缩、技能选择与电脑/浏览器操作。核心思路是用类型化决策模型承接「选哪个模型、调哪个工具、是否压缩」这类高频控制决策，从而减少对大模型的调用。适合正在优化 Agent 成本与延迟、尝试决策层下沉的团队。",
+      "name": "kerpopule/hermes-jev-skills"
+    },
+    {
+      "id": "rmalde/minecraft-agent",
+      "title": "minecraft-agent",
+      "description": "Astra planner and JEV controller for Minecraft, with native recording, tested routes, and run verification.",
+      "url": "https://github.com/rmalde/minecraft-agent",
+      "stars": 527,
+      "language": "JavaScript",
+      "topics": [],
+      "created_at": "2026-09-20T05:05:12Z",
+      "updated_at": "2026-09-20T05:05:16Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.68,
+      "score_breakdown": {
+        "tech_depth": 0.65,
+        "practical_value": 0.55,
+        "timeliness": 0.9,
+        "community_heat": 0.65,
+        "domain_match": 0.7
+      },
+      "tags": [
+        "agent-framework",
+        "embodied-agent",
+        "planning",
+        "minecraft",
+        "javascript"
+      ],
+      "summary": "让 Agent 在 Minecraft 中执行任务的框架，由 Astra 规划器负责高层任务规划、JEV 控制器负责低延迟决策，并内置录制、已验证路线与运行校验机制。把「LLM 规划 + 类型化决策控制」落到游戏环境，是评测具身 Agent 长程执行能力的一个有趣沙盒。适合研究 Agent 规划-控制分层与可复现实验的开发者。",
+      "name": "rmalde/minecraft-agent"
+    },
+    {
+      "id": "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+      "title": "OrcaBonsai-27B-Uncensored",
+      "description": "Runtime behavioral ablation for compressed LLMs. First target: Ternary Bonsai 2 27B — no weight modification or re-quantization. by OrcaRouter team",
+      "url": "https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+      "stars": 526,
+      "language": "Python",
+      "topics": [],
+      "created_at": "2026-09-18T06:45:54Z",
+      "updated_at": "2026-09-22T21:35:31Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.72,
+      "score_breakdown": {
+        "tech_depth": 0.75,
+        "practical_value": 0.6,
+        "timeliness": 0.9,
+        "community_heat": 0.65,
+        "domain_match": 0.75
+      },
+      "tags": [
+        "quantization",
+        "llm",
+        "behavior-control",
+        "inference",
+        "python"
+      ],
+      "summary": "针对压缩 LLM 的运行时行为消融方法，首个目标是三值（Ternary）量化的 Bonsai 2 27B，宣称无需修改权重或重新量化即可改变模型输出行为。对量化模型做「运行时行为调整」而非重训，思路接近激活/推理层面的干预，可显著降低改造成本。适合关注低比特部署与模型行为控制的工程与研究人员，但需自行验证效果与合规风险。",
+      "name": "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored"
+    },
+    {
+      "id": "AbdelStark/awesome-typesafe-jev",
+      "title": "awesome-typesafe-jev",
+      "description": "Awesome Jev: a source-backed field guide to TypeSafe's System One model, with SDKs, live demos, agent tools, and independent evaluations.",
+      "url": "https://github.com/AbdelStark/awesome-typesafe-jev",
+      "stars": 478,
+      "language": "HTML",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "awesome",
+        "awesome-jev",
+        "awesome-list",
+        "awesome-lists",
+        "curated-list",
+        "developer-tools",
+        "jev",
+        "llm",
+        "llm-routing",
+        "machine-learning",
+        "model-evaluation",
+        "semantic-routing",
+        "structured-output",
+        "system-one-models",
+        "typed-decisions",
+        "typesafe",
+        "typesafe-ai"
+      ],
+      "created_at": "2026-09-17T06:56:37Z",
+      "updated_at": "2026-09-23T06:57:26Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.59,
+      "score_breakdown": {
+        "tech_depth": 0.4,
+        "practical_value": 0.5,
+        "timeliness": 0.85,
+        "community_heat": 0.6,
+        "domain_match": 0.75
+      },
+      "tags": [
+        "awesome-list",
+        "jev",
+        "model-evaluation",
+        "structured-output",
+        "semantic-routing"
+      ],
+      "summary": "关于 TypeSafe「System One」模型的资料汇编，含 SDK、在线演示、Agent 工具与独立评测，主题标签覆盖语义路由、结构化输出、模型评估等。相比普通 awesome 列表，它强调来源可追溯，适合想系统了解「类型化决策模型」能力边界与生态的读者作为入口。",
+      "name": "AbdelStark/awesome-typesafe-jev"
+    },
+    {
+      "id": "wuyoscar/jev-skill",
+      "title": "jev-skill",
+      "description": "An awesome collection of Jev use cases, workflows, and agent skills.",
+      "url": "https://github.com/wuyoscar/jev-skill",
+      "stars": 450,
+      "language": "Python",
+      "topics": [],
+      "created_at": "2026-09-20T02:35:26Z",
+      "updated_at": "2026-09-22T19:49:22Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.61,
+      "score_breakdown": {
+        "tech_depth": 0.45,
+        "practical_value": 0.55,
+        "timeliness": 0.85,
+        "community_heat": 0.6,
+        "domain_match": 0.7
+      },
+      "tags": [
+        "jev",
+        "agent-skills",
+        "workflows",
+        "python",
+        "use-cases"
+      ],
+      "summary": "收集 Jev 使用案例、工作流与 Agent 技能的仓库，Python 实现，偏向可复用实践的整理。对已了解 Jev 基本概念、想快速找到「别人怎么用」的开发者有参考价值；内容以技能与流程示例为主，技术深度中等，需结合具体场景评估可迁移性。",
+      "name": "wuyoscar/jev-skill"
+    },
+    {
+      "id": "freestylefly/WeChatBridge",
+      "title": "WeChatBridge",
+      "description": "微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具",
+      "url": "https://github.com/freestylefly/WeChatBridge",
+      "stars": 393,
+      "language": "Swift",
+      "topics": [
+        "ai-agent",
+        "chat-history",
+        "macos",
+        "obsidian",
+        "share-extension",
+        "swift",
+        "wechat"
+      ],
+      "created_at": "2026-09-21T02:54:51Z",
+      "updated_at": "2026-09-23T05:00:54Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.69,
+      "score_breakdown": {
+        "tech_depth": 0.55,
+        "practical_value": 0.7,
+        "timeliness": 0.9,
+        "community_heat": 0.6,
+        "domain_match": 0.7
+      },
+      "tags": [
+        "macos",
+        "wechat",
+        "obsidian",
+        "ai-agent",
+        "swift"
+      ],
+      "summary": "macOS 原生工具，把微信聊天记录一键转发到 AI Agent 与 Obsidian，基于分享扩展实现。解决了个人知识管理中最麻烦的「微信内容出不来」问题，把 IM 记录变成可被 LLM 处理的输入。适合用 Obsidian 做第二大脑、又想把聊天内容纳入 RAG 或自动化流程的用户。",
+      "name": "freestylefly/WeChatBridge"
+    },
+    {
+      "id": "cobanov/awesome-jev",
+      "title": "awesome-jev",
+      "description": "A curated, source-backed list of projects built with Jev, TypeSafe AI's System One model for typed decisions.",
+      "url": "https://github.com/cobanov/awesome-jev",
+      "stars": 357,
+      "language": null,
+      "topics": [
+        "ai-agents",
+        "awesome",
+        "awesome-list",
+        "confidence-aware-ai",
+        "decision-intelligence",
+        "jev",
+        "llm-guardrails",
+        "model-routing",
+        "open-source",
+        "structured-output",
+        "system-one-models",
+        "typesafe-ai"
+      ],
+      "created_at": "2026-09-18T10:12:18Z",
+      "updated_at": "2026-09-23T05:37:57Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.55,
+      "score_breakdown": {
+        "tech_depth": 0.35,
+        "practical_value": 0.45,
+        "timeliness": 0.85,
+        "community_heat": 0.55,
+        "domain_match": 0.7
+      },
+      "tags": [
+        "awesome-list",
+        "jev",
+        "guardrails",
+        "model-routing",
+        "decision-intelligence"
+      ],
+      "summary": "Jev 生态的另一个 curated 列表，标签涉及 AI Agents、置信度感知 AI、决策智能、LLM 护栏与模型路由。与同类列表内容高度重叠，但强调置信度与护栏视角，可用来交叉比对 Jev 在安全与路由方向的实践。信息价值偏索引性质，深度有限。",
+      "name": "cobanov/awesome-jev"
+    },
+    {
+      "id": "Rizzo-AI-Academy/rizzo-flow",
+      "title": "rizzo-flow",
+      "description": "The open, local take on Jev: typed decisions from an LLM, without generating a single token",
+      "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
+      "stars": 352,
+      "language": "Python",
+      "topics": [],
+      "created_at": "2026-09-21T00:00:02Z",
+      "updated_at": "2026-09-21T23:31:43Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.71,
+      "score_breakdown": {
+        "tech_depth": 0.7,
+        "practical_value": 0.65,
+        "timeliness": 0.9,
+        "community_heat": 0.55,
+        "domain_match": 0.8
+      },
+      "tags": [
+        "jev",
+        "typed-decisions",
+        "local-first",
+        "llm-routing",
+        "python"
+      ],
+      "summary": "Jev 的开源本地替代实现：让 LLM 直接输出类型化决策而「不生成任何 token」，即在隐状态/打分层面完成选项判断。这种做法规避了自回归解码开销，适合对延迟极敏感的路由、分类与护栏场景。对想复现或研究类型化决策机制、且重视本地部署与隐私的开发者有较高参考价值。",
+      "name": "Rizzo-AI-Academy/rizzo-flow"
+    },
+    {
+      "id": "jev-chat/jev-chat-windows",
+      "title": "jev-chat-windows",
+      "description": "微信（Windows 4.x）旁挂的回复辅助：窗口截图 + 本地离线 OCR 读对方消息 → Jev 判断意图 → 3 条候选一键填入，发送永远手动",
+      "url": "https://github.com/jev-chat/jev-chat-windows",
+      "stars": 349,
+      "language": "Python",
+      "topics": [
+        "chat-assistant",
+        "jev",
+        "llm",
+        "local-first",
+        "ocr",
+        "privacy",
+        "pyqt",
+        "python",
+        "wechat",
+        "windows"
+      ],
+      "created_at": "2026-09-21T14:37:14Z",
+      "updated_at": "2026-09-22T16:08:25Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.68,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.65,
+        "timeliness": 0.9,
+        "community_heat": 0.55,
+        "domain_match": 0.75
+      },
+      "tags": [
+        "wechat",
+        "ocr",
+        "local-first",
+        "pyqt",
+        "llm"
+      ],
+      "summary": "Windows 端微信回复辅助工具：通过窗口截图与本地离线 OCR 读取对方消息，用 Jev 判断意图后生成三条候选回复一键填入，发送始终手动。全流程本地化，避免云端上传聊天内容，隐私友好；是「OCR + 决策模型 + 人工确认」的低风险 IM 助手范例，适合关注本地优先与隐私保护的桌面 Agent 开发者。",
+      "name": "jev-chat/jev-chat-windows"
+    },
+    {
+      "id": "jkudish/jev-mcp",
+      "title": "jev-mcp",
+      "description": "Fast, cheap, typed judgments from TypeSafe's Jev model, as MCP tools.",
+      "url": "https://github.com/jkudish/jev-mcp",
+      "stars": 294,
+      "language": "JavaScript",
+      "topics": [],
+      "created_at": "2026-09-17T02:25:38Z",
+      "updated_at": "2026-09-23T02:04:21Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.7,
+      "score_breakdown": {
+        "tech_depth": 0.6,
+        "practical_value": 0.7,
+        "timeliness": 0.9,
+        "community_heat": 0.5,
+        "domain_match": 0.85
+      },
+      "tags": [
+        "mcp",
+        "jev",
+        "tool-calling",
+        "javascript",
+        "agent-integration"
+      ],
+      "summary": "把 TypeSafe 的 Jev 模型封装成 MCP 工具，提供快速、低成本、带类型的判断能力，供支持 MCP 的 Agent 直接调用。它把「决策」抽象为标准化工具接口，使 Claude Code、Cursor 等宿主无需改造即可获得结构化判断能力。适合想在现有 MCP 生态中低成本接入决策层的开发者。",
+      "name": "jkudish/jev-mcp"
+    },
+    {
+      "id": "Oldcircle/geo-sleuth",
+      "title": "geo-sleuth",
+      "description": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+      "url": "https://github.com/Oldcircle/geo-sleuth",
+      "stars": 281,
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "computer-vision",
+        "cursor",
+        "gemini-cli",
+        "geoguessr",
+        "geoint",
+        "geolocation",
+        "github-copilot",
+        "image-geolocation",
+        "opencode",
+        "openstreetmap",
+        "osint",
+        "photo-geolocation",
+        "reverse-image-search",
+        "satellite-imagery"
+      ],
+      "created_at": "2026-09-18T08:51:34Z",
+      "updated_at": "2026-09-21T03:43:02Z",
+      "analyzed_at": "2026-09-23T07:45:00Z",
+      "relevance_score": 0.67,
+      "score_breakdown": {
+        "tech_depth": 0.65,
+        "practical_value": 0.6,
+        "timeliness": 0.9,
+        "community_heat": 0.5,
+        "domain_match": 0.7
+      },
+      "tags": [
+        "agent-skills",
+        "geolocation",
+        "osint",
+        "computer-vision",
+        "openstreetmap"
+      ],
+      "summary": "一个 Agent 技能：给定照片推断拍摄地点，综合 OpenStreetMap 几何、天际线高程、卫星影像与街景证据，并展示推理过程。兼容 Claude Code、Codex、Cursor、Gemini CLI、OpenCode 与 Copilot，主打可解释的地理定位（OSINT）。适合关注 Agent 技能封装、多工具协同与可验证推理的开发者。",
+      "name": "Oldcircle/geo-sleuth"
+    },
+    {
+      "name": "ekzhang/openjev-sglang",
+      "url": "https://github.com/ekzhang/openjev-sglang",
+      "summary": "以 SGLang + Qwen3.6-35B 复现 Jev 类型化决策 API，仅 prefill 读首 token 完成分类与打分。",
+      "highlights": [
+        "每个问题用 max_new_tokens=1 读答案标签 logprob，无自回归生成，N 个问题只需 N+1 次单 token 调用",
+        "基于 B200 与 SGLang 0.5.19 Rust 前端，启用 radix 缓存与 breakable prefill CUDA graphs",
+        "覆盖 noul/choice/score 三类题型，单请求最多 64 问、每题最多 64 个候选标签"
+      ],
+      "score": 7,
+      "score_reason": "把 Jev 的类型化决策接口在开源模型上跑通且可自部署，prefill-only 路径明确、工程细节完整；但依赖单卡 B200、适用场景偏窄，属可直接借鉴的专项实现。",
+      "stars": 282,
+      "language": "Python",
+      "topics": [
+        "jev",
+        "llm",
+        "structured-generation",
+        "systemone"
+      ],
+      "tags": [
+        "jev",
+        "sglang",
+        "prefill-only",
+        "structured-generation",
+        "llm-inference"
+      ]
+    }
+  ]
+}

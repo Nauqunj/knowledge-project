@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-008",
+  "title": "Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents",
+  "source": "arxiv",
+  "source_id": "2609.26760",
+  "summary": "把反复出现的控制决策固化为可复用代码，LLM 调用减少 76%–91.8%。",
+  "tags": [
+    "agent-harness",
+    "code-generation",
+    "self-improvement",
+    "tool-use",
+    "llm-agent"
+  ],
+  "collected_at": "2026-09-23T07:12:08Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://arxiv.org/abs/2609.26760",
+  "score": 8
+}

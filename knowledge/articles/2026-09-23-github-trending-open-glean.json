@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-021",
+  "title": "open-glean",
+  "source": "github-trending",
+  "source_id": "hydra-db/open-glean",
+  "summary": "对标 Glean 的开源企业知识 AI 平台，连接内部应用并以 RAG 问答，含权限控制。",
+  "tags": [
+    "enterprise-search",
+    "rag",
+    "knowledge-work",
+    "typescript",
+    "ai-platform"
+  ],
+  "collected_at": "2026-09-23T07:09:33Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://github.com/hydra-db/open-glean",
+  "score": 8
+}

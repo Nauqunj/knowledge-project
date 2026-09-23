@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-061",
+  "title": "Combining Hierarchical Cognitive Process with Process Supervision for Interpretable Scene Safety Understanding",
+  "source": "arxiv",
+  "source_id": "2609.26399",
+  "summary": "构建分层认知与过程标签数据，用 LLM + LoRA + MoE 做可解释场景安全理解与过程监督。",
+  "tags": [
+    "process-supervision",
+    "interpretability",
+    "scene-understanding",
+    "moe",
+    "llm"
+  ],
+  "collected_at": "2026-09-23T07:12:08Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://arxiv.org/abs/2609.26399",
+  "score": 6
+}

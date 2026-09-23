@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-044",
+  "title": "minecraft-agent",
+  "source": "github-trending",
+  "source_id": "rmalde/minecraft-agent",
+  "summary": "用 Astra 规划、JEV 选动作，8 分 43 秒在 Minecraft 击杀末影龙。",
+  "tags": [
+    "agent-framework",
+    "embodied-agent",
+    "planning",
+    "minecraft",
+    "javascript"
+  ],
+  "collected_at": "2026-09-23T07:09:33Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://github.com/rmalde/minecraft-agent",
+  "score": 7
+}

@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-059",
+  "title": "PERSONAWEAVER: Controllable Diversity Beyond Conventional Archetypes in Procedural Character Generation",
+  "source": "arxiv",
+  "source_id": "2609.26629",
+  "summary": "PersonaWeaver 解耦世界构建与行为规格，用多样化道德库缓解 LLM 角色生成同质化。",
+  "tags": [
+    "persona-generation",
+    "diversity",
+    "llm",
+    "procedural-generation",
+    "character-ai"
+  ],
+  "collected_at": "2026-09-23T07:12:08Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://arxiv.org/abs/2609.26629",
+  "score": 6
+}

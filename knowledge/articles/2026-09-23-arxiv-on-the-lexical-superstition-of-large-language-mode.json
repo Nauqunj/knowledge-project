@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-050",
+  "title": "On the Lexical Superstition of Large Language Models for Code Comprehension: Re-evaluation on Code of Low Lexical Quality",
+  "source": "arxiv",
+  "source_id": "2609.26388",
+  "summary": "Face/Off 通过语义保持重命名检验 LLM 代码理解的词汇迷信，命名误导会普遍降低性能。",
+  "tags": [
+    "code-comprehension",
+    "llm",
+    "robustness",
+    "identifier-naming",
+    "software-engineering"
+  ],
+  "collected_at": "2026-09-23T07:12:08Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://arxiv.org/abs/2609.26388",
+  "score": 7
+}

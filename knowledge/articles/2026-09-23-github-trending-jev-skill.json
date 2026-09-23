@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-060",
+  "title": "jev-skill",
+  "source": "github-trending",
+  "source_id": "wuyoscar/jev-skill",
+  "summary": "收集 Jev 使用案例、工作流与 Agent 技能的仓库，偏可复用实践整理。",
+  "tags": [
+    "jev",
+    "agent-skills",
+    "workflows",
+    "python",
+    "use-cases"
+  ],
+  "collected_at": "2026-09-23T07:09:33Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://github.com/wuyoscar/jev-skill",
+  "score": 6
+}

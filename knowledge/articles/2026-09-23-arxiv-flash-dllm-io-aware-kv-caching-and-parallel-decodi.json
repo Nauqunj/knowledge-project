@@ -1,0 +1,20 @@
+{
+  "id": "kb-2026-09-23-013",
+  "title": "Flash-dLLM: IO-Aware KV Caching and Parallel Decoding for Fast, Memory-Efficient Diffusion LLMs",
+  "source": "arxiv",
+  "source_id": "2609.26796",
+  "summary": "扩散 LLM 免训练加速：I/O 感知融合 KV 缓存加草稿-验证解码，提速 5–11 倍。",
+  "tags": [
+    "diffusion-llm",
+    "kv-cache",
+    "inference-acceleration",
+    "parallel-decoding",
+    "efficiency"
+  ],
+  "collected_at": "2026-09-23T07:12:08Z",
+  "analyzed_at": "2026-09-23T07:45:00Z",
+  "organized_at": "2026-09-23T07:21:00Z",
+  "status": "published",
+  "source_url": "https://arxiv.org/abs/2609.26796",
+  "score": 8
+}
