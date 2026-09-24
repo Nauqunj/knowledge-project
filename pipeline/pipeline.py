@@ -43,9 +43,19 @@ except ImportError:  # pragma: no cover - reported at runtime
     yaml = None
 
 try:  # running as a script: ``python pipeline/pipeline.py``
-    from model_client import chat_with_retry, create_provider, estimate_cost
+    from model_client import (
+        chat_with_retry,
+        cost_tracker,
+        create_provider,
+        estimate_cost,
+    )
 except ImportError:  # running as a package module
-    from .model_client import chat_with_retry, create_provider, estimate_cost
+    from .model_client import (
+        chat_with_retry,
+        cost_tracker,
+        create_provider,
+        estimate_cost,
+    )
 
 logger = logging.getLogger("pipeline")
 
@@ -811,6 +821,7 @@ def run(args: argparse.Namespace) -> int:
         len(rejected),
         len(written),
     )
+    cost_tracker.report()
     return 0
 
 

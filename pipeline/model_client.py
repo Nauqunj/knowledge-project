@@ -137,6 +137,161 @@ PROVIDERS: dict[str, ProviderConfig] = {
 }
 
 
+# --- cost tracking -----------------------------------------------------------
+
+# Approximate public list prices for domestic models, in CNY per 1M tokens.
+# Each value is an ``(input, output)`` tuple; adjust as vendor pricing changes.
+CNY_PRICE_TABLE: dict[str, tuple[float, float]] = {
+    "deepseek": (1.0, 2.0),
+    "qwen": (4.0, 12.0),
+    "openai": (150.0, 600.0),
+}
+
+UNKNOWN_PRICE: tuple[float, float] = (0.0, 0.0)
+
+
+@dataclass(frozen=True)
+class CostRecord:
+    """One recorded LLM call.
+
+    Attributes:
+        provider: Provider that served the call.
+        prompt_tokens: Input tokens billed.
+        completion_tokens: Output tokens billed.
+        total_tokens: Total tokens billed.
+        cost: Estimated cost in CNY.
+    """
+
+    provider: str
+    prompt_tokens: int
+    completion_tokens: int
+    total_tokens: int
+    cost: float
+
+
+class CostTracker:
+    """Track token usage and estimated cost across LLM calls.
+
+    Prices are expressed in CNY per million tokens.
+    """
+
+    def __init__(self, prices: dict[str, tuple[float, float]] | None = None) -> None:
+        """Initialise the tracker.
+
+        Args:
+            prices: Optional price table overriding :data:`CNY_PRICE_TABLE`.
+                Each value is an ``(input, output)`` tuple in CNY per 1M tokens.
+        """
+        self._prices = dict(prices) if prices else dict(CNY_PRICE_TABLE)
+        self._records: list[CostRecord] = []
+
+    @property
+    def records(self) -> list[CostRecord]:
+        """Return a copy of every recorded call."""
+        return list(self._records)
+
+    def price_for(self, provider: str) -> tuple[float, float]:
+        """Return the ``(input, output)`` CNY price per 1M tokens.
+
+        Args:
+            provider: Provider name to look up.
+
+        Returns:
+            The price tuple, or :data:`UNKNOWN_PRICE` when unmapped.
+        """
+        price = self._prices.get(provider)
+        if price is None:
+            logger.warning("no CNY price for provider %r; cost treated as 0", provider)
+            return UNKNOWN_PRICE
+        return price
+
+    def record(self, usage: Usage, provider: str) -> float:
+        """Record one API call and return its estimated cost in CNY.
+
+        Args:
+            usage: Token usage reported by the provider.
+            provider: Provider name used for pricing.
+
+        Returns:
+            The estimated cost of this call in CNY.
+        """
+        input_price, output_price = self.price_for(provider)
+        cost = (
+            usage.prompt_tokens * input_price + usage.completion_tokens * output_price
+        ) / PRICE_PER_MILLION
+        self._records.append(
+            CostRecord(
+                provider=provider,
+                prompt_tokens=usage.prompt_tokens,
+                completion_tokens=usage.completion_tokens,
+                total_tokens=usage.total_tokens,
+                cost=cost,
+            )
+        )
+        return cost
+
+    def estimated_cost(self, provider: str | None = None) -> float:
+        """Return the total estimated cost in CNY.
+
+        Args:
+            provider: When given, restrict the total to that provider.
+
+        Returns:
+            Accumulated estimated cost in CNY.
+        """
+        return sum(
+            record.cost
+            for record in self._records
+            if provider is None or record.provider == provider
+        )
+
+    def report(self, provider: str | None = None) -> None:
+        """Print a per-provider cost report.
+
+        Args:
+            provider: When given, report only that provider.
+        """
+        records = [
+            record
+            for record in self._records
+            if provider is None or record.provider == provider
+        ]
+        title = f"LLM 成本报告（provider={provider}）" if provider else "LLM 成本报告"
+        print(f"\n=== {title} ===")
+
+        if not records:
+            print("无调用记录。")
+            return
+
+        by_provider: dict[str, list[CostRecord]] = {}
+        for record in records:
+            by_provider.setdefault(record.provider, []).append(record)
+
+        header = f"{'provider':<10}{'calls':>7}{'input':>12}{'output':>12}{'cost(元)':>12}"
+        print(header)
+        print("-" * 58)
+        for name, group in by_provider.items():
+            prompt = sum(item.prompt_tokens for item in group)
+            completion = sum(item.completion_tokens for item in group)
+            cost = sum(item.cost for item in group)
+            print(f"{name:<10}{len(group):>7}{prompt:>12}{completion:>12}{cost:>12.4f}")
+
+        total_prompt = sum(item.prompt_tokens for item in records)
+        total_completion = sum(item.completion_tokens for item in records)
+        total_cost = sum(item.cost for item in records)
+        print("-" * 58)
+        print(
+            f"{'TOTAL':<10}{len(records):>7}{total_prompt:>12}"
+            f"{total_completion:>12}{total_cost:>12.4f}"
+        )
+
+
+# Global tracker shared by all providers. Call ``cost_tracker.report()`` at the
+# end of a pipeline run, or import it directly:
+#     from pipeline.model_client import cost_tracker
+cost_tracker = CostTracker()
+
+
 class LLMProvider(ABC):
     """Abstract interface every provider implementation must satisfy."""
 
@@ -259,6 +414,8 @@ class OpenAICompatibleProvider(LLMProvider):
         choice = choices[0]
         content = (choice.get("message") or {}).get("content") or ""
         usage = Usage.from_api(data.get("usage") or {})
+
+        cost_tracker.record(usage, self._config.name)
 
         return LLMResponse(
             content=content,
