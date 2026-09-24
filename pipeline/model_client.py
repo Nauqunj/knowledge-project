@@ -297,13 +297,16 @@ def get_provider(
         known = ", ".join(sorted(PROVIDERS))
         raise ValueError(f"unknown provider {name!r}; expected one of: {known}")
 
-    api_key = os.getenv(config.api_key_env, "")
+    api_key = os.getenv(config.api_key_env, "").strip()
     if not api_key:
         raise RuntimeError(
             f"missing API key: set {config.api_key_env} for provider {name!r}"
         )
 
     resolved_model = model or os.getenv("LLM_MODEL") or config.model
+    logger.info(
+        "LLM provider=%s model=%s key_from=%s", name, resolved_model, config.api_key_env
+    )
     return OpenAICompatibleProvider(
         config, api_key, model=resolved_model, timeout=timeout
     )
@@ -365,6 +368,16 @@ def chat_with_retry(
             return active.chat(messages, **chat_kwargs)
         except (httpx.HTTPError, ValueError) as exc:
             last_error = exc
+            if (
+                isinstance(exc, httpx.HTTPStatusError)
+                and exc.response.status_code in (401, 403)
+            ):
+                config = PROVIDERS.get(active.name)
+                env_hint = config.api_key_env if config else "the matching API key"
+                raise RuntimeError(
+                    f"authentication failed ({exc.response.status_code}) via "
+                    f"{active.name!r}; verify {env_hint} is a valid, unexpired key"
+                ) from exc
             if attempt >= max_retries:
                 break
             delay = backoff_base * (2 ** (attempt - 1))
@@ -378,7 +391,7 @@ def chat_with_retry(
             time.sleep(delay)
 
     raise RuntimeError(
-        f"chat failed after {max_retries} attempts via {active.name!r}"
+        f"chat failed after {max_retries} attempts via {active.name!r}: {last_error}"
     ) from last_error
 
 
