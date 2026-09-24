@@ -1,36 +1,34 @@
 {
-  "id": "github-20260924-013",
+  "id": "github-20260924-039",
   "title": "skills",
-  "source_url": "https://github.com/anthropics/skills",
-  "description": "Public repository for Agent Skills",
+  "source_url": "https://github.com/mattpocock/skills",
+  "description": "Skills for Real Engineers. Straight from my .agents directory.",
   "source": "github",
-  "collected_at": "2026-09-24T08:22:03Z",
+  "collected_at": "2026-09-24T08:24:33Z",
   "metadata": {
-    "stars": 177869,
-    "language": "Python",
-    "topics": [
-      "agent-skills"
-    ],
-    "created_at": "2025-09-22T15:53:31Z",
-    "pushed_at": "2026-09-22T17:16:36Z"
+    "stars": 268698,
+    "language": "Shell",
+    "topics": [],
+    "created_at": "2026-02-03T11:15:53Z",
+    "pushed_at": "2026-09-18T10:12:48Z"
   },
-  "summary": "Anthropic 官方 Agent Skills 公共仓库，提供可复用的智能体技能模块。",
-  "score": 9,
-  "score_reason": "官方出品、星数极高、定义 Agent 技能标准，生态影响力大。",
+  "summary": "Matt Pocock 分享的 .agents 目录技能集合，面向真实工程师的 AI 代理配置。",
+  "score": 7,
+  "score_reason": "知名作者出品，星数极高，但内容为个人配置集合，通用性有限。",
   "tags": [
-    "agent-skills",
-    "anthropic",
-    "llm-agents",
-    "python",
-    "ai-tools"
+    "ai-agents",
+    "developer-tools",
+    "shell",
+    "configuration",
+    "workflow"
   ],
   "highlights": [
-    "Anthropic 官方维护的 Agent Skills 公共仓库",
-    "GitHub 星数超 17.7 万，社区关注度极高",
-    "以 Python 实现，围绕 agent-skills 主题构建可复用技能"
+    "来自知名 TypeScript 教育者 Matt Pocock 的 .agents 目录",
+    "以 Shell 实现，可直接复用的代理技能配置",
+    "发布数月即获超 26 万星标，社区关注度极高"
   ],
-  "analyzed_at": "2026-09-24T08:22:22Z",
+  "analyzed_at": "2026-09-24T08:24:39Z",
   "audience": "intermediate",
   "status": "published",
-  "organized_at": "2026-09-24T08:23:01Z"
+  "organized_at": "2026-09-24T08:25:35Z"
 }

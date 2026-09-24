@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-09-24T08:23:01Z",
-  "total_count": 102,
+  "last_updated": "2026-09-24T08:25:35Z",
+  "total_count": 103,
   "entries": [
+    {
+      "id": "github-20260924-039",
+      "title": "skills",
+      "file": "2026-09-24-github-skills.json",
+      "source_url": "https://github.com/mattpocock/skills",
+      "tags": [
+        "ai-agents",
+        "developer-tools",
+        "shell",
+        "configuration",
+        "workflow"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:25:35Z"
+    },
     {
       "id": "github-20260924-001",
       "title": "openclaw",
