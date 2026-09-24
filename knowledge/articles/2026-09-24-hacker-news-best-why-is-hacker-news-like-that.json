@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-029",
+  "title": "Why is Hacker News like that?",
+  "source_url": "https://drewdevault.com/blog/Why-is-HN-like-that/",
+  "description": "Article URL: https://drewdevault.com/blog/Why-is-HN-like-that/ Comments URL: https://news.ycombinator.com/item?id=49817280 Points: 274 # Comments: 140",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Wed, 23 Sep 2026 15:05:20 +0000"
+  },
+  "summary": "Drew DeVault 分析 Hacker News 社区文化成因，探讨其讨论风格与投票机制。",
+  "score": 6,
+  "score_reason": "观点性文章，对 HN 社区文化有洞察，但技术深度有限。",
+  "tags": [
+    "hacker-news",
+    "community",
+    "culture",
+    "discussion",
+    "social-media"
+  ],
+  "highlights": [
+    "剖析 HN 独特的社区规范与讨论氛围",
+    "讨论投票机制和审核对内容质量的影响",
+    "作者为知名开源开发者 Drew DeVault"
+  ],
+  "analyzed_at": "2026-09-24T08:22:45Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

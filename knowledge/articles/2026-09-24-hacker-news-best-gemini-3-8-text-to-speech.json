@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-026",
+  "title": "Gemini 3.8 text-to-speech",
+  "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+  "description": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/ Comments URL: https://news.ycombinator.com/item?id=49817615 Points: 299 # Comments: 133",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Wed, 23 Sep 2026 15:29:23 +0000"
+  },
+  "summary": "谷歌发布 Gemini 3.8 文本转语音模型，HN 热度 299 分、133 条评论。",
+  "score": 7,
+  "score_reason": "谷歌官方发布的新一代 TTS 模型，HN 高热度讨论，技术价值明确但细节有限。",
+  "tags": [
+    "text-to-speech",
+    "gemini",
+    "google",
+    "tts",
+    "ai-model"
+  ],
+  "highlights": [
+    "谷歌官方博客发布 Gemini 3.8 文本转语音模型",
+    "Hacker News 获得 299 分、133 条评论的高关注度",
+    "属于 Gemini 模型系列在语音合成方向的最新迭代"
+  ],
+  "analyzed_at": "2026-09-24T08:22:41Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

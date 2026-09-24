@@ -1,0 +1,50 @@
+{
+  "id": "github-20260924-012",
+  "title": "ollama",
+  "source_url": "https://github.com/ollama/ollama",
+  "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+  "source": "github",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "stars": 181566,
+    "language": "Go",
+    "topics": [
+      "deepseek",
+      "gemma",
+      "gemma3",
+      "glm",
+      "go",
+      "golang",
+      "gpt-oss",
+      "llama",
+      "llama3",
+      "llm",
+      "llms",
+      "minimax",
+      "mistral",
+      "ollama",
+      "qwen"
+    ],
+    "created_at": "2023-06-26T19:39:32Z",
+    "pushed_at": "2026-09-24T03:46:00Z"
+  },
+  "summary": "Ollama 是 Go 编写的本地大模型运行工具，支持 Kimi、DeepSeek、Qwen 等主流模型。",
+  "score": 9,
+  "score_reason": "18 万星标、活跃维护，本地 LLM 部署事实标准，生态与模型支持广泛。",
+  "tags": [
+    "llm",
+    "local-inference",
+    "golang",
+    "model-serving",
+    "developer-tools"
+  ],
+  "highlights": [
+    "Go 语言实现，提供简洁 CLI 与 REST API，一键拉取并运行本地模型",
+    "支持 DeepSeek、Qwen、Gemma、GLM、MiniMax、gpt-oss 等众多模型",
+    "GitHub 星标超 18 万，2023 年创建并持续高频更新"
+  ],
+  "analyzed_at": "2026-09-24T08:22:21Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

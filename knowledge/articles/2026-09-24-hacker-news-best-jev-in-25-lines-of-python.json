@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-034",
+  "title": "Jev in 25 Lines of Python",
+  "source_url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+  "description": "Article URL: https://www.nobodywho.ai/posts/jev-in-25-lines/ Comments URL: https://news.ycombinator.com/item?id=49812769 Points: 648 # Comments: 201",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Wed, 23 Sep 2026 07:26:23 +0000"
+  },
+  "summary": "用25行Python实现Jev语言解释器，展示极简语言核心机制。",
+  "score": 7,
+  "score_reason": "以极简代码清晰演示解释器原理，HN高热度，但深度有限。",
+  "tags": [
+    "python",
+    "interpreter",
+    "language-design",
+    "minimalism",
+    "tutorial"
+  ],
+  "highlights": [
+    "仅用25行Python实现完整Jev语言解释器",
+    "演示词法分析、解析与求值核心流程",
+    "体现极简语言设计的可读性与教学价值"
+  ],
+  "analyzed_at": "2026-09-24T08:22:52Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

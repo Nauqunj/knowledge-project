@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-032",
+  "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+  "source_url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+  "description": "Article URL: https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/ Comments URL: https://news.ycombinator.com/item?id=49814947 Points: 465 # Comments: 264",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Wed, 23 Sep 2026 12:15:33 +0000"
+  },
+  "summary": "Claude Code 仅在开启遥测时才读取 AGENTS.md，该问题已被修复。",
+  "score": 7,
+  "score_reason": "揭示工具行为与配置耦合的隐蔽缺陷，社区讨论热烈，但影响范围有限。",
+  "tags": [
+    "claude-code",
+    "telemetry",
+    "agents-md",
+    "bug-fix",
+    "ai-tooling"
+  ],
+  "highlights": [
+    "AGENTS.md 的读取依赖遥测开关，属非预期耦合",
+    "问题已被修复，作者记录了排查过程",
+    "HN 讨论达 264 条，反映开发者对隐私与工具行为的关注"
+  ],
+  "analyzed_at": "2026-09-24T08:22:49Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

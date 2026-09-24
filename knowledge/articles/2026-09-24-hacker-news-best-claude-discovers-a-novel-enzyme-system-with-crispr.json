@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-024",
+  "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+  "source_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+  "description": "Article URL: https://www.anthropic.com/news/claude-discovers-novel-enzyme-system Comments URL: https://news.ycombinator.com/item?id=49820134 Points: 619 # Comments: 633",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Wed, 23 Sep 2026 18:06:47 +0000"
+  },
+  "summary": "Anthropic称Claude发现具CRISPR样重复的新型酶系统，HN热议619分。",
+  "score": 8,
+  "score_reason": "AI驱动科学发现的重要案例，社区高热度讨论，但需实验验证",
+  "tags": [
+    "ai-for-science",
+    "crispr",
+    "enzyme-discovery",
+    "llm",
+    "bioinformatics"
+  ],
+  "highlights": [
+    "Claude识别出具有CRISPR样重复序列的新型酶系统",
+    "展示大模型在生物信息学假设生成中的潜力",
+    "Hacker News获619分、633条评论，引发广泛讨论"
+  ],
+  "analyzed_at": "2026-09-24T08:22:38Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

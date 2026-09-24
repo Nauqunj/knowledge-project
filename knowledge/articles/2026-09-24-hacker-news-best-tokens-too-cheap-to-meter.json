@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-033",
+  "title": "Tokens too cheap to meter",
+  "source_url": "https://jyn.dev/tokens-too-cheap-to-meter/",
+  "description": "Article URL: https://jyn.dev/tokens-too-cheap-to-meter/ Comments URL: https://news.ycombinator.com/item?id=49813482 Points: 289 # Comments: 194",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Wed, 23 Sep 2026 09:21:17 +0000"
+  },
+  "summary": "探讨LLM token价格暴跌后，按量计费模式失效，开发者应转向以任务价值而非token成本衡量AI使用。",
+  "score": 7,
+  "score_reason": "观点新颖且具前瞻性，引发HN热议，但缺乏具体数据支撑，偏思辨性。",
+  "tags": [
+    "llm",
+    "pricing",
+    "ai-economics",
+    "token-cost",
+    "developer-tools"
+  ],
+  "highlights": [
+    "指出token价格快速下降使按量计费失去意义，类似'便宜到无需计量'的电力模式",
+    "主张开发者应从优化token消耗转向优化任务完成质量与价值",
+    "讨论固定订阅制或按结果计费可能取代传统token计量模式"
+  ],
+  "analyzed_at": "2026-09-24T08:22:51Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

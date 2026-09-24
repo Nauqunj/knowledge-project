@@ -1,7 +1,615 @@
 {
-  "last_updated": "2026-09-23T09:04:56Z",
-  "total_count": 64,
+  "last_updated": "2026-09-24T08:23:01Z",
+  "total_count": 102,
   "entries": [
+    {
+      "id": "github-20260924-001",
+      "title": "openclaw",
+      "file": "2026-09-24-github-openclaw.json",
+      "source_url": "https://github.com/openclaw/openclaw",
+      "tags": [
+        "ai-assistant",
+        "typescript",
+        "cross-platform",
+        "open-source",
+        "data-ownership"
+      ],
+      "score": 8,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-002",
+      "title": "superpowers",
+      "file": "2026-09-24-github-superpowers.json",
+      "source_url": "https://github.com/obra/superpowers",
+      "tags": [
+        "ai-agents",
+        "skills-framework",
+        "sdlc",
+        "subagent",
+        "developer-tools"
+      ],
+      "score": 8,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-003",
+      "title": "skills",
+      "file": "2026-09-24-github-skills.json",
+      "source_url": "https://github.com/mattpocock/skills",
+      "tags": [
+        "ai-agents",
+        "developer-tools",
+        "shell",
+        "workflow",
+        "prompt-engineering"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-004",
+      "title": "ECC",
+      "file": "2026-09-24-github-ecc.json",
+      "source_url": "https://github.com/affaan-m/ECC",
+      "tags": [
+        "ai-agents",
+        "claude-code",
+        "llm",
+        "developer-tools",
+        "mcp"
+      ],
+      "score": 8,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-005",
+      "title": "hermes-agent",
+      "file": "2026-09-24-github-hermes-agent.json",
+      "source_url": "https://github.com/NousResearch/hermes-agent",
+      "tags": [
+        "ai-agent",
+        "llm",
+        "python",
+        "nous-research",
+        "multi-model"
+      ],
+      "score": 9,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-006",
+      "title": "andrej-karpathy-skills",
+      "file": "2026-09-24-github-andrej-karpathy-skills.json",
+      "source_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "tags": [
+        "claude-code",
+        "llm",
+        "prompt-engineering",
+        "coding-assistant",
+        "karpathy"
+      ],
+      "score": 8,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-007",
+      "title": "opencode",
+      "file": "2026-09-24-github-opencode.json",
+      "source_url": "https://github.com/anomalyco/opencode",
+      "tags": [
+        "coding-agent",
+        "typescript",
+        "open-source",
+        "ai-agent",
+        "developer-tools"
+      ],
+      "score": 8,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-008",
+      "title": "n8n",
+      "file": "2026-09-24-github-n8n.json",
+      "source_url": "https://github.com/n8n-io/n8n",
+      "tags": [
+        "workflow-automation",
+        "low-code",
+        "self-hosted",
+        "ai",
+        "integrations"
+      ],
+      "score": 9,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-009",
+      "title": "claw-code",
+      "file": "2026-09-24-github-claw-code.json",
+      "source_url": "https://github.com/ultraworkers/claw-code",
+      "tags": [
+        "rust",
+        "ai-agent",
+        "autonomous",
+        "museum",
+        "code-generation"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-010",
+      "title": "AutoGPT",
+      "file": "2026-09-24-github-autogpt.json",
+      "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "tags": [
+        "autonomous-agents",
+        "llm",
+        "python",
+        "agentic-ai",
+        "open-source"
+      ],
+      "score": 9,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-011",
+      "title": "firecrawl",
+      "file": "2026-09-24-github-firecrawl.json",
+      "source_url": "https://github.com/firecrawl/firecrawl",
+      "tags": [
+        "web-scraping",
+        "ai-agents",
+        "crawler",
+        "data-extraction",
+        "typescript"
+      ],
+      "score": 9,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-012",
+      "title": "ollama",
+      "file": "2026-09-24-github-ollama.json",
+      "source_url": "https://github.com/ollama/ollama",
+      "tags": [
+        "llm",
+        "local-inference",
+        "golang",
+        "model-serving",
+        "developer-tools"
+      ],
+      "score": 9,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-013",
+      "title": "skills",
+      "file": "2026-09-24-github-skills.json",
+      "source_url": "https://github.com/anthropics/skills",
+      "tags": [
+        "agent-skills",
+        "anthropic",
+        "llm-agents",
+        "python",
+        "ai-tools"
+      ],
+      "score": 9,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-014",
+      "title": "prompts.chat",
+      "file": "2026-09-24-github-prompts-chat.json",
+      "source_url": "https://github.com/f/prompts.chat",
+      "tags": [
+        "prompt-engineering",
+        "chatgpt",
+        "open-source",
+        "self-hosted",
+        "llm"
+      ],
+      "score": 9,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-015",
+      "title": "transformers",
+      "file": "2026-09-24-github-transformers.json",
+      "source_url": "https://github.com/huggingface/transformers",
+      "tags": [
+        "transformers",
+        "huggingface",
+        "pytorch",
+        "nlp",
+        "multimodal"
+      ],
+      "score": 10,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-016",
+      "title": "stable-diffusion-webui",
+      "file": "2026-09-24-github-stable-diffusion-webui.json",
+      "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "tags": [
+        "stable-diffusion",
+        "image-generation",
+        "gradio",
+        "pytorch",
+        "web-ui"
+      ],
+      "score": 10,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-017",
+      "title": "JavaGuide",
+      "file": "2026-09-24-github-javaguide.json",
+      "source_url": "https://github.com/Snailclimb/JavaGuide",
+      "tags": [
+        "java",
+        "interview",
+        "backend",
+        "system-design",
+        "ai"
+      ],
+      "score": 9,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-018",
+      "title": "dify",
+      "file": "2026-09-24-github-dify.json",
+      "source_url": "https://github.com/langgenius/dify",
+      "tags": [
+        "agentic-workflow",
+        "rag",
+        "low-code",
+        "llm",
+        "self-hosted"
+      ],
+      "score": 9,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-019",
+      "title": "langflow",
+      "file": "2026-09-24-github-langflow.json",
+      "source_url": "https://github.com/langflow-ai/langflow",
+      "tags": [
+        "agents",
+        "llm",
+        "workflow",
+        "low-code",
+        "python"
+      ],
+      "score": 9,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "github-20260924-020",
+      "title": "agency-agents",
+      "file": "2026-09-24-github-agency-agents.json",
+      "source_url": "https://github.com/msitarzewski/agency-agents",
+      "tags": [
+        "ai-agents",
+        "prompt-engineering",
+        "shell",
+        "multi-agent",
+        "workflow"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-021",
+      "title": "Meta VR Glasses",
+      "file": "2026-09-24-hacker-news-best-meta-vr-glasses.json",
+      "source_url": "https://www.meta.com/vr-glasses/",
+      "tags": [
+        "vr",
+        "meta",
+        "wearables",
+        "hardware",
+        "ar-glasses"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-022",
+      "title": "Linux support is coming to Snapdragon X2 Series",
+      "file": "2026-09-24-hacker-news-best-linux-support-is-coming-to-snapdragon-x2-series.json",
+      "source_url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+      "tags": [
+        "qualcomm",
+        "linux",
+        "arm",
+        "snapdragon",
+        "pc"
+      ],
+      "score": 8,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-023",
+      "title": "DoorDash Spent $1.4M Trying to Stop Mamdani from Becoming Mayor. Now We Know Why",
+      "file": "2026-09-24-hacker-news-best-doordash-spent-1-4m-trying-to-stop-mamdani-from-be.json",
+      "source_url": "https://theintercept.com/2026/09/23/doordash-delivery-nyc-mamdani-wage-theft-settlement/",
+      "tags": [
+        "doordash",
+        "gig-economy",
+        "nyc-politics",
+        "wage-theft",
+        "labor-regulation"
+      ],
+      "score": 6,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-024",
+      "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "file": "2026-09-24-hacker-news-best-claude-discovers-a-novel-enzyme-system-with-crispr.json",
+      "source_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "tags": [
+        "ai-for-science",
+        "crispr",
+        "enzyme-discovery",
+        "llm",
+        "bioinformatics"
+      ],
+      "score": 8,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-025",
+      "title": "Italian parliament votes for return to nuclear energy",
+      "file": "2026-09-24-hacker-news-best-italian-parliament-votes-for-return-to-nuclear-ene.json",
+      "source_url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
+      "tags": [
+        "nuclear-energy",
+        "italy",
+        "energy-policy",
+        "decarbonization",
+        "hacker-news"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-026",
+      "title": "Gemini 3.8 text-to-speech",
+      "file": "2026-09-24-hacker-news-best-gemini-3-8-text-to-speech.json",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "tags": [
+        "text-to-speech",
+        "gemini",
+        "google",
+        "tts",
+        "ai-model"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-027",
+      "title": "Fixing the Portobello Police Station Clock",
+      "file": "2026-09-24-hacker-news-best-fixing-the-portobello-police-station-clock.json",
+      "source_url": "https://pointinthecloud.com/2026-04-11-211700.html",
+      "tags": [
+        "clock-repair",
+        "mechanical",
+        "hardware",
+        "diy",
+        "maintenance"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-028",
+      "title": "GPT-6 Astra has gained the ability to drive a car",
+      "file": "2026-09-24-hacker-news-best-gpt-6-astra-has-gained-the-ability-to-drive-a-car.json",
+      "source_url": "https://drivingbench.com/",
+      "tags": [
+        "gpt-6",
+        "autonomous-driving",
+        "benchmark",
+        "embodied-ai",
+        "hacker-news"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-029",
+      "title": "Why is Hacker News like that?",
+      "file": "2026-09-24-hacker-news-best-why-is-hacker-news-like-that.json",
+      "source_url": "https://drewdevault.com/blog/Why-is-HN-like-that/",
+      "tags": [
+        "hacker-news",
+        "community",
+        "culture",
+        "discussion",
+        "social-media"
+      ],
+      "score": 6,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-030",
+      "title": "Seattle City Council votes to ban surveillance pricing in sale of groceries",
+      "file": "2026-09-24-hacker-news-best-seattle-city-council-votes-to-ban-surveillance-pri.json",
+      "source_url": "https://advocacy.consumerreports.org/press_release/seattle-city-council-votes-to-ban-surveillance-pricing-in-sale-of-groceries/",
+      "tags": [
+        "surveillance-pricing",
+        "privacy",
+        "regulation",
+        "algorithmic-pricing",
+        "consumer-protection"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-031",
+      "title": "I don't want the details",
+      "file": "2026-09-24-hacker-news-best-i-don-t-want-the-details.json",
+      "source_url": "https://michaelheap.com/i-dont-want-the-details/",
+      "tags": [
+        "software-design",
+        "abstraction",
+        "api-design",
+        "developer-experience",
+        "hn-discussion"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-032",
+      "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+      "file": "2026-09-24-hacker-news-best-claude-code-reads-agents-md-only-when-telemetry-is.json",
+      "source_url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+      "tags": [
+        "claude-code",
+        "telemetry",
+        "agents-md",
+        "bug-fix",
+        "ai-tooling"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-033",
+      "title": "Tokens too cheap to meter",
+      "file": "2026-09-24-hacker-news-best-tokens-too-cheap-to-meter.json",
+      "source_url": "https://jyn.dev/tokens-too-cheap-to-meter/",
+      "tags": [
+        "llm",
+        "pricing",
+        "ai-economics",
+        "token-cost",
+        "developer-tools"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-034",
+      "title": "Jev in 25 Lines of Python",
+      "file": "2026-09-24-hacker-news-best-jev-in-25-lines-of-python.json",
+      "source_url": "https://www.nobodywho.ai/posts/jev-in-25-lines/",
+      "tags": [
+        "python",
+        "interpreter",
+        "language-design",
+        "minimalism",
+        "tutorial"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-035",
+      "title": "Grammarly will send unhinged messages to all your users if you try to cancel",
+      "file": "2026-09-24-hacker-news-best-grammarly-will-send-unhinged-messages-to-all-your.json",
+      "source_url": "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/",
+      "tags": [
+        "grammarly",
+        "saas",
+        "cancellation",
+        "sysadmin",
+        "user-experience"
+      ],
+      "score": 6,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-036",
+      "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+      "file": "2026-09-24-hacker-news-best-microsoft-killed-foxpro-in-2007-anyway-here-s-foxp.json",
+      "source_url": "https://foxscript.org/",
+      "tags": [
+        "foxpro",
+        "rust",
+        "wasm",
+        "legacy-modernization",
+        "compatibility"
+      ],
+      "score": 8,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-037",
+      "title": "SAML: A fractal of bad design",
+      "file": "2026-09-24-hacker-news-best-saml-a-fractal-of-bad-design.json",
+      "source_url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+      "tags": [
+        "saml",
+        "security",
+        "authentication",
+        "protocol-design",
+        "sso"
+      ],
+      "score": 8,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
+    {
+      "id": "hacker-news-best-20260924-038",
+      "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
+      "file": "2026-09-24-hacker-news-best-we-hacked-the-fbi-hackers-say-they-have-data-on-al.json",
+      "source_url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+      "tags": [
+        "security",
+        "data-breach",
+        "fbi",
+        "hacking",
+        "privacy"
+      ],
+      "score": 7,
+      "status": "published",
+      "organized_at": "2026-09-24T08:23:01Z"
+    },
     {
       "id": "kb-2026-09-23-064",
       "title": "openjev-sglang",

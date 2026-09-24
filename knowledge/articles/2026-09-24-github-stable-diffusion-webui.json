@@ -1,0 +1,51 @@
+{
+  "id": "github-20260924-016",
+  "title": "stable-diffusion-webui",
+  "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "description": "Stable Diffusion web UI",
+  "source": "github",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "stars": 165094,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "ai-art",
+      "deep-learning",
+      "diffusion",
+      "gradio",
+      "image-generation",
+      "image2image",
+      "img2img",
+      "pytorch",
+      "stable-diffusion",
+      "text2image",
+      "torch",
+      "txt2img",
+      "unstable",
+      "upscaling",
+      "web"
+    ],
+    "created_at": "2022-08-22T14:05:26Z",
+    "pushed_at": "2026-03-02T07:00:53Z"
+  },
+  "summary": "Stable Diffusion 官方风格 Web UI，支持文生图、图生图与放大，星标超 16.5 万。",
+  "score": 10,
+  "score_reason": "16.5 万星标、持续维护、生态庞大，是扩散模型图像生成领域最主流的开源界面。",
+  "tags": [
+    "stable-diffusion",
+    "image-generation",
+    "gradio",
+    "pytorch",
+    "web-ui"
+  ],
+  "highlights": [
+    "提供 txt2img、img2img 与 upscaling 等完整图像生成工作流",
+    "基于 Gradio 构建浏览器界面，Python 实现，集成 PyTorch",
+    "2022 年发布以来持续更新，星标数达 165094"
+  ],
+  "analyzed_at": "2026-09-24T08:22:27Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

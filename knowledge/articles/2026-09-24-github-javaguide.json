@@ -1,0 +1,48 @@
+{
+  "id": "github-20260924-017",
+  "title": "JavaGuide",
+  "source_url": "https://github.com/Snailclimb/JavaGuide",
+  "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+  "source": "github",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "stars": 158847,
+    "language": "JavaScript",
+    "topics": [
+      "agent",
+      "ai",
+      "context-engineering",
+      "deepseek",
+      "interview",
+      "java",
+      "mcp",
+      "mysql",
+      "redis",
+      "redisson",
+      "skills",
+      "springai",
+      "system-design"
+    ],
+    "created_at": "2018-05-07T13:27:00Z",
+    "pushed_at": "2026-09-22T09:58:35Z"
+  },
+  "summary": "JavaGuide 是超15.8万星的 Java 后端面试与通用知识指南，涵盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发。",
+  "score": 9,
+  "score_reason": "星数极高、持续更新、内容体系完整，是 Java 后端学习与面试的权威中文资源。",
+  "tags": [
+    "java",
+    "interview",
+    "backend",
+    "system-design",
+    "ai"
+  ],
+  "highlights": [
+    "覆盖计算机基础、数据库、分布式、高并发与系统设计等后端核心知识体系",
+    "集成 AI 应用开发、MCP、Spring AI、DeepSeek 等前沿主题",
+    "GitHub 星标超 15.8 万，2018 年创建并持续更新至 2026 年"
+  ],
+  "analyzed_at": "2026-09-24T08:22:28Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

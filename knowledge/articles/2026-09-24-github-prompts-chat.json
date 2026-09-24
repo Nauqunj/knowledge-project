@@ -1,0 +1,53 @@
+{
+  "id": "github-20260924-014",
+  "title": "prompts.chat",
+  "source_url": "https://github.com/f/prompts.chat",
+  "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+  "source": "github",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "stars": 171135,
+    "language": "HTML",
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "awesome-list",
+      "chatgpt",
+      "chatgpt-prompts",
+      "claude",
+      "gemini",
+      "gpt",
+      "gpt-4",
+      "llm",
+      "machine-learning",
+      "nextjs",
+      "open-source",
+      "openai",
+      "prompt-engineering",
+      "prompts",
+      "prompts-chat",
+      "typescript"
+    ],
+    "created_at": "2022-12-05T13:54:13Z",
+    "pushed_at": "2026-09-09T10:27:05Z"
+  },
+  "summary": "开源提示词社区平台，支持分享、发现和自托管，前身为 Awesome ChatGPT Prompts。",
+  "score": 9,
+  "score_reason": "17万+ stars 的顶级开源项目，覆盖主流 LLM，支持自托管保障隐私，持续活跃更新。",
+  "tags": [
+    "prompt-engineering",
+    "chatgpt",
+    "open-source",
+    "self-hosted",
+    "llm"
+  ],
+  "highlights": [
+    "前身 Awesome ChatGPT Prompts，拥有超 17 万 GitHub stars 的社区提示词库",
+    "支持自托管，组织可在完全隐私环境下部署使用",
+    "覆盖 ChatGPT、Claude、Gemini 等主流大模型，采用 Next.js/TypeScript 构建"
+  ],
+  "analyzed_at": "2026-09-24T08:22:23Z",
+  "audience": "beginner",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

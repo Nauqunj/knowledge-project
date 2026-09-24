@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-025",
+  "title": "Italian parliament votes for return to nuclear energy",
+  "source_url": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
+  "description": "Article URL: https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567 Comments URL: https://news.ycombinator.com/item?id=49819221 Points: 738 # Comments: 500",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Wed, 23 Sep 2026 17:06:16 +0000"
+  },
+  "summary": "意大利议会投票决定重启核能，逆转切尔诺贝利公投后的弃核政策。",
+  "score": 7,
+  "score_reason": "重大能源政策转向，HN高热度讨论，涉及技术与地缘政治。",
+  "tags": [
+    "nuclear-energy",
+    "italy",
+    "energy-policy",
+    "decarbonization",
+    "hacker-news"
+  ],
+  "highlights": [
+    "意大利议会投票支持恢复核能，推翻1987年切尔诺贝利事故后的弃核决定",
+    "HN讨论达738分、500条评论，反映技术社区对核能复兴的高度关注",
+    "政策转向可能影响欧洲能源结构与碳中和路径"
+  ],
+  "analyzed_at": "2026-09-24T08:22:39Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

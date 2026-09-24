@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-031",
+  "title": "I don't want the details",
+  "source_url": "https://michaelheap.com/i-dont-want-the-details/",
+  "description": "Article URL: https://michaelheap.com/i-dont-want-the-details/ Comments URL: https://news.ycombinator.com/item?id=49815466 Points: 400 # Comments: 211",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Wed, 23 Sep 2026 13:04:44 +0000"
+  },
+  "summary": "一篇讨论软件设计中抽象与细节取舍的文章，引发 HN 热议。",
+  "score": 7,
+  "score_reason": "话题切中抽象泄漏与接口设计痛点，HN 400 分 211 评论显示高关注度，但内容偏观点讨论。",
+  "tags": [
+    "software-design",
+    "abstraction",
+    "api-design",
+    "developer-experience",
+    "hn-discussion"
+  ],
+  "highlights": [
+    "探讨调用方何时应被屏蔽实现细节，何时必须暴露",
+    "触及抽象泄漏（leaky abstraction）这一经典工程难题",
+    "HN 上获得 400 分与 211 条评论，社区讨论活跃"
+  ],
+  "analyzed_at": "2026-09-24T08:22:48Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

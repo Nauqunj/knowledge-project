@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-027",
+  "title": "Fixing the Portobello Police Station Clock",
+  "source_url": "https://pointinthecloud.com/2026-04-11-211700.html",
+  "description": "Article URL: https://pointinthecloud.com/2026-04-11-211700.html Comments URL: https://news.ycombinator.com/item?id=49817469 Points: 425 # Comments: 98",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Wed, 23 Sep 2026 15:18:53 +0000"
+  },
+  "summary": "修复波特贝罗警局时钟的实践记录，涉及机械钟维护与调试。",
+  "score": 7,
+  "score_reason": "内容具体、动手性强，对硬件/机械爱好者有参考价值，但受众较窄。",
+  "tags": [
+    "clock-repair",
+    "mechanical",
+    "hardware",
+    "diy",
+    "maintenance"
+  ],
+  "highlights": [
+    "记录警局时钟的故障诊断与修复过程",
+    "涉及机械钟内部结构与调试细节",
+    "HN 高热度讨论，社区反响积极"
+  ],
+  "analyzed_at": "2026-09-24T08:22:42Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

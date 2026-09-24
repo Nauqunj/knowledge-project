@@ -1,0 +1,54 @@
+{
+  "id": "github-20260924-011",
+  "title": "firecrawl",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "description": "The web data API to search, scrape, and interact at scale. 🔥",
+  "source": "github",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "stars": 184012,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-crawler",
+      "ai-scraping",
+      "ai-search",
+      "crawler",
+      "data-extraction",
+      "html-to-markdown",
+      "llm",
+      "markdown",
+      "scraper",
+      "scraping",
+      "web-crawler",
+      "web-data",
+      "web-data-extraction",
+      "web-scraper",
+      "web-scraping",
+      "web-search",
+      "webscraping"
+    ],
+    "created_at": "2024-04-15T21:02:29Z",
+    "pushed_at": "2026-09-24T06:26:39Z"
+  },
+  "summary": "Firecrawl 是面向 AI 的大规模网页数据 API，支持搜索、抓取与交互。",
+  "score": 9,
+  "score_reason": "18.4 万星标、TypeScript 实现、活跃维护，是 AI 爬虫与数据提取领域的主流工具。",
+  "tags": [
+    "web-scraping",
+    "ai-agents",
+    "crawler",
+    "data-extraction",
+    "typescript"
+  ],
+  "highlights": [
+    "提供搜索、抓取、交互一体的 Web 数据 API，面向大规模场景",
+    "支持 HTML 转 Markdown，便于 LLM 与 AI Agent 消费网页内容",
+    "2024 年创建即获 18.4 万星标，2026 年仍持续更新"
+  ],
+  "analyzed_at": "2026-09-24T08:22:20Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

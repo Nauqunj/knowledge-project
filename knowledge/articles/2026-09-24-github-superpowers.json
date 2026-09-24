@@ -1,0 +1,43 @@
+{
+  "id": "github-20260924-002",
+  "title": "superpowers",
+  "source_url": "https://github.com/obra/superpowers",
+  "description": "An agentic skills framework & software development methodology that works.",
+  "source": "github",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "stars": 290897,
+    "language": "Shell",
+    "topics": [
+      "ai",
+      "brainstorming",
+      "coding",
+      "obra",
+      "sdlc",
+      "skills",
+      "subagent-driven-development",
+      "superpowers"
+    ],
+    "created_at": "2025-10-09T19:45:18Z",
+    "pushed_at": "2026-09-22T18:22:49Z"
+  },
+  "summary": "面向 AI 代理的技能框架与软件开发方法论，用 Shell 实现，星标极高。",
+  "score": 8,
+  "score_reason": "星标近 29 万、更新活跃、主题覆盖 AI 编码与 SDLC，方法论完整；但语言为 Shell，具体实现细节需进一步验证。",
+  "tags": [
+    "ai-agents",
+    "skills-framework",
+    "sdlc",
+    "subagent",
+    "developer-tools"
+  ],
+  "highlights": [
+    "提供 agentic skills 框架，将技能模块化供 AI 代理调用",
+    "提出 subagent-driven development 的子代理驱动开发模式",
+    "覆盖头脑风暴到编码的完整软件开发方法论"
+  ],
+  "analyzed_at": "2026-09-24T08:22:07Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

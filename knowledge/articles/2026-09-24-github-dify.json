@@ -1,0 +1,54 @@
+{
+  "id": "github-20260924-018",
+  "title": "dify",
+  "source_url": "https://github.com/langgenius/dify",
+  "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+  "source": "github",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "stars": 157039,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "agentic-framework",
+      "agentic-workflow",
+      "ai",
+      "automation",
+      "claude",
+      "deepseek",
+      "genai",
+      "gpt",
+      "llm",
+      "low-code",
+      "mcp",
+      "nextjs",
+      "no-code",
+      "openai",
+      "python",
+      "skills",
+      "workflow"
+    ],
+    "created_at": "2023-04-12T07:40:24Z",
+    "pushed_at": "2026-09-24T08:14:47Z"
+  },
+  "summary": "Dify 是开源 LLM 应用开发平台，支持 Agentic 工作流与 RAG 流水线，可云端或自托管部署。",
+  "score": 9,
+  "score_reason": "15.7 万星标、活跃维护、覆盖 Agent/RAG/低代码全栈能力，生态成熟度高。",
+  "tags": [
+    "agentic-workflow",
+    "rag",
+    "low-code",
+    "llm",
+    "self-hosted"
+  ],
+  "highlights": [
+    "在统一协作工作区中构建 Agentic 工作流与 RAG 流水线，支持丰富模型与工具",
+    "支持云端、VPC 或自托管部署，可从原型平滑过渡到生产环境",
+    "TypeScript 编写，集成 MCP、OpenAI、Claude、DeepSeek 等主流生态"
+  ],
+  "analyzed_at": "2026-09-24T08:22:29Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

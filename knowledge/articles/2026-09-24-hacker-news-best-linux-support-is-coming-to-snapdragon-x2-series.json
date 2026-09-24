@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-022",
+  "title": "Linux support is coming to Snapdragon X2 Series",
+  "source_url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+  "description": "Article URL: https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux Comments URL: https://news.ycombinator.com/item?id=49823582 Points: 351 # Comments: 148",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Wed, 23 Sep 2026 22:38:16 +0000"
+  },
+  "summary": "高通宣布骁龙X2系列将支持Linux，推动ARM PC生态开放。",
+  "score": 8,
+  "score_reason": "主流ARM PC芯片获Linux支持，对开源生态和开发者意义重大，社区反响热烈。",
+  "tags": [
+    "qualcomm",
+    "linux",
+    "arm",
+    "snapdragon",
+    "pc"
+  ],
+  "highlights": [
+    "骁龙X2系列将获得官方Linux支持",
+    "高通在骁龙峰会上宣布面向AI PC的举措",
+    "HN讨论热度高，351分148条评论"
+  ],
+  "analyzed_at": "2026-09-24T08:22:35Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

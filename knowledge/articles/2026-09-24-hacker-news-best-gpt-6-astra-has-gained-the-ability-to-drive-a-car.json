@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-028",
+  "title": "GPT-6 Astra has gained the ability to drive a car",
+  "source_url": "https://drivingbench.com/",
+  "description": "Article URL: https://drivingbench.com/ Comments URL: https://news.ycombinator.com/item?id=49817404 Points: 287 # Comments: 226",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Wed, 23 Sep 2026 15:14:22 +0000"
+  },
+  "summary": "HN热帖称GPT-6 Astra具备驾驶汽车能力，指向drivingbench.com基准测试，引发287点226条讨论。",
+  "score": 7,
+  "score_reason": "高热度话题且涉及具身智能驾驶能力，但信息来自单一链接与标题，缺乏可验证细节。",
+  "tags": [
+    "gpt-6",
+    "autonomous-driving",
+    "benchmark",
+    "embodied-ai",
+    "hacker-news"
+  ],
+  "highlights": [
+    "标题声称GPT-6 Astra获得驾驶汽车能力",
+    "链接指向drivingbench.com驾驶基准测试站点",
+    "Hacker News获287点、226条评论，讨论热度高"
+  ],
+  "analyzed_at": "2026-09-24T08:22:43Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

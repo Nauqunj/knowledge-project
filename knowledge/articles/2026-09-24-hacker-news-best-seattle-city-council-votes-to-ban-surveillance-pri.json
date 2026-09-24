@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-030",
+  "title": "Seattle City Council votes to ban surveillance pricing in sale of groceries",
+  "source_url": "https://advocacy.consumerreports.org/press_release/seattle-city-council-votes-to-ban-surveillance-pricing-in-sale-of-groceries/",
+  "description": "Article URL: https://advocacy.consumerreports.org/press_release/seattle-city-council-votes-to-ban-surveillance-pricing-in-sale-of-groceries/ Comments URL: https://news.ycombinator.com/item?id=49816374 Points: 341 # Comments: 211",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Wed, 23 Sep 2026 14:04:34 +0000"
+  },
+  "summary": "西雅图市议会投票禁止在食品杂货销售中使用监控定价，引发技术社区热议。",
+  "score": 7,
+  "score_reason": "涉及算法定价与消费者隐私的监管动向，技术社区关注度高，但非纯技术突破。",
+  "tags": [
+    "surveillance-pricing",
+    "privacy",
+    "regulation",
+    "algorithmic-pricing",
+    "consumer-protection"
+  ],
+  "highlights": [
+    "西雅图市议会通过立法禁止食品杂货销售中的监控定价",
+    "监控定价依赖个人数据与算法对消费者差异化定价",
+    "Hacker News 上获得 341 分和 211 条评论，讨论热烈"
+  ],
+  "analyzed_at": "2026-09-24T08:22:46Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

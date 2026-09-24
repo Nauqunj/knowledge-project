@@ -1,0 +1,54 @@
+{
+  "id": "github-20260924-015",
+  "title": "transformers",
+  "source_url": "https://github.com/huggingface/transformers",
+  "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+  "source": "github",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "stars": 166582,
+    "language": "Python",
+    "topics": [
+      "audio",
+      "deep-learning",
+      "deepseek",
+      "gemma",
+      "glm",
+      "hacktoberfest",
+      "llm",
+      "machine-learning",
+      "model-hub",
+      "natural-language-processing",
+      "nlp",
+      "pretrained-models",
+      "python",
+      "pytorch",
+      "pytorch-transformers",
+      "qwen",
+      "speech-recognition",
+      "transformer",
+      "vlm"
+    ],
+    "created_at": "2018-10-29T13:56:00Z",
+    "pushed_at": "2026-09-24T08:21:05Z"
+  },
+  "summary": "Hugging Face 官方模型定义框架，覆盖文本、视觉、音频与多模态，支持推理与训练。",
+  "score": 10,
+  "score_reason": "16.6万星、持续活跃、生态标准级项目，覆盖主流模型与任务。",
+  "tags": [
+    "transformers",
+    "huggingface",
+    "pytorch",
+    "nlp",
+    "multimodal"
+  ],
+  "highlights": [
+    "统一 API 定义并加载文本、视觉、音频及多模态 SOTA 模型",
+    "同时支持推理与训练，兼容 PyTorch 等主流深度学习框架",
+    "集成 Model Hub，可便捷获取 Qwen、Gemma、GLM、DeepSeek 等预训练模型"
+  ],
+  "analyzed_at": "2026-09-24T08:22:25Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

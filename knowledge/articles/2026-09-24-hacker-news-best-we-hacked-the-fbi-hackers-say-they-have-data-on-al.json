@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-038",
+  "title": "'We hacked the FBI:' Hackers say they have data on all FBI employees",
+  "source_url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+  "description": "https://archive.ph/96YBP Comments URL: https://news.ycombinator.com/item?id=49805278 Points: 796 # Comments: 600",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Tue, 22 Sep 2026 17:46:02 +0000"
+  },
+  "summary": "黑客声称入侵FBI并获取全部员工数据，引发HN热议。",
+  "score": 7,
+  "score_reason": "重大安全事件且HN热度高，但细节尚待证实",
+  "tags": [
+    "security",
+    "data-breach",
+    "fbi",
+    "hacking",
+    "privacy"
+  ],
+  "highlights": [
+    "黑客声称掌握FBI全部员工数据",
+    "404media报道，HN获796点600评论",
+    "事件真实性及数据范围仍待核实"
+  ],
+  "analyzed_at": "2026-09-24T08:23:01Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

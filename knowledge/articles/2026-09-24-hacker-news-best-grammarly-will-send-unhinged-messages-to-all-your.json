@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-035",
+  "title": "Grammarly will send unhinged messages to all your users if you try to cancel",
+  "source_url": "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/",
+  "description": "Article URL: https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/ Comments URL: https://news.ycombinator.com/item?id=49811484 Points: 367 # Comments: 103",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Wed, 23 Sep 2026 04:00:43 +0000"
+  },
+  "summary": "Grammarly取消订阅时向所有用户发送异常消息，引发系统管理员警告。",
+  "score": 6,
+  "score_reason": "涉及SaaS取消流程的严重用户体验与信任问题，社区讨论热烈，但非深度技术内容。",
+  "tags": [
+    "grammarly",
+    "saas",
+    "cancellation",
+    "sysadmin",
+    "user-experience"
+  ],
+  "highlights": [
+    "取消订阅触发向所有用户发送异常消息",
+    "系统管理员社区发出PSA警告",
+    "Hacker News获367点及103条评论"
+  ],
+  "analyzed_at": "2026-09-24T08:22:53Z",
+  "audience": "intermediate",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-037",
+  "title": "SAML: A fractal of bad design",
+  "source_url": "https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/",
+  "description": "Article URL: https://blog.trailofbits.com/2026/09/21/saml-a-fractal-of-bad-design/ Comments URL: https://news.ycombinator.com/item?id=49806335 Points: 345 # Comments: 178",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Tue, 22 Sep 2026 18:57:17 +0000"
+  },
+  "summary": "Trail of Bits 剖析 SAML 协议设计缺陷，引发 HN 热议。",
+  "score": 8,
+  "score_reason": "安全公司深度技术批评，观点鲜明且讨论热度高，但属观点性文章。",
+  "tags": [
+    "saml",
+    "security",
+    "authentication",
+    "protocol-design",
+    "sso"
+  ],
+  "highlights": [
+    "由安全公司 Trail of Bits 撰写的 SAML 协议设计批评",
+    "Hacker News 获得 345 分与 178 条评论，讨论热烈",
+    "聚焦 SAML 在单点登录场景中的复杂性与安全隐患"
+  ],
+  "analyzed_at": "2026-09-24T08:22:58Z",
+  "audience": "advanced",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

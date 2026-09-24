@@ -1,0 +1,34 @@
+{
+  "id": "github-20260924-009",
+  "title": "claw-code",
+  "source_url": "https://github.com/ultraworkers/claw-code",
+  "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
+  "source": "github",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "stars": 195282,
+    "language": "Rust",
+    "topics": [],
+    "created_at": "2026-03-31T08:58:08Z",
+    "pushed_at": "2026-08-16T06:18:45Z"
+  },
+  "summary": "Rust 编写的智能体自主管理博物馆展品项目，宣称全程无人工干预开发维护。",
+  "score": 7,
+  "score_reason": "无人工干预的自主开发模式新颖，Rust 实现且星标极高，但信息有限、主题标签缺失。",
+  "tags": [
+    "rust",
+    "ai-agent",
+    "autonomous",
+    "museum",
+    "code-generation"
+  ],
+  "highlights": [
+    "使用 Rust 配合 Gajae-Code / LazyCodex 构建",
+    "宣称开发与维护全程无人工干预",
+    "GitHub 星标超 19.5 万，关注度极高"
+  ],
+  "analyzed_at": "2026-09-24T08:22:17Z",
+  "audience": "advanced",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}

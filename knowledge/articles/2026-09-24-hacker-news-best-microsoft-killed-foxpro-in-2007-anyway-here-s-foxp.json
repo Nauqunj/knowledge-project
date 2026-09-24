@@ -1,0 +1,32 @@
+{
+  "id": "hacker-news-best-20260924-036",
+  "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+  "source_url": "https://foxscript.org/",
+  "description": "Visual FoxPro stopped at version 9 in 2007. A surprising amount of it is still running, in 32 bits, because rewriting a 20-year-old business app is how you lose the business. A customer wanted to keep milking their app for the foreseeable future, so here it is: the same language on a new runtime (Rust, compiled to wasm, checked against the real vfp9.exe), tables no longer stopped at 2 GB, the old 32-bit .fll add-ins still loading, and lambdas, JSON and an HTTP server bolted on for good measure. Reports are not done and the builds are unsigned. MIT because why not? Comments URL: https://news.ycombinator.com/item?id=49808023 Points: 474 # Comments: 259",
+  "source": "hacker-news-best",
+  "collected_at": "2026-09-24T08:22:03Z",
+  "metadata": {
+    "feed": "Hacker News Best",
+    "category": "综合技术",
+    "pub_date": "Tue, 22 Sep 2026 21:00:30 +0000"
+  },
+  "summary": "微软2007年停更的Visual FoxPro被用Rust+WASM重写复活，兼容旧代码并新增现代特性。",
+  "score": 8,
+  "score_reason": "技术难度高且实用价值明确，兼容性验证严谨，社区反响热烈，但报告功能缺失且构建未签名。",
+  "tags": [
+    "foxpro",
+    "rust",
+    "wasm",
+    "legacy-modernization",
+    "compatibility"
+  ],
+  "highlights": [
+    "用Rust编译到WASM重建运行时，并与真实vfp9.exe行为对照校验",
+    "突破2GB表限制，仍可加载旧32位.fll插件，并新增lambda、JSON和HTTP服务器",
+    "MIT许可开源，面向无法重写的老业务应用延续场景"
+  ],
+  "analyzed_at": "2026-09-24T08:22:55Z",
+  "audience": "advanced",
+  "status": "published",
+  "organized_at": "2026-09-24T08:23:01Z"
+}
