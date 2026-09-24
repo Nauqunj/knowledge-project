@@ -15,10 +15,10 @@ Environment variables:
         selected provider.
 
 High-level helpers:
-    chat(message, ...)       -> (text, Usage)
-    chat_json(message, ...)  -> dict
-    get_client(...)          -> OpenAICompatibleProvider
-    accumulate_usage(...)    -> cumulative Usage
+    chat(message, ...)                -> (text, Usage)
+    chat_json(message, ...)           -> (dict, Usage)
+    get_client(...)                   -> OpenAICompatibleProvider
+    accumulate_usage(tracker, usage)  -> dict (updated in place)
 
 Example:
     >>> from workflows.model_client import chat, chat_json
@@ -38,6 +38,13 @@ from dataclasses import dataclass
 from typing import Any
 
 import httpx
+
+try:  # 加载本地 .env（已 gitignore）；文件不存在时静默跳过
+    from workflows.env import load_env as _load_env
+except ImportError:  # 以脚本方式在 workflows/ 内运行时的回退
+    from env import load_env as _load_env
+
+_load_env()
 
 logger = logging.getLogger(__name__)
 
@@ -662,9 +669,6 @@ JSON_INSTRUCTION = "只输出一个 JSON 对象，不要输出任何解释、前
 
 _FENCE_RE = re.compile(r"```(?:json)?", re.IGNORECASE)
 
-# Running per-provider token totals maintained by :func:`accumulate_usage`.
-_usage_totals: dict[str, Usage] = {}
-
 
 def get_client(
     provider_name: str | None = None,
@@ -789,7 +793,7 @@ def chat_json(
     system: str | None = None,
     provider: LLMProvider | str | None = None,
     **kwargs: Any,
-) -> dict:
+) -> tuple[dict, Usage]:
     """Send a chat request and parse the reply as a JSON object.
 
     Args:
@@ -799,43 +803,70 @@ def chat_json(
         **kwargs: Extra fields forwarded to :func:`chat`.
 
     Returns:
-        The parsed JSON object.
+        A ``(data, usage)`` tuple where ``data`` is the parsed JSON object and
+        ``usage`` is the reported token usage.
 
     Raises:
         RuntimeError: If the request fails after retries.
         ValueError: If the reply does not contain a JSON object.
     """
     json_system = f"{system}\n{JSON_INSTRUCTION}" if system else JSON_INSTRUCTION
-    text, _ = chat(message, system=json_system, provider=provider, **kwargs)
+    text, usage = chat(message, system=json_system, provider=provider, **kwargs)
     data = _parse_json(text)
     if data is None:
         raise ValueError(f"model reply is not valid JSON: {text[:200]!r}")
-    return data
+    return data, usage
 
 
-def accumulate_usage(usage: Usage, provider: str | None = None) -> Usage:
-    """Add ``usage`` to a running per-provider total.
-
-    This is a pure accumulator (it does not touch :data:`cost_tracker`); it is
-    useful for callers that want their own token totals.
+def accumulate_usage(
+    tracker: dict,
+    usage: Usage,
+    provider: str | None = None,
+) -> dict:
+    """Accumulate one call's token usage and cost into ``tracker``.
 
     Args:
-        usage: Token usage to add.
-        provider: Provider key the usage belongs to; defaults to
-            ``LLM_PROVIDER`` or ``deepseek``.
+        tracker: A cumulative dict shaped like ``KBState.cost_tracker``; missing
+            keys are filled with zeros.
+        usage: Token usage from a single call.
+        provider: Provider key used for pricing; defaults to ``LLM_PROVIDER`` or
+            ``deepseek``.
 
     Returns:
-        The cumulative :class:`Usage` for that provider after adding ``usage``.
+        The same ``tracker`` dict, updated in place.
     """
     name = (provider or os.getenv("LLM_PROVIDER", DEFAULT_PROVIDER)).strip().lower()
-    current = _usage_totals.get(name, Usage())
-    total = Usage(
-        prompt_tokens=current.prompt_tokens + usage.prompt_tokens,
-        completion_tokens=current.completion_tokens + usage.completion_tokens,
-        total_tokens=current.total_tokens + usage.total_tokens,
+    input_price, output_price = CNY_PRICE_TABLE.get(name, UNKNOWN_PRICE)
+    cost = (
+        usage.prompt_tokens * input_price + usage.completion_tokens * output_price
+    ) / PRICE_PER_MILLION
+
+    tracker["calls"] = tracker.get("calls", 0) + 1
+    tracker["prompt_tokens"] = tracker.get("prompt_tokens", 0) + usage.prompt_tokens
+    tracker["completion_tokens"] = (
+        tracker.get("completion_tokens", 0) + usage.completion_tokens
     )
-    _usage_totals[name] = total
-    return total
+    tracker["total_tokens"] = tracker.get("total_tokens", 0) + usage.total_tokens
+    tracker["cost_cny"] = round(tracker.get("cost_cny", 0.0) + cost, 6)
+
+    by_provider = tracker.setdefault("by_provider", {})
+    bucket = by_provider.setdefault(
+        name,
+        {
+            "calls": 0,
+            "prompt_tokens": 0,
+            "completion_tokens": 0,
+            "total_tokens": 0,
+            "cost_cny": 0.0,
+        },
+    )
+    bucket["calls"] += 1
+    bucket["prompt_tokens"] += usage.prompt_tokens
+    bucket["completion_tokens"] += usage.completion_tokens
+    bucket["total_tokens"] += usage.total_tokens
+    bucket["cost_cny"] = round(bucket["cost_cny"] + cost, 6)
+
+    return tracker
 
 
 __all__ = [

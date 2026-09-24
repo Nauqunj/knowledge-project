@@ -133,7 +133,7 @@ def classify_by_llm(query: str) -> str:
         that routing never breaks.
     """
     try:
-        result = chat_json(
+        result, _ = chat_json(
             CLASSIFY_TEMPLATE.format(query=query),
             system=CLASSIFY_SYSTEM_PROMPT,
             temperature=0.0,

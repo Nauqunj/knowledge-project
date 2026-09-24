@@ -8,6 +8,7 @@ venv/
 # Secrets / local env
 .env
 .env.*
+!.env.example
 *.key
 
 # Node / opencode
