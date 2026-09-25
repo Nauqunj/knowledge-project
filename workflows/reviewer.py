@@ -133,7 +133,10 @@ def _review_analyses(
 
     try:
         data, usage = chat_json(
-            prompt, system=REVIEW_SYSTEM_PROMPT, temperature=REVIEW_TEMPERATURE
+            prompt,
+            system=REVIEW_SYSTEM_PROMPT,
+            temperature=REVIEW_TEMPERATURE,
+            node_name="review",
         )
     except (RuntimeError, ValueError) as exc:
         return _auto_pass(f"审核调用失败，自动通过：{exc}"), None

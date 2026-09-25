@@ -31,6 +31,7 @@ from workflows.model_client import (  # noqa: F401, E402
     estimate_cost,
     estimate_tokens,
     get_client,
+    get_cost_guard,
     get_provider,
     quick_chat,
 )

@@ -1,0 +1,795 @@
+{
+  "timestamp": "2026-09-25-070313",
+  "iterations_used": 2,
+  "last_feedback": "[加权总分 6.70/10；summary_quality=7 technical_depth=5 relevance=8 originality=6 formatting=8] 整体摘要简洁、标签规范、格式统一，相关性较高。但技术深度不足：摘要和亮点多为泛化描述，缺少具体技术机制、架构或使用场景。建议：1) 补充关键技术细节，如 openclaw 的跨平台实现方式、superpowers 的技能定义与调用机制、ECC 的记忆/安全模块设计；2) 核实并修正可疑数据，如 'skills' 的 26 万星标和 'hermes-agent' 的 24.8 万星标明显异常，应重新采集或标注不确定性；3) 避免重复使用'社区关注度高'等空泛亮点，改为可验证的量化指标或独特功能；4) 对每个项目增加一句差异化定位，减少同质化表述。",
+  "analyses": [
+    {
+      "id": "openclaw/openclaw",
+      "title": "openclaw",
+      "source_url": "https://github.com/openclaw/openclaw",
+      "source": "github",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 390452,
+        "language": "TypeScript",
+        "topics": [
+          "ai",
+          "assistant",
+          "crustacean",
+          "molty",
+          "openclaw",
+          "own-your-data",
+          "personal"
+        ]
+      },
+      "summary": "开源AI助手openclaw，跨平台执行任务，强调数据自主。",
+      "score": 0.8,
+      "score_reason": "高星标、TypeScript实现、跨平台与数据自主理念突出，但描述较简略。",
+      "tags": [
+        "ai-assistant",
+        "cross-platform",
+        "typescript",
+        "open-source",
+        "data-ownership"
+      ],
+      "highlights": [
+        "支持任意操作系统和平台",
+        "强调用户拥有数据",
+        "采用TypeScript开发"
+      ],
+      "analyzed_at": "2026-09-25T07:02:34Z"
+    },
+    {
+      "id": "obra/superpowers",
+      "title": "superpowers",
+      "source_url": "https://github.com/obra/superpowers",
+      "source": "github",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 291316,
+        "language": "Shell",
+        "topics": [
+          "ai",
+          "brainstorming",
+          "coding",
+          "obra",
+          "sdlc",
+          "skills",
+          "subagent-driven-development",
+          "superpowers"
+        ]
+      },
+      "summary": "面向AI代理的技能框架与软件开发方法论，提供可复用的技能集。",
+      "score": 0.75,
+      "score_reason": "高星标，主题聚焦AI代理开发，但描述较简略，缺乏具体技术细节。",
+      "tags": [
+        "ai-agents",
+        "skills-framework",
+        "software-development",
+        "methodology",
+        "shell"
+      ],
+      "highlights": [
+        "提供代理技能框架与开发方法论",
+        "包含头脑风暴、子代理驱动开发等主题",
+        "高星标项目，社区关注度高"
+      ],
+      "analyzed_at": "2026-09-25T07:02:36Z"
+    },
+    {
+      "id": "mattpocock/skills",
+      "title": "skills",
+      "source_url": "https://github.com/mattpocock/skills",
+      "source": "github",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 269248,
+        "language": "Shell",
+        "topics": []
+      },
+      "summary": "Matt Pocock 分享其 .agents 目录中的实用技能集合，面向工程师。",
+      "score": 0.7,
+      "score_reason": "知名开发者分享，星数高，但内容为个人技能集合，技术深度有限。",
+      "tags": [
+        "skills",
+        "agents",
+        "shell",
+        "developer-tools",
+        "workflow"
+      ],
+      "highlights": [
+        "来自知名开发者 Matt Pocock 的 .agents 目录",
+        "获得超过 26 万星标，社区关注度高",
+        "使用 Shell 语言实现，便于集成"
+      ],
+      "analyzed_at": "2026-09-25T07:02:37Z"
+    },
+    {
+      "id": "affaan-m/ECC",
+      "title": "ECC",
+      "source_url": "https://github.com/affaan-m/ECC",
+      "source": "github",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 267070,
+        "language": "JavaScript",
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude",
+          "claude-code",
+          "developer-tools",
+          "llm",
+          "mcp",
+          "productivity"
+        ]
+      },
+      "summary": "面向AI编码代理的性能优化框架，提供技能、记忆、安全与研究优先开发能力。",
+      "score": 0.72,
+      "score_reason": "高星标且覆盖多代理平台，但描述较宽泛，缺乏具体技术细节。",
+      "tags": [
+        "ai-agents",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp"
+      ],
+      "highlights": [
+        "支持Claude Code、Codex、Opencode、Cursor等多代理平台",
+        "集成技能、本能、记忆与安全模块",
+        "强调研究优先的开发工作流"
+      ],
+      "analyzed_at": "2026-09-25T07:02:39Z"
+    },
+    {
+      "id": "NousResearch/hermes-agent",
+      "title": "hermes-agent",
+      "source_url": "https://github.com/NousResearch/hermes-agent",
+      "source": "github",
+      "description": "The agent that grows with you",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 248777,
+        "language": "Python",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-agents",
+          "anthropic",
+          "chatgpt",
+          "claude",
+          "claude-code",
+          "codex",
+          "hermes",
+          "hermes-agent",
+          "llm",
+          "nous-research",
+          "openai"
+        ]
+      },
+      "summary": "NousResearch 推出的可成长型 AI 智能体框架，支持多种主流大模型。",
+      "score": 0.75,
+      "score_reason": "高星标、活跃主题覆盖主流 LLM 生态，但描述较简略，具体能力待验证。",
+      "tags": [
+        "ai-agent",
+        "llm",
+        "python",
+        "nous-research",
+        "multi-model"
+      ],
+      "highlights": [
+        "由 NousResearch 开发，定位为随用户成长的智能体",
+        "支持 Anthropic、OpenAI、Claude、Codex 等多种模型与工具",
+        "GitHub 星标超 24.8 万，Python 实现"
+      ],
+      "analyzed_at": "2026-09-25T07:02:40Z"
+    },
+    {
+      "id": "multica-ai/andrej-karpathy-skills",
+      "title": "andrej-karpathy-skills",
+      "source_url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "source": "github",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 215039,
+        "language": null,
+        "topics": []
+      },
+      "summary": "基于Karpathy对LLM编码陷阱的观察，用单个CLAUDE.md文件改进Claude Code行为。",
+      "score": 0.75,
+      "score_reason": "实用性强且高星，但内容仅为单文件配置，技术深度有限。",
+      "tags": [
+        "claude-code",
+        "llm-coding",
+        "prompt-engineering",
+        "ai-agents",
+        "developer-tools"
+      ],
+      "highlights": [
+        "源自Andrej Karpathy对LLM编码陷阱的观察",
+        "仅需单个CLAUDE.md文件即可集成",
+        "GitHub星标数达215039，社区认可度高"
+      ],
+      "analyzed_at": "2026-09-25T07:02:41Z"
+    },
+    {
+      "id": "anomalyco/opencode",
+      "title": "opencode",
+      "source_url": "https://github.com/anomalyco/opencode",
+      "source": "github",
+      "description": "The open source coding agent.",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 209923,
+        "language": "TypeScript",
+        "topics": []
+      },
+      "summary": "开源编码代理 opencode，TypeScript 实现，GitHub 星标超 20 万。",
+      "score": 0.9,
+      "score_reason": "高星标开源编码代理，TypeScript 实现，但元数据缺少 topics 和详细描述。",
+      "tags": [
+        "coding-agent",
+        "typescript",
+        "open-source",
+        "ai",
+        "developer-tools"
+      ],
+      "highlights": [
+        "GitHub 星标数达 209,923",
+        "使用 TypeScript 语言开发",
+        "定位为开源编码代理"
+      ],
+      "analyzed_at": "2026-09-25T07:02:43Z"
+    },
+    {
+      "id": "n8n-io/n8n",
+      "title": "n8n",
+      "source_url": "https://github.com/n8n-io/n8n",
+      "source": "github",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 205903,
+        "language": "TypeScript",
+        "topics": [
+          "ai",
+          "apis",
+          "automation",
+          "cli",
+          "data-flow",
+          "development",
+          "integration-framework",
+          "integrations",
+          "ipaas",
+          "low-code",
+          "low-code-platform",
+          "mcp",
+          "mcp-client",
+          "mcp-server",
+          "n8n",
+          "no-code",
+          "self-hosted",
+          "typescript",
+          "workflow",
+          "workflow-automation"
+        ]
+      },
+      "summary": "n8n 是原生支持 AI 的公平代码工作流自动化平台，可自托管或云端部署，提供 400+ 集成。",
+      "score": 0.95,
+      "score_reason": "GitHub 超 20 万星，TypeScript 实现，集成丰富且支持自托管与 AI 能力，生态成熟。",
+      "tags": [
+        "workflow-automation",
+        "low-code",
+        "self-hosted",
+        "ai",
+        "typescript"
+      ],
+      "highlights": [
+        "原生 AI 能力与可视化构建结合自定义代码",
+        "提供 400+ 集成，支持自托管或云端部署",
+        "采用公平代码许可，GitHub 星标超 20 万"
+      ],
+      "analyzed_at": "2026-09-25T07:02:44Z"
+    },
+    {
+      "id": "ultraworkers/claw-code",
+      "title": "claw-code",
+      "source_url": "https://github.com/ultraworkers/claw-code",
+      "source": "github",
+      "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 195282,
+        "language": "Rust",
+        "topics": []
+      },
+      "summary": "用Rust构建的由AI代理自主管理的博物馆展览项目，无人工干预。",
+      "score": 0.7,
+      "score_reason": "星数极高且主题新颖，但缺乏技术细节和主题标签，信息有限。",
+      "tags": [
+        "rust",
+        "ai-agent",
+        "autonomous",
+        "museum",
+        "exhibit"
+      ],
+      "highlights": [
+        "完全由AI代理自主开发与维护，无人类干预",
+        "使用Rust语言及Gajae-Code/LazyCodex框架",
+        "项目定位为博物馆展览，展示代理管理能力"
+      ],
+      "analyzed_at": "2026-09-25T07:02:46Z"
+    },
+    {
+      "id": "Significant-Gravitas/AutoGPT",
+      "title": "AutoGPT",
+      "source_url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "source": "github",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 187541,
+        "language": "Python",
+        "topics": [
+          "agentic-ai",
+          "agents",
+          "ai",
+          "artificial-intelligence",
+          "autonomous-agents",
+          "claude",
+          "gpt",
+          "llama-api",
+          "llm",
+          "openai",
+          "python"
+        ]
+      },
+      "summary": "AutoGPT 是开源自主 AI 代理平台，让每个人都能使用和构建 AI 工具。",
+      "score": 0.95,
+      "score_reason": "GitHub 超 18.7 万星，Python 编写，自主代理领域标杆项目，生态活跃。",
+      "tags": [
+        "autonomous-agents",
+        "llm",
+        "python",
+        "agentic-ai",
+        "openai"
+      ],
+      "highlights": [
+        "GitHub 星标超 18.7 万，是自主 AI 代理领域最受关注的开源项目之一",
+        "支持 OpenAI、Claude、Llama API 等多种大模型接入",
+        "提供可扩展的代理构建工具，降低自主 AI 应用开发门槛"
+      ],
+      "analyzed_at": "2026-09-25T07:02:48Z"
+    },
+    {
+      "id": "firecrawl/firecrawl",
+      "title": "firecrawl",
+      "source_url": "https://github.com/firecrawl/firecrawl",
+      "source": "github",
+      "description": "The web data API to search, scrape, and interact at scale. 🔥",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 184420,
+        "language": "TypeScript",
+        "topics": [
+          "ai",
+          "ai-agents",
+          "ai-crawler",
+          "ai-scraping",
+          "ai-search",
+          "crawler",
+          "data-extraction",
+          "html-to-markdown",
+          "llm",
+          "markdown",
+          "scraper",
+          "scraping",
+          "web-crawler",
+          "web-data",
+          "web-data-extraction",
+          "web-scraper",
+          "web-scraping",
+          "web-search",
+          "webscraping"
+        ]
+      },
+      "summary": "Firecrawl 是面向 AI 的网页数据 API，支持大规模搜索、抓取与交互。",
+      "score": 0.92,
+      "score_reason": "高星标、活跃的 TypeScript 项目，提供 LLM 友好的网页数据提取能力，实用性强。",
+      "tags": [
+        "web-scraping",
+        "ai-crawler",
+        "data-extraction",
+        "typescript",
+        "llm"
+      ],
+      "highlights": [
+        "提供搜索、抓取和交互的大规模网页数据 API",
+        "将 HTML 转换为 Markdown，便于 LLM 使用",
+        "在 GitHub 上获得超过 18 万星标"
+      ],
+      "analyzed_at": "2026-09-25T07:02:50Z"
+    },
+    {
+      "id": "ollama/ollama",
+      "title": "ollama",
+      "source_url": "https://github.com/ollama/ollama",
+      "source": "github",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 181663,
+        "language": "Go",
+        "topics": [
+          "deepseek",
+          "gemma",
+          "gemma3",
+          "glm",
+          "go",
+          "golang",
+          "gpt-oss",
+          "llama",
+          "llama3",
+          "llm",
+          "llms",
+          "minimax",
+          "mistral",
+          "ollama",
+          "qwen"
+        ]
+      },
+      "summary": "Ollama 是 Go 编写的本地大模型运行工具，支持 Kimi、GLM、DeepSeek、Qwen 等主流模型。",
+      "score": 0.95,
+      "score_reason": "GitHub 18 万星，Go 语言实现，覆盖主流开源模型，生态成熟活跃。",
+      "tags": [
+        "ollama",
+        "llm",
+        "go",
+        "local-inference",
+        "model-runner"
+      ],
+      "highlights": [
+        "支持 Kimi、GLM、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等多种模型",
+        "使用 Go 语言开发，便于跨平台部署与本地运行",
+        "GitHub 星标数达 181663，社区活跃度高"
+      ],
+      "analyzed_at": "2026-09-25T07:02:51Z"
+    },
+    {
+      "id": "anthropics/skills",
+      "title": "skills",
+      "source_url": "https://github.com/anthropics/skills",
+      "source": "github",
+      "description": "Public repository for Agent Skills",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 178026,
+        "language": "Python",
+        "topics": [
+          "agent-skills"
+        ]
+      },
+      "summary": "Anthropic 发布 Agent Skills 公共仓库，提供可复用技能模块，星数超 17.8 万。",
+      "score": 0.9,
+      "score_reason": "官方出品，高星标，主题聚焦，但描述信息较少。",
+      "tags": [
+        "agent-skills",
+        "anthropic",
+        "python",
+        "llm-agents",
+        "reusable-modules"
+      ],
+      "highlights": [
+        "Anthropic 官方发布的 Agent Skills 公共仓库",
+        "GitHub 星标数超过 17.8 万，社区关注度极高",
+        "使用 Python 实现，主题为 agent-skills"
+      ],
+      "analyzed_at": "2026-09-25T07:02:53Z"
+    },
+    {
+      "id": "f/prompts.chat",
+      "title": "prompts.chat",
+      "source_url": "https://github.com/f/prompts.chat",
+      "source": "github",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 171207,
+        "language": "HTML",
+        "topics": [
+          "ai",
+          "artificial-intelligence",
+          "awesome-list",
+          "chatgpt",
+          "chatgpt-prompts",
+          "claude",
+          "gemini",
+          "gpt",
+          "gpt-4",
+          "llm",
+          "machine-learning",
+          "nextjs",
+          "open-source",
+          "openai",
+          "prompt-engineering",
+          "prompts",
+          "prompts-chat",
+          "typescript"
+        ]
+      },
+      "summary": "开源提示词分享平台，支持自托管，社区可发现和收藏提示词。",
+      "score": 0.9,
+      "score_reason": "17万星高人气，开源可自托管，覆盖主流AI模型，但以HTML为主。",
+      "tags": [
+        "prompt-engineering",
+        "chatgpt",
+        "open-source",
+        "self-hosted",
+        "awesome-list"
+      ],
+      "highlights": [
+        "17.1万GitHub星标，社区活跃度高",
+        "支持自托管，保障组织隐私",
+        "涵盖ChatGPT、Claude、Gemini等多模型提示词"
+      ],
+      "analyzed_at": "2026-09-25T07:02:55Z"
+    },
+    {
+      "id": "huggingface/transformers",
+      "title": "transformers",
+      "source_url": "https://github.com/huggingface/transformers",
+      "source": "github",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 166623,
+        "language": "Python",
+        "topics": [
+          "audio",
+          "deep-learning",
+          "deepseek",
+          "gemma",
+          "glm",
+          "hacktoberfest",
+          "llm",
+          "machine-learning",
+          "model-hub",
+          "natural-language-processing",
+          "nlp",
+          "pretrained-models",
+          "python",
+          "pytorch",
+          "pytorch-transformers",
+          "qwen",
+          "speech-recognition",
+          "transformer",
+          "vlm"
+        ]
+      },
+      "summary": "Hugging Face Transformers 是支持文本、视觉、音频及多模态模型推理与训练的定义框架。",
+      "score": 0.98,
+      "score_reason": "GitHub 超16.6万星，覆盖多模态与主流LLM，生态成熟，持续活跃。",
+      "tags": [
+        "transformers",
+        "deep-learning",
+        "nlp",
+        "multimodal",
+        "pytorch"
+      ],
+      "highlights": [
+        "统一支持文本、视觉、音频和多模态模型的推理与训练",
+        "集成DeepSeek、Gemma、GLM、Qwen等主流大模型",
+        "提供预训练模型库与PyTorch实现，社区生态庞大"
+      ],
+      "analyzed_at": "2026-09-25T07:02:57Z"
+    },
+    {
+      "id": "AUTOMATIC1111/stable-diffusion-webui",
+      "title": "stable-diffusion-webui",
+      "source_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "source": "github",
+      "description": "Stable Diffusion web UI",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 165105,
+        "language": "Python",
+        "topics": [
+          "ai",
+          "ai-art",
+          "deep-learning",
+          "diffusion",
+          "gradio",
+          "image-generation",
+          "image2image",
+          "img2img",
+          "pytorch",
+          "stable-diffusion",
+          "text2image",
+          "torch",
+          "txt2img",
+          "unstable",
+          "upscaling",
+          "web"
+        ]
+      },
+      "summary": "Stable Diffusion 的 Gradio 网页界面，支持文生图、图生图与放大。",
+      "score": 0.95,
+      "score_reason": "星标超16万，功能全面，社区活跃，是主流 SD 工具。",
+      "tags": [
+        "stable-diffusion",
+        "web-ui",
+        "image-generation",
+        "gradio",
+        "pytorch"
+      ],
+      "highlights": [
+        "提供 txt2img 和 img2img 图像生成功能",
+        "集成 upscaling 图像放大能力",
+        "基于 Gradio 构建交互式 Web 界面"
+      ],
+      "analyzed_at": "2026-09-25T07:02:58Z"
+    },
+    {
+      "id": "Snailclimb/JavaGuide",
+      "title": "JavaGuide",
+      "source_url": "https://github.com/Snailclimb/JavaGuide",
+      "source": "github",
+      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 158866,
+        "language": "JavaScript",
+        "topics": [
+          "agent",
+          "ai",
+          "context-engineering",
+          "deepseek",
+          "interview",
+          "java",
+          "mcp",
+          "mysql",
+          "redis",
+          "redisson",
+          "skills",
+          "springai",
+          "system-design"
+        ]
+      },
+      "summary": "Java后端面试与通用知识指南，覆盖基础、数据库、分布式、高并发、系统设计及AI应用开发。",
+      "score": 0.95,
+      "score_reason": "GitHub高星项目，内容全面且持续更新，涵盖Java面试与后端核心知识，实用性强。",
+      "tags": [
+        "java",
+        "interview",
+        "backend",
+        "system-design",
+        "ai"
+      ],
+      "highlights": [
+        "覆盖计算机基础、数据库、分布式、高并发等后端核心领域",
+        "包含AI应用开发、Agent、MCP等前沿技术内容",
+        "GitHub星标超15万，社区认可度极高"
+      ],
+      "analyzed_at": "2026-09-25T07:02:59Z"
+    },
+    {
+      "id": "langgenius/dify",
+      "title": "dify",
+      "source_url": "https://github.com/langgenius/dify",
+      "source": "github",
+      "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 157149,
+        "language": "TypeScript",
+        "topics": [
+          "agent",
+          "agentic-ai",
+          "agentic-framework",
+          "agentic-workflow",
+          "ai",
+          "automation",
+          "claude",
+          "deepseek",
+          "genai",
+          "gpt",
+          "llm",
+          "low-code",
+          "mcp",
+          "nextjs",
+          "no-code",
+          "openai",
+          "python",
+          "skills",
+          "workflow"
+        ]
+      },
+      "summary": "Dify 是开源 LLM 应用开发平台，支持 Agentic 工作流、RAG 流水线，可云端或自托管部署。",
+      "score": 0.95,
+      "score_reason": "157k stars 的高热度开源项目，功能覆盖 Agent、RAG、多模型与部署，生态成熟。",
+      "tags": [
+        "agentic-workflow",
+        "rag",
+        "llm",
+        "low-code",
+        "self-hosted"
+      ],
+      "highlights": [
+        "支持构建 Agentic 工作流与 RAG 流水线，集成丰富 AI 模型和工具",
+        "提供云端、VPC 或自托管部署，便于从原型到生产",
+        "GitHub 星标超 15.7 万，TypeScript 实现，社区活跃"
+      ],
+      "analyzed_at": "2026-09-25T07:03:01Z"
+    },
+    {
+      "id": "langflow-ai/langflow",
+      "title": "langflow",
+      "source_url": "https://github.com/langflow-ai/langflow",
+      "source": "github",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 155228,
+        "language": "Python",
+        "topics": [
+          "agents",
+          "chatgpt",
+          "generative-ai",
+          "large-language-models",
+          "multiagent",
+          "react-flow"
+        ]
+      },
+      "summary": "Langflow 是构建和部署 AI 智能体与工作流的可视化工具，基于 Python，获 15.5 万星。",
+      "score": 0.9,
+      "score_reason": "高人气、活跃维护、功能明确，覆盖智能体与工作流核心场景。",
+      "tags": [
+        "langflow",
+        "ai-agents",
+        "workflow",
+        "python",
+        "react-flow"
+      ],
+      "highlights": [
+        "提供可视化拖拽界面，基于 React Flow 构建 AI 工作流",
+        "支持多智能体、ChatGPT 和大型语言模型集成",
+        "GitHub 星标数达 155,228，社区认可度高"
+      ],
+      "analyzed_at": "2026-09-25T07:03:03Z"
+    },
+    {
+      "id": "msitarzewski/agency-agents",
+      "title": "agency-agents",
+      "source_url": "https://github.com/msitarzewski/agency-agents",
+      "source": "github",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "collected_at": "2026-09-25T07:02:33Z",
+      "metadata": {
+        "stars": 154554,
+        "language": "Shell",
+        "topics": []
+      },
+      "summary": "开源AI代理集合，涵盖前端、社区运营等多角色专家，每个代理有独特流程和交付物。",
+      "score": 0.7,
+      "score_reason": "星数极高，概念有趣，但语言为Shell且无主题标签，实际内容深度待验证。",
+      "tags": [
+        "ai-agents",
+        "multi-agent",
+        "shell",
+        "github",
+        "automation"
+      ],
+      "highlights": [
+        "提供多种专业AI代理，如前端向导和Reddit社区忍者",
+        "每个代理具有个性、流程和经过验证的交付物",
+        "以Shell语言实现，可能便于集成和部署"
+      ],
+      "analyzed_at": "2026-09-25T07:03:05Z"
+    }
+  ]
+}

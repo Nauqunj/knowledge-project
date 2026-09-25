@@ -11,6 +11,12 @@ venv/
 !.env.example
 *.key
 
+# Local distribution secrets (keep config.example.json tracked)
+distribution/config.json
+
+# Runtime logs
+logs/
+
 # Node / opencode
 node_modules/
 

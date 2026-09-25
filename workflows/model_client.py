@@ -32,9 +32,12 @@ import json
 import logging
 import os
 import re
+import sys
+import threading
 import time
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Any
 
 import httpx
@@ -310,6 +313,41 @@ class CostTracker:
 # end of a pipeline run, or import it directly:
 #     from pipeline.model_client import cost_tracker
 cost_tracker = CostTracker()
+
+
+# --- budget guard ------------------------------------------------------------
+
+_REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+
+_cost_guard: CostGuard | None = None
+_cost_guard_lock = threading.Lock()
+
+
+def get_cost_guard() -> CostGuard:
+    """返回进程级唯一的 :class:`CostGuard`，首次调用时创建。
+
+    预算从环境变量 ``BUDGET_YUAN`` 读取，缺省或非法时回退为 ``1.0``。
+    采用双重检查锁，保证并发下只创建一次。
+
+    Returns:
+        复用的 :class:`~tests.cost_guard.CostGuard` 实例。
+    """
+    global _cost_guard
+    if _cost_guard is None:
+        with _cost_guard_lock:
+            if _cost_guard is None:
+                from tests.cost_guard import CostGuard
+
+                raw = os.getenv("BUDGET_YUAN", "").strip()
+                try:
+                    budget = float(raw) if raw else 1.0
+                except ValueError:
+                    logger.warning("invalid BUDGET_YUAN=%r; falling back to 1.0", raw)
+                    budget = 1.0
+                _cost_guard = CostGuard(budget_yuan=budget)
+    return _cost_guard
 
 
 class LLMProvider(ABC):
@@ -718,6 +756,7 @@ def chat(
     provider: LLMProvider | str | None = None,
     temperature: float | None = None,
     max_tokens: int | None = None,
+    node_name: str = "unknown",
     **kwargs: Any,
 ) -> tuple[str, Usage]:
     """Send a single-turn chat request.
@@ -729,6 +768,7 @@ def chat(
             from the environment.
         temperature: Optional sampling temperature.
         max_tokens: Optional cap on generated tokens.
+        node_name: 流水线节点名，用于成本归集；缺省 ``"unknown"``。
         **kwargs: Extra fields forwarded to the provider.
 
     Returns:
@@ -738,6 +778,7 @@ def chat(
     Raises:
         RuntimeError: If the request fails after retries.
         ValueError: If the provider configuration is invalid.
+        BudgetExceededError: If the accumulated cost exceeds ``BUDGET_YUAN``.
     """
     messages: list[dict[str, str]] = []
     if system or DEFAULT_SYSTEM_PROMPT:
@@ -757,6 +798,11 @@ def chat(
         provider_name=provider_name,
         **chat_kwargs,
     )
+
+    guard = get_cost_guard()
+    guard.record(node_name, response.usage, model=response.model)
+    guard.check()
+
     logger.info(
         "chat via %s/%s: %d token(s)",
         response.provider,
@@ -792,6 +838,7 @@ def chat_json(
     *,
     system: str | None = None,
     provider: LLMProvider | str | None = None,
+    node_name: str = "unknown",
     **kwargs: Any,
 ) -> tuple[dict, Usage]:
     """Send a chat request and parse the reply as a JSON object.
@@ -800,6 +847,7 @@ def chat_json(
         message: The user message describing the JSON to produce.
         system: Optional system prompt; a JSON-only instruction is appended.
         provider: A provider instance, a provider name, or ``None``.
+        node_name: 流水线节点名，透传给 :func:`chat` 用于成本归集。
         **kwargs: Extra fields forwarded to :func:`chat`.
 
     Returns:
@@ -809,9 +857,16 @@ def chat_json(
     Raises:
         RuntimeError: If the request fails after retries.
         ValueError: If the reply does not contain a JSON object.
+        BudgetExceededError: If the accumulated cost exceeds ``BUDGET_YUAN``.
     """
     json_system = f"{system}\n{JSON_INSTRUCTION}" if system else JSON_INSTRUCTION
-    text, usage = chat(message, system=json_system, provider=provider, **kwargs)
+    text, usage = chat(
+        message,
+        system=json_system,
+        provider=provider,
+        node_name=node_name,
+        **kwargs,
+    )
     data = _parse_json(text)
     if data is None:
         raise ValueError(f"model reply is not valid JSON: {text[:200]!r}")
@@ -888,6 +943,7 @@ __all__ = [
     "estimate_cost",
     "estimate_tokens",
     "get_client",
+    "get_cost_guard",
     "get_provider",
     "quick_chat",
 ]

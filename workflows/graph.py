@@ -25,6 +25,8 @@ Usage:
 Environment:
     GITHUB_TOKEN / LLM_PROVIDER / *_API_KEY: 透传给节点内的采集与 LLM 调用。
     PLANNER_TARGET_COUNT: 目标采集量，决定 plan 档位。
+    BUDGET_YUAN: LLM 成本预算（元），超预算抛 BudgetExceededError 并中断；
+        结束时无论成败都会打印按节点分组的成本报告。
 """
 
 from __future__ import annotations
@@ -40,7 +42,9 @@ if str(_REPO_ROOT) not in sys.path:
 
 from langgraph.graph import END, StateGraph  # noqa: E402
 
+from tests.cost_guard import BudgetExceededError  # noqa: E402
 from workflows.human_flag import human_flag_node  # noqa: E402
+from workflows.model_client import get_cost_guard  # noqa: E402
 from workflows.nodes import (  # noqa: E402
     analyze_node,
     collect_node,
@@ -154,6 +158,34 @@ def _describe(node_name: str, update: dict) -> str:
     return str(update)
 
 
+def _print_cost_report(guard: Any) -> None:
+    """打印按节点分组的 LLM 成本报告（收尾必打，即使中途异常）。"""
+    report = guard.get_report()
+    totals = report["totals"]
+    print("\n=== LLM 成本报告 ===")
+    if not report["by_node"]:
+        print("无 LLM 调用记录。")
+        return
+
+    print(f"{'node':<12}{'calls':>7}{'prompt':>12}{'completion':>14}{'cost(元)':>14}")
+    print("-" * 60)
+    for name, bucket in report["by_node"].items():
+        print(
+            f"{name:<12}{bucket['calls']:>7}{bucket['prompt_tokens']:>12}"
+            f"{bucket['completion_tokens']:>14}{bucket['cost_yuan']:>14.6f}"
+        )
+    print("-" * 60)
+    print(
+        f"{'TOTAL':<12}{totals['calls']:>7}{totals['prompt_tokens']:>12}"
+        f"{totals['completion_tokens']:>14}{totals['cost_yuan']:>14.6f}"
+    )
+    print(
+        f"预算 {report['budget_yuan']:.6f} 元，"
+        f"预警线 {report['alert_threshold']:.0%}，"
+        f"已用 {totals['cost_yuan'] / report['budget_yuan']:.1%}。"
+    )
+
+
 def main(argv: list[str] | None = None) -> int:
     """流式执行工作流并打印每个节点的关键输出。
 
@@ -171,10 +203,20 @@ def main(argv: list[str] | None = None) -> int:
     app = build_graph()
     print(f"graph nodes: {sorted(app.get_graph().nodes)}")
 
+    guard = get_cost_guard()
     state = initial_state()
-    for step, chunk in enumerate(app.stream(state, stream_mode="updates"), start=1):
-        for node_name, update in (chunk or {}).items():
-            print(f"[step {step}] {node_name:<8} {_describe(node_name, update)}")
+    try:
+        for step, chunk in enumerate(app.stream(state, stream_mode="updates"), start=1):
+            for node_name, update in (chunk or {}).items():
+                print(f"[step {step}] {node_name:<8} {_describe(node_name, update)}")
+    except BudgetExceededError as exc:
+        logger.error(
+            "成本超预算，流水线中断：已用 %.6f 元 / 预算 %.6f 元",
+            exc.report["used_yuan"],
+            exc.report["budget_yuan"],
+        )
+    finally:
+        _print_cost_report(guard)
 
     print("工作流结束。")
     return 0

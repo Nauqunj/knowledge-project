@@ -67,7 +67,10 @@ def _revise_batch(
 
     try:
         data, usage = chat_json(
-            prompt, system=REVISE_SYSTEM_PROMPT, temperature=REVISE_TEMPERATURE
+            prompt,
+            system=REVISE_SYSTEM_PROMPT,
+            temperature=REVISE_TEMPERATURE,
+            node_name="revise",
         )
     except (RuntimeError, ValueError) as exc:
         logger.warning("revise failed, keeping originals: %s", exc)

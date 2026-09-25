@@ -1,0 +1,12 @@
+{
+  "telegram": {
+    "bot_token": "123456789:REPLACE_WITH_YOUR_TELEGRAM_BOT_TOKEN",
+    "chat_id": "-1001234567890"
+  },
+  "feishu": {
+    "app_id": "cli_REPLACE_WITH_APP_ID",
+    "app_secret": "REPLACE_WITH_APP_SECRET",
+    "receive_id": "oc_REPLACE_WITH_CHAT_ID",
+    "receive_id_type": "chat_id"
+  }
+}

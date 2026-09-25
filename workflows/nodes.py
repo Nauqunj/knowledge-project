@@ -39,6 +39,7 @@ from workflows.model_client import (  # noqa: E402
     accumulate_usage,
     chat_json,
 )
+from workflows.security import filter_output, sanitize_input  # noqa: E402
 from workflows.state import KBState, MAX_ITERATIONS  # noqa: E402
 
 logger = logging.getLogger("nodes")
@@ -214,8 +215,27 @@ def collect_node(state: KBState) -> dict:
 
     sources = _fetch_github_repos(COLLECT_LIMIT)
     logger.info("collect_node: collected %d repo(s)", len(sources))
-    print(f"[collect_node] 采集完成：{len(sources)} 条")
-    return {"sources": sources}
+
+    cleaned_sources: list[dict] = []
+    total_warnings = 0
+    for item in sources:
+        for field in ("title", "description"):
+            value = item.get(field)
+            if isinstance(value, str):
+                cleaned, warnings = sanitize_input(value)
+                item[field] = cleaned
+                total_warnings += len(warnings)
+                if warnings:
+                    print(
+                        f"[Security] {item.get('source_url', '?')} "
+                        f"{field} 检出可疑输入：{warnings}"
+                    )
+        cleaned_sources.append(item)
+
+    if total_warnings > 0:
+        print(f"[Security] collect 阶段共拦截 {total_warnings} 处可疑输入")
+    print(f"[collect_node] 采集完成：{len(cleaned_sources)} 条")
+    return {"sources": cleaned_sources}
 
 
 # --- analyze_node ------------------------------------------------------------
@@ -238,7 +258,12 @@ def _analyze_one(item: dict[str, Any]) -> tuple[dict, Any | None]:
         f"元数据：{json.dumps(item.get('metadata', {}), ensure_ascii=False)}"
     )
     try:
-        data, usage = chat_json(prompt, system=ANALYZE_SYSTEM_PROMPT, temperature=0.3)
+        data, usage = chat_json(
+            prompt,
+            system=ANALYZE_SYSTEM_PROMPT,
+            temperature=0.3,
+            node_name="analyze",
+        )
         return data, usage
     except (RuntimeError, ValueError) as exc:
         logger.warning("analyze failed for %s: %s", item.get("source_url"), exc)
@@ -306,7 +331,12 @@ def _revise_one(item: dict[str, Any], feedback: str) -> tuple[dict, Any | None]:
         f"待修改条目（JSON）：\n{json.dumps(item, ensure_ascii=False)}"
     )
     try:
-        data, usage = chat_json(prompt, system=REVISE_SYSTEM_PROMPT, temperature=0.2)
+        data, usage = chat_json(
+            prompt,
+            system=REVISE_SYSTEM_PROMPT,
+            temperature=0.2,
+            node_name="organize",
+        )
         return {**item, **data}, usage
     except (RuntimeError, ValueError) as exc:
         logger.warning("revise failed for %s: %s", item.get("source_url"), exc)
@@ -433,8 +463,27 @@ def organize_node(state: KBState) -> dict:
     date_compact = _today_compact()
     start_sequence = _next_sequence(date_compact, entries)
     articles = _to_articles(deduped, date_compact, start_sequence)
-    print(f"[organize_node] 整理完成：{len(articles)} 条")
-    return {"articles": articles, "cost_tracker": tracker}
+
+    masked_articles: list[dict] = []
+    total_pii = 0
+    for article in articles:
+        for field in ("summary", "content", "title"):
+            value = article.get(field)
+            if isinstance(value, str):
+                filtered, detections = filter_output(value, mask=True)
+                article[field] = filtered
+                total_pii += len(detections)
+                if detections:
+                    kinds = ", ".join(sorted({item["type"] for item in detections}))
+                    print(
+                        f"[Security] {article.get('id', '?')} {field} 掩码 PII：{kinds}"
+                    )
+        masked_articles.append(article)
+
+    if total_pii > 0:
+        print(f"[Security] organize 阶段共掩码 {total_pii} 处 PII")
+    print(f"[organize_node] 整理完成：{len(masked_articles)} 条")
+    return {"articles": masked_articles, "cost_tracker": tracker}
 
 
 # --- review_node -------------------------------------------------------------
@@ -463,7 +512,12 @@ def _review_articles(articles: list[dict]) -> tuple[dict, Any | None]:
         f"{json.dumps(digest, ensure_ascii=False, indent=2)}"
     )
     try:
-        data, usage = chat_json(prompt, system=REVIEW_SYSTEM_PROMPT, temperature=0.0)
+        data, usage = chat_json(
+            prompt,
+            system=REVIEW_SYSTEM_PROMPT,
+            temperature=0.0,
+            node_name="review",
+        )
         return _normalize_review(data), usage
     except (RuntimeError, ValueError) as exc:
         logger.warning("review failed: %s", exc)
